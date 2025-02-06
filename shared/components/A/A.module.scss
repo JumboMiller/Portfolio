@@ -1,0 +1,9 @@
+@use '../../styles/_variables.scss' as *;
+
+.a_link{
+    font-size: $base-font-size;
+    :hover{
+        color: $c-accent;
+        transition-duration: $base-transition-duration;
+    }
+}

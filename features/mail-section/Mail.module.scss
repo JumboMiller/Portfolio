@@ -1,0 +1,16 @@
+@use '../../shared/styles/variables' as *;
+
+
+.mail{
+    @include section;
+
+    &__inner {
+        @include container;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__body{
+        width: 100%;
+    }
+}

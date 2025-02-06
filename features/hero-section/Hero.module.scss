@@ -1,0 +1,20 @@
+@use '../../shared/styles/variables' as *;
+
+.hero {
+    @include section;
+
+    &__inner {
+        @include container;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-top: $margin-bottom;
+        margin-bottom: $margin-bottom;
+    }
+    &__body{
+        
+    }
+    &__graphic{
+        
+    }
+}

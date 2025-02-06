@@ -1,0 +1,101 @@
+// =====================================
+// Темы
+// =====================================
+$themes: (
+    light: (primary: #f8f8f8,
+        secondary: #181818,
+        accent: #24acf2,
+        red: #c04040,
+        green: #2c922c),
+    dark: (primary: #181818,
+        secondary: #f8f8f8,
+        accent: #24acf2,
+        red: #c04040,
+        green: #2c922c),
+    green: (primary: #002b36,
+        secondary: #f8f8f8,
+        accent: #2aa198,
+        red: #cb4b16,
+        green: #586e75),
+    purple: (primary: #292d3e,
+        secondary: #f8f8f8,
+        accent: #c792ea,
+        red: #ff5370,
+        green: #c3e88d)
+);
+
+// =====================================
+// Кольори
+// =====================================
+$c-primary: var(--primary);
+$c-secondary: var(--secondary);
+$c-accent: var(--accent);
+$c-red: var(--red);
+$c-green: var(--green);
+
+
+$c-error: $c-red;
+$c-success: $c-green;
+
+$overlay-opacity: 0.6;
+$c-overlay: rgba(0, 0, 0, $overlay-opacity);
+
+// =====================================
+// Радіуси меж
+// =====================================
+$border-radius: 16px;
+$border-radius-2: 32px;
+
+// =====================================
+// Шрифти
+// =====================================
+$base-font-weight: 400;
+$base-line-height: 1.5;
+$base-font-size: 16px;
+
+// =====================================
+// Розміри
+// =====================================
+$scroll-bar-size: 8px;
+$site-max-width: 1920px;
+$site-min-width: 360px;
+$grid-width: 1220px;
+$grid-padding: 15px;
+
+// =====================================
+// Відступи
+// =====================================
+$section-padding-y: 50px;
+$margin-bottom: 40px;
+
+$base-transition-duration: 0.2s;
+
+@function lighten($color, $percentage) {
+    @return mix(white, $color, $percentage);
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin responsive($breakpoint) {
+    @media (max-width: $breakpoint) {
+        @content;
+    }
+}
+
+@mixin container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $grid-width;
+    padding-left: $grid-padding;
+    padding-right: $grid-padding;
+    width: 100%;
+}
+
+@mixin section {
+    padding-bottom: $section-padding-y;
+    padding-top: $section-padding-y;
+}

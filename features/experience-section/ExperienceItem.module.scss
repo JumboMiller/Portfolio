@@ -1,0 +1,49 @@
+@use '../../shared/styles/variables' as *;
+
+
+.experience__item {
+    $dot-size:40px;
+    display: flex;
+    position: relative;
+    padding: calc($dot-size / 2);
+    min-width: calc($site-min-width - $dot-size*2);
+
+
+    &__dot {
+        position: absolute;
+        left: -40px;
+        top: 45%;
+        width: $dot-size;
+        height: $dot-size;
+        background-color: $c-primary; 
+        border-radius: 50%;
+        border: 5px solid $c-accent; 
+        transition: background-color $base-transition-duration ease-in-out; 
+    }
+
+    &__content {
+        width: 100%;
+        background: $c-primary; 
+        color: $c-secondary; 
+        padding: 15px;
+        border-radius: $border-radius; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, $overlay-opacity); 
+        transition: all $base-transition-duration ease-in-out; 
+
+        &:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, $overlay-opacity);
+        }
+
+        &__date {
+            display: block;
+            font-weight: bold;
+            color: $c-accent; // Цвет акцента
+            margin-bottom: 15px;
+        }
+
+        &__title {
+            
+            line-height: $base-line-height;
+        }
+    }
+}

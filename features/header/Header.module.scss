@@ -1,0 +1,41 @@
+@use '../../shared/styles/_variables.scss' as *;
+
+.header {
+
+    left: 0;
+    top: 0;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    position: sticky;
+    background-color: $c-primary;
+    width: 100%;
+    z-index: 1000;
+
+    &__inner {
+        @include container;
+        align-items: center;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+    }
+    &__logo{
+        fill: $c-accent;
+        cursor: pointer;
+        &:hover{
+            transition-duration: $base-transition-duration;
+            fill:$c-secondary;
+        }
+    }
+    &__menu_list {
+        display: flex;
+
+        a {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        >:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
+}

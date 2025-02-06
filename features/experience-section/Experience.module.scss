@@ -1,0 +1,31 @@
+@use '../../shared/styles/variables' as *;
+
+.experience {
+    @include section;
+
+    &__inner {
+        @include container;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__body{
+        width: 100%;
+    }
+    &__timeline {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-left: 40px; 
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 13%;
+            left: 17px;
+            width: 6px;
+            height: 75%;
+            background-color: $c-accent; 
+        }
+    }
+}

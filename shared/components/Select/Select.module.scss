@@ -1,0 +1,23 @@
+@use '@/shared/styles/_variables.scss' as *;
+
+.select {
+    padding: 15px;
+    border-radius: $border-radius;
+    text-align: center;
+    background-color: $c-accent;
+    border: 0px;
+    color: #f8f8f8;
+    cursor: pointer;
+    margin-right: 15px;
+
+    &:hover {
+        background-color: $c-secondary;
+        color: $c-primary;
+        transition-duration: calc($base-transition-duration * 3);
+    }
+
+    &:focus {
+        outline: none;
+        
+    }
+}

@@ -1,0 +1,16 @@
+@use '../../styles/variables' as *;
+
+
+.variant_text {
+    padding: 15px;
+    border-radius: $border-radius;
+    text-align: center;
+    background-color: $c-accent;
+    color: #f8f8f8;
+
+    &:hover {
+        background-color: $c-secondary;
+        color: $c-primary;
+        transition-duration: calc($base-transition-duration*3);
+    }
+}

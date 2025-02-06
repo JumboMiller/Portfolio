@@ -1,0 +1,62 @@
+@use './_variables.scss' as *;
+@use './normalize' as *;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@each $theme, $colors in $themes {
+  :root[data-theme='#{$theme}'] {
+    @each $color-name, $color-value in $colors {
+      --#{$color-name}: #{$color-value};
+    }
+  }
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  width: 100svw;
+  line-height: $base-line-height;
+  background-color: $c-primary;
+  color: $c-secondary;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+  &:not(:last-child) {
+    margin-bottom: $margin-bottom;
+  }
+}
+
+h1 {
+  --tabletFontSize: 36px;
+  --mobileFontSize: 32px;
+  font-size: clamp(2rem, 1.895rem + 0.47vw, 2.25rem);
+}
+
+h2 {
+  --tabletFontSize: 36px;
+  --mobileFontSize: 24px;
+  font-size: clamp(1.5rem, 1.186rem + 1.4vw, 2.25rem);
+}
+
+.flow-container {
+  display: flex;
+  flex-direction: column;
+  min-height: inherit;
+  width: 100%;
+}
+
+.accent-color {
+  color: $c-accent;
+}
