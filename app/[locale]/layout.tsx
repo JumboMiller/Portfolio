@@ -1,7 +1,8 @@
 import "@/shared/styles/globals.scss"
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { Metadata } from "next";
-import {  IBM_Plex_Mono} from "next/font/google";
+import { IBM_Plex_Mono } from "next/font/google";
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
@@ -17,8 +18,8 @@ import { ThemeType } from "@/shared/types/ThemeType";
   subsets: ['latin'],
   display: 'swap',
 });*/
-const Font = IBM_Plex_Mono({weight:"400",subsets:["latin"]}) 
-/*,variable:"--Manrope"*/ 
+const Font = IBM_Plex_Mono({ weight: "400", subsets: ["latin"] })
+/*,variable:"--Manrope"*/
 export const metadata: Metadata = {
   title: "Damir Portnov",
   description: "Damir Portnov Portfolio",
@@ -66,6 +67,7 @@ export default async function RootLayout({
             {children}
           </div>
         </NextIntlClientProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
