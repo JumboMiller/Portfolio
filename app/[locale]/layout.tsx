@@ -37,9 +37,9 @@ export default async function RootLayout({
   params
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }>) {
-  const { locale } = await params
+  const { locale } = await params;
   const cookiesStore = await cookies();
   const themeCookie = cookiesStore.get("theme");
   const theme = Object.values(ThemeType).includes(themeCookie?.value as ThemeType)
