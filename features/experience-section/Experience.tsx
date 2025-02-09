@@ -30,11 +30,11 @@ const Experience = () => {
   ];
 
   return (
-    <section className={styles.experience}>
-      <div className={styles.experience__inner}>
-        <div className={styles.experience__body}>
+    <section className={styles.base}>
+      <div className={styles.inner}>
+        <div className={styles.content}>
           <h2>Work <span className="accent-color">Experience</span> !</h2>
-          <ul className={styles.experience__timeline}>
+          <ul className={styles.timeline}>
             {experiences.map((experience, index) => (
               <li key={index} >
                 <ExperienceItem {...experience} />

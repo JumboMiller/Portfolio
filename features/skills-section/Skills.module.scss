@@ -1,9 +1,9 @@
 @use '../../shared/styles/_variables.scss' as *;
 
-.skills{
+.base{
     @include section;
     
-    &__inner{
+    .inner{
         @include container;
         display: flex;
         justify-content: space-between;
@@ -12,10 +12,10 @@
     h2{
         margin-left: 12px;
     }
-    &__column{
+    .column{
         max-width: 550px;
     }
-    &__body{
+    .content{
         
     }
 

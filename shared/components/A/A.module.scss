@@ -1,6 +1,6 @@
 @use '../../styles/_variables.scss' as *;
 
-.a_link{
+.link{
     font-size: $base-font-size;
     :hover{
         color: $c-accent;

@@ -33,21 +33,21 @@ const softSkills: string[] = [
 const Skills = () => {
 
     return (
-        <section className={styles.skills}>
-            <div className={styles.skills__inner}>
-                <div className={styles.skills__column}>
+        <section className={styles.base}>
+            <div className={styles.inner}>
+                <div className={styles.column}>
                     <h2>
                         <span className="accent-color">Hard</span> Skill
                     </h2>
-                    <div className={styles.skills__body}>
+                    <div className={styles.content}>
                         <SkillCards skills={hardSkills} />
                     </div>
                 </div>
-                <div className={styles.skills__column}>
+                <div className={styles.column}>
                     <h2>
                         <span className="accent-color">Soft</span> Skill
                     </h2>
-                    <div className={styles.skills__body}>
+                    <div className={styles.content}>
                         <SkillCards skills={softSkills} />
                     </div>
                 </div>

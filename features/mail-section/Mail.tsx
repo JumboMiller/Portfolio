@@ -16,6 +16,7 @@ const Mail = () => {
        console.log(formData)
 
     };
+    
     return (
         <section className={styles.mail}>
             <div className={styles.mail__inner}>

@@ -1,5 +1,4 @@
 import SkillCard from "./SkillCard"
-import style from "./SkillCard.module.scss"
 
 interface SkillCardsProps {
     skills: string[]
@@ -7,7 +6,7 @@ interface SkillCardsProps {
 
 const SkillCards = ({ skills }: SkillCardsProps) => {
     return (
-        <ul className={style.skill_list}>
+        <ul>
             {skills.map((skill, key) => 
                 <li key={key}>
                     <SkillCard skill={skill} />

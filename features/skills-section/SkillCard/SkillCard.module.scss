@@ -1,10 +1,7 @@
 @use '../../../shared/styles/variables.scss' as *;
 
-.skill_list{
-    
-}
 
-.skill_card {
+.card {
     $card-padding:20px;
     border-radius: $border-radius;
     font-size: 20px;

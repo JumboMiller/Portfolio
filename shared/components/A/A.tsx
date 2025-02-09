@@ -14,7 +14,7 @@ const A = forwardRef<HTMLAnchorElement, AProps>(({ href, children, className }, 
   return (
     <Link
       href={href}
-      className={classNames(style["a_link"], className)}
+      className={classNames(style["link"], className)}
       ref={ref}
     >
       {children}

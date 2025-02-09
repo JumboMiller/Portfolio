@@ -1,7 +1,7 @@
 @use '../../shared/styles/_variables.scss' as *;
 
-.header {
 
+.base {
     left: 0;
     top: 0;
     padding-bottom: 24px;
@@ -11,22 +11,25 @@
     width: 100%;
     z-index: 1000;
 
-    &__inner {
+    .inner {
         @include container;
         align-items: center;
         display: flex;
         gap: 30px;
         justify-content: space-between;
     }
-    &__logo{
+
+    .logo {
         fill: $c-accent;
         cursor: pointer;
-        &:hover{
+
+        &:hover {
             transition-duration: $base-transition-duration;
-            fill:$c-secondary;
+            fill: $c-secondary;
         }
     }
-    &__menu_list {
+
+    .menu_list {
         display: flex;
 
         a {

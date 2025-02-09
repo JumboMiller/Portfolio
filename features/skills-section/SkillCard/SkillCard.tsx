@@ -6,7 +6,7 @@ interface SkillCardProps {
 
 const SkillCard = ({ skill }: SkillCardProps) => {
     return (
-        <div className={style.skill_card}>
+        <div className={style.card}>
             {skill}
         </div>
     )

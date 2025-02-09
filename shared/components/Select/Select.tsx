@@ -13,7 +13,7 @@ const CustomSelect = forwardRef<HTMLSelectElement, CustomSelectProps>(
         ref={ref}
         value={value}
         onChange={onChange}
-        className={styles.select}
+        className={styles.base}
         {...rest}
       >
         {options.map((option) => (
