@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
-      - name: Checking  
+      - name: Install dependencies
         run: yarn install
+      - name: Run Linter
         run: yarn lint
-        run: yarn build 
