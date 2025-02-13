@@ -9,7 +9,6 @@ export interface CustomSelectProps extends SelectHTMLAttributes<HTMLSelectElemen
 const CustomSelect = forwardRef<HTMLSelectElement, CustomSelectProps>(
   ({ options, value, onChange, ...rest }, ref) => {
     return (
-      <div>
       <select
         ref={ref}
         value={value}
@@ -22,7 +21,7 @@ const CustomSelect = forwardRef<HTMLSelectElement, CustomSelectProps>(
              {option.label} 
           </option>
         ))}
-      </select></div>
+      </select>
     );
   }
 );
