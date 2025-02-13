@@ -22,12 +22,25 @@
 
     &_title {
         color: $c-accent;
-        margin-bottom: 0 !important;
     }
 
-    &_project_icon {
+    &_project {
+        width: 360px;
+        overflow: hidden;
+        position: relative;
         border-radius: $border-radius;
+
+        &_icon {
+            width: 100%;
+            border-radius: $border-radius;
+
+            &:hover {
+                transition: $base-transition-duration ease-in;
+                transform: scale(1.1);
+            }
+        }
     }
+
 
     &_icon {
         $size: 50%;
@@ -57,7 +70,7 @@
 
         :hover {
             transition: all 0.08s ease-in-out;
-            border: 4px dashed;
+            border: 3px dashed;
         }
     }
 }

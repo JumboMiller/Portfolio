@@ -24,6 +24,6 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     "/", 
-    "/(en|fr|ua)/:path*", 
+    "/(en|fr|ua|de|es)/:path*", 
   ],
 };

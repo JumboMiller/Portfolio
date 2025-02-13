@@ -50,6 +50,13 @@ h2 {
   font-size: clamp(1.5rem, 1.186rem + 1.4vw, 2.25rem);
 }
 
+h3{
+  --tabletFontSize: 28px;
+  --mobileFontSize: 24px;
+  font-size: clamp(1.5rem, 1.395rem + 0.47vw, 1.75rem);
+  margin-bottom: calc($margin-bottom/2)!important;
+}
+
 .flow-container {
   display: flex;
   flex-direction: column;

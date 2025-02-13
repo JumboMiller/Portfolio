@@ -14,9 +14,11 @@ export default function LocaleSwitcher() {
   const [isPending, startTransition] = useTransition();
 
   const availableLocales = [
-    { value: "en", label: "EN", flagCode: "&#127468;" },
-    { value: "fr", label: "FR", flagCode: "&#127468;" },
-    { value: "ua", label: "UA", flagCode: "&#127468;" },
+    { value: "en", label: "🇬🇧" },
+    { value: "fr", label: "🇫🇷" },
+    { value: "ua", label: "🇺🇦" },
+    { value: "de", label: "🇩🇪" },
+    { value: "es", label: "🇪🇸" },
   ];
 
   const handleLocaleChange = (newLocale: string) => {

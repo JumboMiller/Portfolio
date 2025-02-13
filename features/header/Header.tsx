@@ -40,7 +40,7 @@ const Header = ({ headerItems }: HeaderProps) => {
                         )}
                     </ul>
                 </nav>
-                <div>
+                <div className={style.options}>
                     <LocaleSwitcher />
                     <ThemeSwitcher />
                 </div>

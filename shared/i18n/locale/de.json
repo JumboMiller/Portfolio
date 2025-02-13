@@ -1,0 +1,127 @@
+{
+    "Header": {
+        "About": "Über mich",
+        "Skills": "Fähigkeiten",
+        "Portfolio": "Portfolio",
+        "Work Experience": "Berufserfahrung",
+        "Contacts": "Kontakte",
+        "Theme Switcher": "Themenwechsler"
+    },
+    "Hero": {
+        "Greeting": "HALLO!",
+        "Introduction": "MEIN NAME IST",
+        "Name": "DAMIR PORTNOV",
+        "CallToAction": "ZEIT ZU",
+        "CallToActionSpan": "CODEN!",
+        "ContactsButton": "Meine Kontakte"
+    },
+    "Skill": {
+        "hard": "Technische",
+        "soft": "Soziale",
+        "skill": "Fähigkeiten",
+        "hardSkills": {
+            "0": "HTML: Verständnis der Struktur von Webdokumenten.",
+            "1": "CSS: Erstellung ansprechender und responsiver Benutzeroberflächen.",
+            "2": "JavaScript: Grundlegende Kenntnisse der Programmiersprache.",
+            "3": "TypeScript: Sicherstellung der Typensicherheit in JavaScript-Projekten.",
+            "4": "React: Entwicklung von Komponenten und Arbeiten mit dem virtuellen DOM.",
+            "5": "Redux: Effektives Management des Anwendungszustands.",
+            "6": "Next.js: Entwicklung von serverseitig gerenderten React-Anwendungen.",
+            "7": "Git: Versionskontrolle und Zusammenarbeit im Team.",
+            "8": "REST API: Kommunikation mit dem Backend über HTTP-Anfragen.",
+            "9": "Webpack/Vite: Konfiguration und Optimierung von Projekt-Builds.",
+            "10": "Responsive Design: Anpassung von Oberflächen für verschiedene Geräte.",
+            "11": "Grundlegende Algorithmen: Verständnis von Datenstrukturen und Algorithmen.",
+            "12": "Testing: Schreiben grundlegender Unit-Tests (Jest, React Testing Library).",
+            "13": "Teamarbeit: Anwendung von Agile/Scrum-Methoden.",
+            "14": "UI/UX-Prinzipien: Fokus auf Benutzerfreundlichkeit und Barrierefreiheit."
+        },
+        "softSkills": {
+            "0": "Kommunikation: Fähigkeit, Ideen klar zu vermitteln und effektiv zusammenzuarbeiten.",
+            "1": "Problemlösung: Analytisches Denken und kreative Lösungsfindung.",
+            "2": "Anpassungsfähigkeit: Schnelles Erlernen neuer Tools und Anpassung an neue Anforderungen.",
+            "3": "Zeitmanagement: Effiziente Priorisierung und Erledigung von Aufgaben.",
+            "4": "Teamarbeit: Gute Zusammenarbeit mit anderen zur Erreichung gemeinsamer Ziele.",
+            "5": "Kontinuierliches Lernen: Neugierde und kontinuierliche Weiterentwicklung der Fähigkeiten.",
+            "6": "Empathie: Verständnis für Benutzerbedürfnisse und Förderung eines harmonischen Arbeitsumfelds.",
+            "7": "Aufmerksamkeit für Details: Sicherstellung einer hohen Qualität und fehlerfreier Arbeit."
+        }
+    },
+    "Experience": {
+        "title": "Berufliche",
+        "highlight": "Erfahrung",
+        "jobs": {
+            "0": {
+                "date": "Januar 2021 – April 2021",
+                "title": "HTML/CSS Praktikant Entwickler",
+                "company": "Specvuzavtomatika",
+                "description": "Mitwirkung an der Entwicklung statischer HTML/CSS-Seiten für Unternehmensprojekte. Unterstützung bei der Wartung und Aktualisierung bestehender Websites, Sicherstellung der Cross-Browser-Kompatibilität und des responsiven Designs. Zusammenarbeit mit erfahrenen Entwicklern zur Verbesserung der Coding-Effizienz."
+            },
+            "1": {
+                "date": "Juni 2021 – Februar 2022",
+                "title": "Microsoft Teams Manager",
+                "company": "ROST Alekseevka",
+                "description": "Verwaltung der internen Kommunikationskanäle über Microsoft Teams zur Optimierung der Zusammenarbeit. Integration verschiedener Produktivitäts-Tools und Automatisierungsskripte. Schulung von Mitarbeitern zur effizienten Nutzung der Plattform."
+            },
+            "2": {
+                "date": "Februar 2022 – September 2022",
+                "title": "Frontend-Entwickler",
+                "company": "Freelance",
+                "description": "Entwicklung responsiver Webanwendungen mit React und modernen Frontend-Technologien. Integration von Drittanbieter-APIs zur Verbesserung der Benutzererfahrung. Leistungsoptimierung für schnelle Ladezeiten."
+            },
+            "3": {
+                "date": "März 2022 – September 2022",
+                "title": "Content Creator",
+                "company": "Satrup",
+                "description": "Gestaltung und Entwicklung ansprechender digitaler Inhalte für Social-Media-Plattformen mit Schwerpunkt auf technischen Themen. Erstellung interaktiver Web-Erlebnisse mit JavaScript und CSS-Animationen zur Steigerung des Benutzerengagements. Analyse von Leistungskennzahlen und Anpassung der Strategie zur Maximierung der Reichweite."
+            }
+        }
+    },
+    "Project": {
+        "PixelForge": {
+            "title": "PixelForge",
+            "description": "Entwicklung interaktiver und visuell ansprechender Benutzeroberflächen für Webanwendungen. Implementierung flüssiger Animationen und Übergänge mit Framer Motion zur Verbesserung der Benutzererfahrung. Sicherstellung hoher Leistungs- und Zugänglichkeitsstandards auf verschiedenen Geräten und Browsern.",
+            "technologies": [
+                "React",
+                "JavaScript",
+                "Adobe-Photoshop"
+            ]
+        },
+        "CodeNest": {
+            "title": "CodeNest",
+            "description": "Optimierung der Webanwendungsleistung durch Implementierung von serverseitigem Rendering (SSR) und statischer Seitengenerierung (SSG) mit Next.js. Refaktorierung von Legacy-Code auf moderne TypeScript-Standards, Reduzierung von Fehlern und Verbesserung der Wartbarkeit. Integration von SEO-Best-Practices zur Steigerung der Sichtbarkeit in Suchmaschinen.",
+            "technologies": [
+                "Next.js",
+                "TypeScript",
+                "Vercel",
+                "Css"
+            ]
+        },
+        "WebNova": {
+            "title": "WebNova",
+            "description": "Entwicklung einer skalierbaren Komponentenbibliothek für ein unternehmensweites Designsystem. Erstellung wiederverwendbarer UI-Komponenten mit Tailwind CSS und Storybook zur Gewährleistung von Konsistenz in allen Projekten. Zusammenarbeit mit Designern und Backend-Entwicklern zur Optimierung der Workflows und Steigerung der Effizienz.",
+            "technologies": [
+                "Tailwind",
+                "Figma",
+                "React"
+            ]
+        },
+        "DevSphere": {
+            "title": "DevSphere",
+            "description": "Aufbau einer robusten Frontend-Architektur für eine groß angelegte SaaS-Plattform. Verwaltung des Anwendungszustands mit Redux Toolkit und Implementierung von GraphQL-Abfragen für effiziente Datenabfragen. Entwicklung und Wartung von REST- und GraphQL-API-Integrationen zur nahtlosen Backend-Kommunikation.",
+            "technologies": [
+                "Redux",
+                "React",
+                "Scss"
+            ]
+        }
+    },
+    "Mail": {
+        "subject": "Betreff der E-Mail",
+        "sendButton": "Senden"
+    },
+    "Footer": {
+        "privacyPolicy": "Datenschutzrichtlinie",
+        "termsOfService": "Nutzungsbedingungen"
+    }
+}

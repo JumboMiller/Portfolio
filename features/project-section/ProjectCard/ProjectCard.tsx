@@ -13,7 +13,9 @@ const ProjectCard = ({ title, description, technologies }: ProjectCardProps) => 
         <div className={styles.item}>
             <div className={styles.item_content}>
                 <h3 className={styles.item_title}>{title}</h3>
-                <Image className={styles.item_project_icon} width={360} height={215} src={"/portfolio-project.png"} alt={title} />
+                <div className={styles.item_project}>
+                    <Image className={styles.item_project_icon} width={360} height={215} src={"/portfolio-project.png"} alt={title} />
+                </div>
                 <p className={styles.item_description}>{description}</p>
                 <ul className={styles.item_img_ul}>
                     {

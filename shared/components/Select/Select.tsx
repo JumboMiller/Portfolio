@@ -3,7 +3,7 @@ import { forwardRef, SelectHTMLAttributes } from "react";
 import styles from "./Select.module.scss";
 
 export interface CustomSelectProps extends SelectHTMLAttributes<HTMLSelectElement> {
-  options: { value: string; label: string; flagCode:string}[];
+  options: { value: string; label: string}[];
 }
 
 const CustomSelect = forwardRef<HTMLSelectElement, CustomSelectProps>(
@@ -17,7 +17,7 @@ const CustomSelect = forwardRef<HTMLSelectElement, CustomSelectProps>(
         {...rest}
       >
         {options.map((option) => (
-          <option key={option.value} value={option.value}>
+          <option className={styles.options} key={option.value} value={option.value}>
              {option.label} 
           </option>
         ))}

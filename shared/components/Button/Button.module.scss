@@ -11,6 +11,6 @@
     &:hover {
         background-color: $c-secondary;
         color: $c-primary;
-        transition-duration: calc($base-transition-duration*3);
+        transition-duration: calc($base-transition-duration*1.5);
     }
 }
