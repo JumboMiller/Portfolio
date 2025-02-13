@@ -2,44 +2,65 @@
 // Темы
 // =====================================
 $themes: (
-    light: (primary: #f8f8f8,
+    light: (primary: #ffffff,
+        primary--shade:#eeeeee,
         secondary: #181818,
         accent: #24acf2,
         red: #c04040,
         green: #2c922c),
-    dark: (primary: #181818,
+    dark: (primary: #1f1f1f,
+        primary--shade:#181818,
         secondary: #f8f8f8,
         accent: #24acf2,
         red: #c04040,
         green: #2c922c),
     green: (primary: #002b36,
+        primary--shade:#001a21,
         secondary: #f8f8f8,
         accent: #2aa198,
         red: #cb4b16,
         green: #586e75),
     purple: (primary: #292d3e,
+        primary--shade:#1e212e,
         secondary: #f8f8f8,
         accent: #c792ea,
         red: #ff5370,
-        green: #c3e88d)
+        green: #c3e88d),
+    abyss: (primary:#060621,
+        primary--shade:#040417,
+        secondary: #f8f8f8,
+        accent: #9966b8,
+        red: #c04040,
+        green: #2c922c)
 );
+
 
 // =====================================
 // Кольори
 // =====================================
 $c-primary: var(--primary);
+$c-primary-shade: var(--primary--shade);
 $c-secondary: var(--secondary);
 $c-accent: var(--accent);
 $c-red: var(--red);
 $c-green: var(--green);
 
-
+//
+//
+//
 $c-error: $c-red;
 $c-success: $c-green;
 
 $overlay-opacity: 0.6;
 $c-overlay: rgba(0, 0, 0, $overlay-opacity);
 
+//
+//
+//
+$box-shadow-main:0 0px 4px rgba(0, 0, 0, $overlay-opacity);
+$box-shadow-hoover:0 0px 10px rgba(0, 0, 0, $overlay-opacity);
+$box-shadow-inset:inset -2px -2px 6px hsla(0, 0%, 100%, .1),
+         inset 2px 2px 6px rgba(0, 0, 0, .35);
 // =====================================
 // Радіуси меж
 // =====================================

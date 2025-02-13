@@ -5,18 +5,16 @@ import { useFormStatus } from "react-dom";
 import Button from "@/shared/components/Button/Button";
 import { ButtonTypes } from "@/shared/components/Button/ButtonEnum";
 
-import styles from "./Mail.module.scss"
+import styles from "./Mail.module.scss";
 
 const Mail = () => {
 
     const { pending } = useFormStatus();
 
-    const handleSubmit = async (formData:FormData) => {
-        
-       console.log(formData)
-
+    const handleSubmit = async (formData: FormData) => {
+        console.log(formData)
     };
-    
+
     return (
         <section className={styles.mail}>
             <div className={styles.mail__inner}>
