@@ -14,8 +14,9 @@ export default function LocaleSwitcher() {
   const [isPending, startTransition] = useTransition();
 
   const availableLocales = [
-    { value: "en", label: "EN" },
-    { value: "fr", label: "FR" },
+    { value: "en", label: "EN", flagCode: "&#127468;" },
+    { value: "fr", label: "FR", flagCode: "&#127468;" },
+    { value: "ua", label: "UA", flagCode: "&#127468;" },
   ];
 
   const handleLocaleChange = (newLocale: string) => {
@@ -32,7 +33,7 @@ export default function LocaleSwitcher() {
       options={availableLocales}
       value={currentLocale}
       onChange={(e) => handleLocaleChange(e.target.value)}
-      disabled={isPending} 
+      disabled={isPending}
     />
   );
 }

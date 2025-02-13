@@ -1,0 +1,50 @@
+@use '../../../shared/styles/_variables.scss' as *;
+
+
+.item {
+    $dot-size: 40px;
+    display: flex;
+    position: relative;
+    padding: calc($dot-size / 2);
+    min-width: calc($site-min-width - $dot-size*2);
+
+
+    &_dot {
+        position: absolute;
+        left: -40px;
+        top: 45%;
+        width: $dot-size;
+        height: $dot-size;
+        background-color: $c-primary;
+        border-radius: 50%;
+        border: 5px solid $c-accent;
+        transition: background-color $base-transition-duration ease-in-out;
+    }
+
+    &_content {
+        width: 100%;
+        background: $c-primary-shade;
+        color: $c-secondary;
+        padding: 25px;
+        border-radius: $border-radius;
+
+        box-shadow: $box-shadow-main;
+
+        &:hover {
+            transition: all $base-transition-duration ease-in-out;
+            box-shadow: $box-shadow-hoover;
+        }
+
+        &_date {
+            display: block;
+            font-weight: bold;
+            color: $c-accent; // Цвет акцента
+            margin-bottom: 15px;
+        }
+
+        &_title {
+
+            line-height: $base-line-height;
+        }
+    }
+}

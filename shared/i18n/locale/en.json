@@ -4,6 +4,124 @@
         "Skills": "Skills",
         "Portfolio": "Portfolio",
         "Work Experience": "Work Experience",
-        "Contacts": "Contacts"
+        "Contacts": "Contacts",
+        "Theme Switcher": "Theme Switcher"
+    },
+    "Hero": {
+        "Greeting": "HELLO!",
+        "Introduction": "MY NAME IS",
+        "Name": "DAMIR PORTNOV",
+        "CallToAction": "TIME TO",
+        "CallToActionSpan": "CODE!",
+        "ContactsButton": "My Contacts"
+    },
+    "Skill": {
+        "hard": "Hard",
+        "soft": "Soft",
+        "skill": "skills",
+        "hardSkills": {
+            "0": "HTML: Understanding the structure of web documents.",
+            "1": "CSS: Creating adaptive and stylish user interfaces.",
+            "2": "JavaScript: Basic knowledge of the programming language.",
+            "3": "TypeScript: Ensuring type safety in JavaScript projects.",
+            "4": "React: Developing components and working with the Virtual DOM.",
+            "5": "Redux: Managing application state effectively.",
+            "6": "Next.js: Building server-side rendered React applications.",
+            "7": "Git: Version control and team collaboration.",
+            "8": "REST API: Interacting with the backend via HTTP requests.",
+            "9": "Webpack/Vite: Configuring and optimizing project builds.",
+            "10": "Responsive Design: Adapting interfaces for various devices.",
+            "11": "Basic Algorithms: Understanding data structures and basic algorithms.",
+            "12": "Testing: Writing basic unit tests (Jest, React Testing Library).",
+            "13": "Teamwork: Following Agile/Scrum methodologies.",
+            "14": "UI/UX Principles: Focusing on interface usability and accessibility."
+        },
+        "softSkills": {
+            "0": "Communication: Ability to express ideas and collaborate.",
+            "1": "Problem-Solving: Analytical thinking and finding creative solutions.",
+            "2": "Adaptability: Quickly learning and adapting to new tools or requirements.",
+            "3": "Time Management: Efficiently prioritizing and completing tasks.",
+            "4": "Team Collaboration: Working well with others to achieve common goals.",
+            "5": "Continuous Learning: Staying curious and improving skills over time.",
+            "6": "Empathy: Understanding user needs and contributing to team harmony.",
+            "7": "Attention to Detail: Ensuring high-quality and error-free work."
+        }
+    },
+    "Experience": {
+        "title": "Work",
+        "highlight": "Experience",
+        "jobs": {
+            "0": {
+                "date": "January 2021 – April 2021",
+                "title": "HTML/CSS Intern Developer",
+                "company": "Specvuzavtomatika",
+                "description": "Participated in the development of static HTML/CSS pages for corporate projects. Assisted in maintaining and updating existing websites, ensuring cross-browser compatibility and responsive design. Worked closely with senior developers to understand front-end best practices and improve coding efficiency."
+            },
+            "1": {
+                "date": "June 2021 – February 2022",
+                "title": "Microsoft Teams Manager",
+                "company": "ROST Alekseevka",
+                "description": "Managed internal communication channels through Microsoft Teams, ensuring efficient collaboration among development teams. Optimized workflows by integrating various productivity tools and automation scripts. Provided technical support and conducted training sessions for employees on best practices in remote communication and document sharing."
+            },
+            "2": {
+                "date": "February 2022 – September 2022",
+                "title": "Frontend Developer",
+                "company": "Freelance",
+                "description": "Developed fully responsive web applications using React and modern front-end technologies. Integrated third-party APIs to enhance functionality and improve user experience. Worked on performance optimization, ensuring smooth page rendering and fast load times. Collaborated with clients to understand business needs and deliver custom solutions."
+            },
+            "3": {
+                "date": "March 2022 – September 2022",
+                "title": "Content Creator",
+                "company": "Satrup",
+                "description": "Designed and developed engaging digital content for social media platforms, focusing on tech-related topics. Created interactive web-based experiences using JavaScript and CSS animations to boost user engagement. Analyzed content performance metrics and adjusted strategies accordingly to maximize reach and effectiveness."
+            }
+        }
+    },
+    "Project": {
+        "PixelForge": {
+            "title": "PixelForge",
+            "description": "Developed interactive and visually appealing user interfaces for web applications. Implemented smooth animations and transitions using Framer Motion to enhance user experience. Ensured high performance and accessibility standards across various devices and browsers.",
+            "technologies": [
+                "React",
+                "JavaScript",
+                "Adobe-Photoshop"
+            ]
+        },
+        "CodeNest": {
+            "title": "CodeNest",
+            "description": "Optimized web application performance by implementing server-side rendering (SSR) and static site generation (SSG) with Next.js. Refactored legacy code to modern TypeScript standards, reducing bugs and improving maintainability. Integrated SEO best practices for improved search engine visibility.",
+            "technologies": [
+                "Next.js",
+                "TypeScript",
+                "Vercel",
+                "Css"
+            ]
+        },
+        "WebNova": {
+            "title": "WebNova",
+            "description": "Designed and developed a scalable component library for a company-wide design system. Created reusable UI components with Tailwind CSS and Storybook, ensuring consistency across projects. Collaborated with designers and backend developers to streamline workflows and improve overall efficiency.",
+            "technologies": [
+                "Tailwind",
+                "Figma",
+                "React"
+            ]
+        },
+        "DevSphere": {
+            "title": "DevSphere",
+            "description": "Built a robust frontend architecture for a large-scale SaaS platform. Managed state using Redux Toolkit and implemented GraphQL queries for efficient data fetching. Developed and maintained REST and GraphQL API integrations, ensuring seamless backend communication.",
+            "technologies": [
+                "Redux",
+                "React",
+                "Scss"
+            ]
+        }
+    },
+    "Mail": {
+        "subject": "Subject of the Email",
+        "sendButton": "Send"
+    },
+    "Footer": {
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service"
     }
 }

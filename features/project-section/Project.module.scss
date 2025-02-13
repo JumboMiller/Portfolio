@@ -1,0 +1,21 @@
+@use '../../shared/styles/_variables.scss' as *;
+
+
+.base {
+    @include section;
+
+    .inner {
+        @include container;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+}

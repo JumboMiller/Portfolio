@@ -2,21 +2,32 @@
 
 
 .card {
-    $card-padding:20px;
+    $card-padding: 20px;
+    background-color: $c-primary-shade;
+    height: 140px;
     border-radius: $border-radius;
     font-size: 20px;
     padding: $card-padding;
     padding-left: calc($card-padding*3);
     position: relative;
+    display: flex;
+    align-items: center;
+    box-shadow: $box-shadow-main;
+
+    &:hover {
+        transition: all $base-transition-duration ease-in-out;
+        box-shadow: $box-shadow-hoover;
+    }
+
     &:before {
-        $size: 14px;
+        $size: 16px;
         background-color: $c-accent;
-        border-radius: 25%; 
+        border-radius: $border-radius-2;
         content: "";
         height: $size;
         width: $size;
         left: $card-padding;
         position: absolute;
-        top: calc($card-padding + .35em);
+        top: 44%;
     }
 }

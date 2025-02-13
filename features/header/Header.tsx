@@ -2,10 +2,10 @@
 import { useTranslations } from "next-intl";
 
 import ThemeSwitcher from "@/features/header/ThemeSwitcher/ThemeSwitcher";
-import Logo from "@/public/logo.svg"
+import Logo from "@/public/logo.svg";
 import A from "@/shared/components/A/A";
 
-import style from "./Header.module.scss"
+import style from "./Header.module.scss";
 import LocaleSwitcher from "./LocaleSwitcher/LocaleSwitcher";
 
 export interface HeaderItem {
@@ -19,6 +19,7 @@ type HeaderProps = {
 const Header = ({ headerItems }: HeaderProps) => {
 
     const intl = useTranslations("Header");
+
     return (
         <header className={style.base}>
             <div className={style.inner}>

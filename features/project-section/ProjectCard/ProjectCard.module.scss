@@ -1,0 +1,63 @@
+@use '../../../shared/styles/_variables.scss' as *;
+
+.item {
+    $icon-size: 32px;
+    width: 44%;
+
+    &_content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: $c-primary-shade;
+        border-radius: $border-radius;
+        padding: 30px;
+        height: 100%;
+        box-shadow: $box-shadow-main;
+        transition: all $base-transition-duration ease-in-out;
+
+        &:hover {
+            box-shadow: $box-shadow-hoover;
+        }
+    }
+
+    &_title {
+        color: $c-accent;
+        margin-bottom: 0 !important;
+    }
+
+    &_project_icon {
+        border-radius: $border-radius;
+    }
+
+    &_icon {
+        $size: 50%;
+        height: size;
+        object-fit: contain;
+        width: size;
+    }
+
+    &_description {
+        min-height: 220px;
+    }
+
+    &_img_ul {
+        display: flex;
+        gap: 15px;
+    }
+
+    &_img_li {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: calc($icon-size*2);
+        height: calc($icon-size*2);
+        border-radius: $border-radius-2;
+        box-shadow: $box-shadow-inset;
+        background-color: $c-secondary;
+
+        :hover {
+            transition: all 0.08s ease-in-out;
+            border: 4px dashed;
+        }
+    }
+}

@@ -3,4 +3,5 @@ export enum ThemeType {
   DARK = "dark",
   GREEN = "green",
   PURPLE = "purple",
+  ABYSS = "abyss"
 }
