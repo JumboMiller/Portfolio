@@ -8,12 +8,10 @@
         "Theme Switcher": "Cambiador de tema"
     },
     "Hero": {
-        "Greeting": "¡HOLA!",
-        "Introduction": "MI NOMBRE ES",
-        "Name": "DAMIR PORTNOV",
-        "CallToAction": "ES HORA DE",
-        "CallToActionSpan": "¡CODIFICAR!",
-        "ContactsButton": "Mis contactos"
+        "Greeting": "¡HOLA! <br /> MI NOMBRE ES DAMIR PORTNOV 👋 <br /> SOY DESARROLLADOR FULL-STACK <br /> JAVASCRIPT / TYPESCRIPT 🖥️⚙️🎓",
+        "Specialize": "ME ESPECIALIZO EN TECNOLOGÍAS COMO: <br /> REACT 🚀 <br /> NEXT.JS 💡 <br /> REDUX TOOLKIT 🧰",
+        "CallMe": "ESTOY DISPONIBLE EN CUALQUIER MOMENTO <br /> Y EN ESTE SITIO PUEDES ENCONTRAR <br /> MIS CONTACTOS 📞 💬 📧",
+        "ContactsButton": "Mis Contactos"
     },
     "Skill": {
         "hard": "Técnicas",

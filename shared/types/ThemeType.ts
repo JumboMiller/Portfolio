@@ -3,5 +3,8 @@ export enum ThemeType {
   DARK = "dark",
   GREEN = "green",
   PURPLE = "purple",
-  ABYSS = "abyss"
+  ABYSS = "abyss",
+  TOMORROW_NIGHT_BLUE = "tomorrow-night-blue",
+  MONOKAI = "monokai",
+  SOLARIZED_DARK = "solarized-dark"
 }

@@ -8,11 +8,9 @@
         "Theme Switcher": "Themenwechsler"
     },
     "Hero": {
-        "Greeting": "HALLO!",
-        "Introduction": "MEIN NAME IST",
-        "Name": "DAMIR PORTNOV",
-        "CallToAction": "ZEIT ZU",
-        "CallToActionSpan": "CODEN!",
+        "Greeting": "HALLO! <br /> MEIN NAME IST DAMIR PORTNOV 👋 <br /> ICH BIN EIN JAVASCRIPT / TYPESCRIPT <br /> FULL-STACK-SOFTWAREENTWICKLER 🖥️⚙️🎓",
+        "Specialize": "ICH SPEZIALISIERE MICH AUF TECHNOLOGIEN WIE: <br /> REACT 🚀 <br /> NEXT.JS 💡 <br /> REDUX TOOLKIT 🧰",
+        "CallMe": "ICH BIN JEDERZEIT ERREICHBAR <br /> UND AUF DIESER SEITE KÖNNEN SIE <br /> MEINE KONTAKTDATEN FINDEN 📞 💬 📧",
         "ContactsButton": "Meine Kontakte"
     },
     "Skill": {

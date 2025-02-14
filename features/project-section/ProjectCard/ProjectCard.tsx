@@ -1,7 +1,10 @@
+"use client"
 import Image from "next/image";
 
-import styles from "./ProjectCard.module.scss";
+import GitHub from "@/public/GitHub.svg"
+import A from "@/shared/components/A/A";
 
+import styles from "./ProjectCard.module.scss";
 export interface ProjectCardProps {
     title: string;
     description: string;
@@ -12,9 +15,21 @@ const ProjectCard = ({ title, description, technologies }: ProjectCardProps) => 
     return (
         <div className={styles.item}>
             <div className={styles.item_content}>
-                <h3 className={styles.item_title}>{title}</h3>
+                <div className={styles.item_title_box}>
+                    <h3 className={styles.item_title}>{title}</h3>
+                    <div className={styles.item_git}>
+                        <A className={styles.item_git_a} href="https://github.com/JumboMiller">
+                            <GitHub
+                                className={styles.item_git_icon}
+                                width={32}
+                                height={32}
+                                alt="GitHub Project Anchor"
+                            />
+                        </A>
+                    </div>
+                </div>
                 <div className={styles.item_project}>
-                    <Image className={styles.item_project_icon} width={360} height={215} src={"/portfolio-project.png"} alt={title} />
+                    <Image className={styles.item_project_icon} width={400} height={200} src={"/portfolio-project2.png"} alt={title} />
                 </div>
                 <p className={styles.item_description}>{description}</p>
                 <ul className={styles.item_img_ul}>

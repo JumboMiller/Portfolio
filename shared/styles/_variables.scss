@@ -17,7 +17,7 @@ $themes: (
     green: (primary: #002b36,
         primary--shade:#001a21,
         secondary: #f8f8f8,
-        accent: #2aa198,
+        accent: #2fbeb3,
         red: #cb4b16,
         green: #586e75),
     purple: (primary: #292d3e,
@@ -29,9 +29,27 @@ $themes: (
     abyss: (primary:#060621,
         primary--shade:#040417,
         secondary: #f8f8f8,
-        accent: #9966b8,
+        accent: #ac74cf,
         red: #c04040,
-        green: #2c922c)
+        green: #2c922c),
+    tomorrow-night-blue: (primary: #002451,
+        primary--shade: #001a3a,
+        secondary: #f8f8f8,
+        accent: #1b97c7,
+        red: #ff9da4,
+        green: #d1f1a9),
+    monokai: (primary: #272822,
+        primary--shade:#1e1f1c,
+        secondary: #f8f8f2,
+        accent: #f92672,
+        red: #fd971f,
+        green: #a6e22e),
+    solarized-dark: (primary: #002b36,
+        primary--shade: #001f27,
+        secondary: #f8f8f8,
+        accent: #b58900,
+        red: #dc322f,
+        green: #859900)
 );
 
 
@@ -57,10 +75,12 @@ $c-overlay: rgba(0, 0, 0, $overlay-opacity);
 //
 //
 //
-$box-shadow-main:0 0px 4px rgba(0, 0, 0, $overlay-opacity);
-$box-shadow-hoover:0 0px 10px rgba(0, 0, 0, $overlay-opacity);
-$box-shadow-inset:inset -2px -2px 6px hsla(0, 0%, 100%, .1),
-         inset 2px 2px 6px rgba(0, 0, 0, .35);
+$box-shadow-main: 0 0px 4px rgba(0, 0, 0, $overlay-opacity);
+$box-shadow-hoover: 0 0px 10px rgba(0, 0, 0, $overlay-opacity);
+$box-shadow-inset: inset -2px -2px 6px hsla(0, 0%, 100%, .1),
+    inset 2px 2px 6px rgba(0, 0, 0, .35);
+$box-shadow-inset2: inset 0px 0px 4px hsla(0, 0%, 100%, 0.1), 
+inset 0px 0px 4px rgba(0, 0, 0, 0.35);
 // =====================================
 // Радіуси меж
 // =====================================

@@ -5,7 +5,7 @@ import ThemeSwitcher from "@/features/header/ThemeSwitcher/ThemeSwitcher";
 import Logo from "@/public/logo.svg";
 import A from "@/shared/components/A/A";
 
-import style from "./Header.module.scss";
+import styles from "./Header.module.scss";
 import LocaleSwitcher from "./LocaleSwitcher/LocaleSwitcher";
 
 export interface HeaderItem {
@@ -21,16 +21,16 @@ const Header = ({ headerItems }: HeaderProps) => {
     const intl = useTranslations("Header");
 
     return (
-        <header className={style.base}>
-            <div className={style.inner}>
+        <header className={styles.base}>
+            <div className={styles.inner}>
                 <Logo
-                    className={style.logo}
+                    className={styles.logo}
                     width={64}
                     height={64}
                     alt="Damir Portnov Logo"
                 />
                 <nav >
-                    <ul className={style.menu_list}>
+                    <ul className={styles.menu_list}>
                         {headerItems.map((item, key) =>
                             <A key={key} href='#'>
                                 <li>
@@ -40,7 +40,7 @@ const Header = ({ headerItems }: HeaderProps) => {
                         )}
                     </ul>
                 </nav>
-                <div className={style.options}>
+                <div className={styles.options}>
                     <LocaleSwitcher />
                     <ThemeSwitcher />
                 </div>
