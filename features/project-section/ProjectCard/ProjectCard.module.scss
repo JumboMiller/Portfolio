@@ -20,12 +20,42 @@
         }
     }
 
+    &_title_box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     &_title {
         color: $c-accent;
     }
 
+    &_git {
+        display: flex;
+        justify-content: center;
+        width: calc($icon-size*1.5);
+        height: calc($icon-size*1.5);
+        border-radius: $border-radius-2;
+        background-color: $c-secondary;
+        align-items: center;
+        box-shadow: $box-shadow-inset2;
+        &_a{
+            width: $icon-size;
+            height: $icon-size;
+        }
+        &_icon{
+            object-fit: contain;
+            fill: $c-accent;
+            width: $icon-size;
+            height: $icon-size;
+            &:hover{
+                fill: $c-primary;
+            }
+        }
+    }
+
     &_project {
-        width: 360px;
+        width: 400px;
+        height: 200px;
         overflow: hidden;
         position: relative;
         border-radius: $border-radius;
@@ -33,7 +63,6 @@
         &_icon {
             width: 100%;
             border-radius: $border-radius;
-
             &:hover {
                 transition: $base-transition-duration ease-in;
                 transform: scale(1.1);

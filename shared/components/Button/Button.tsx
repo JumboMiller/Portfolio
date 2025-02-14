@@ -1,5 +1,6 @@
 import classNames from "classnames";
-import { ButtonHTMLAttributes,ReactNode } from "react";
+import Image from "next/image";
+import { ButtonHTMLAttributes, ReactNode } from "react";
 
 import style from "./Button.module.scss";
 import { ButtonTypes } from "./ButtonEnum";
@@ -16,7 +17,17 @@ const Button = ({ variant, children, className, onClick, ...props }: ButtonProps
             onClick={onClick}
             {...props}
         >
-            {children}
+            {
+                variant === ButtonTypes.TEXT
+                    ?
+                    children
+                    :
+                    <Image
+                        src={`./${children}.svg`}
+                        alt={`${children} 
+                        ${variant}`}
+                    />
+            }
         </button>
     );
 };
