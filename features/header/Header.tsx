@@ -29,7 +29,7 @@ const Header = ({ headerItems }: HeaderProps) => {
                     height={64}
                     alt="Damir Portnov Logo"
                 />
-                <nav >
+                <nav>
                     <ul className={styles.menu_list}>
                         {headerItems.map((item, key) =>
                             <A key={key} href='#'>

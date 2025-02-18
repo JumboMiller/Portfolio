@@ -6,9 +6,7 @@ import { ButtonTypes } from "@/shared/components/Button/ButtonEnum";
 import TypeWriter from "@/shared/components/TypeWriter/TypeWriter";
 
 import styles from "./Hero.module.scss";
-/*{intl("Greeting")} <br />
-            {intl("Introduction")} <span className="accent-color">{intl("Name")}</span> <br />
-            {intl.raw("CallToAction")} <span className="accent-color">{intl("CallToActionSpan")}</span> */
+
 const Hero = () => {
 
   const intl = useTranslations("Hero");
