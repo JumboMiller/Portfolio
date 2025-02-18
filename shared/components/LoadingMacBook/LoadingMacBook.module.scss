@@ -180,19 +180,6 @@
 
 }
 
-@mixin animOption {
-    transform: translate(60px, -60px);
-    animation: key 0.2s 1.4s ease-out;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-
-@mixin animOption2 {
-    transform: translate(80px, -80px);
-    animation: key3 0.3s 1.6s linear;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
 
 @mixin beforeAfterUnitedOptions {
     content: "";
@@ -201,6 +188,28 @@
     width: 100%;
     height: 100%;
     background: #000;
+}
+
+@mixin key {
+    position: relative;
+    width: 8px;
+    height: 7px;
+    margin: 1px;
+    background: #000;
+
+    &::before {
+        top: 8px;
+        transform: translate(20px, -20px);
+        animation: key1 0.2s 1.5s ease-out;
+        animation-fill-mode: forwards;
+    }
+
+    &::after {
+        top: 16px;
+        transform: translate(40px, -40px);
+        animation: key2 0.2s 1.6s ease-out;
+        animation-fill-mode: forwards;
+    }
 }
 
 .keybord {
@@ -220,7 +229,6 @@
     }
 
     &_keyBox {
-        @include animOption;
         display: grid;
         grid-template-rows: 3fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -230,69 +238,61 @@
         padding: 0 0 0 1px;
         box-sizing: border-box;
         list-style: none;
-        
+
+        .keybord_key {
+            @include key;
+            transform: translate(60px, -60px);
+            animation: key 0.2s 1.4s ease-out;
+            animation-fill-mode: forwards;
+            opacity: 0;
+
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: #000;
+            }
+
+            @for $i from 1 through 13 {
+                &_#{$i} {
+                    grid-row: 1 / 2;
+                    grid-column: #{$i} / #{$i + 1};
+                }
+            }
+
+            &_12::before {
+                width: 10px;
+            }
+
+            &_13::before {
+                height: 10px;
+            }
+        }
+
         &_under {
-            @include animOption2;
             margin: 0;
             padding: 0 0 0 1px;
             box-sizing: border-box;
             list-style: none;
             display: flex;
-        }
 
-        &::before {
-            @include beforeAfterUnitedOptions;
-        }
+            .keybord_key {
+                @include key;
+                transform: translate(80px, -80px);
+                animation: key3 0.3s 1.6s linear;
+                animation-fill-mode: forwards;
+                opacity: 0;
 
-        &::after {
-            @include beforeAfterUnitedOptions;
-        }
-    }
-
-    &_key {
-        @include animOption;
-        position: relative;
-        width: 8px;
-        height: 7px;
-        margin: 1px;
-        background: #000;
-
-        &::before {
-            @include beforeAfterUnitedOptions;
-            top: 8px;
-            transform: translate(20px, -20px);
-            animation: key1 0.2s 1.5s ease-out;
-            animation-fill-mode: forwards;
-        }
-
-        &::after {
-            @include beforeAfterUnitedOptions;
-            top: 16px;
-            transform: translate(40px, -40px);
-            animation: key2 0.2s 1.6s ease-out;
-            animation-fill-mode: forwards;
-        }
-
-        &_12::before {
-            width: 10px;
-        }
-
-        &_13::before {
-            height: 10px;
-        }
-
-        &_19 {
-            width: 28px;
-        }
-
-        @for $i from 1 through 13 {
-            &_#{$i} {
-                grid-row: 1 / 2;
-                grid-column: #{$i} / #{$i + 1};
+                &_19 {
+                    width: 28px;
+                }
             }
         }
-
     }
+
 
 
 }
