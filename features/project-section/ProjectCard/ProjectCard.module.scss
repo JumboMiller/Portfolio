@@ -1,7 +1,7 @@
 @use '../../../shared/styles/_variables.scss' as *;
 
 .item {
-    $icon-size: 32px;
+    
     width: 44%;
 
     &_content {
@@ -20,37 +20,14 @@
         }
     }
 
-    &_title_box{
+    &_title_box {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
     &_title {
         color: $c-accent;
-    }
-
-    &_git {
-        display: flex;
-        justify-content: center;
-        width: calc($icon-size*1.5);
-        height: calc($icon-size*1.5);
-        border-radius: $border-radius-2;
-        background-color: $c-secondary;
-        align-items: center;
-        box-shadow: $box-shadow-inset2;
-        &_a{
-            width: $icon-size;
-            height: $icon-size;
-        }
-        &_icon{
-            object-fit: contain;
-            fill: $c-accent;
-            width: $icon-size;
-            height: $icon-size;
-            &:hover{
-                fill: $c-primary;
-            }
-        }
     }
 
     &_project {
@@ -63,6 +40,7 @@
         &_icon {
             width: 100%;
             border-radius: $border-radius;
+
             &:hover {
                 transition: $base-transition-duration ease-in;
                 transform: scale(1.1);

@@ -1,8 +1,6 @@
-"use client"
 import Image from "next/image";
 
-import GitHub from "@/public/GitHub.svg"
-import A from "@/shared/components/A/A";
+import GitHubAnchor from "@/shared/components/GitHubAnchor/GitHubAnchor";
 
 import styles from "./ProjectCard.module.scss";
 export interface ProjectCardProps {
@@ -17,16 +15,7 @@ const ProjectCard = ({ title, description, technologies }: ProjectCardProps) => 
             <div className={styles.item_content}>
                 <div className={styles.item_title_box}>
                     <h3 className={styles.item_title}>{title}</h3>
-                    <div className={styles.item_git}>
-                        <A className={styles.item_git_a} href="https://github.com/JumboMiller">
-                            <GitHub
-                                className={styles.item_git_icon}
-                                width={32}
-                                height={32}
-                                alt="GitHub Project Anchor"
-                            />
-                        </A>
-                    </div>
+                    <GitHubAnchor href="https://github.com/JumboMiller" />
                 </div>
                 <div className={styles.item_project}>
                     <Image className={styles.item_project_icon} width={400} height={200} src={"/portfolio-project2.png"} alt={title} />

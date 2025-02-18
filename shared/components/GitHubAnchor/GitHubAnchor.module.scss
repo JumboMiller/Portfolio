@@ -1,0 +1,27 @@
+@use '../../../shared/styles/_variables.scss' as *;
+
+
+.git {
+    $icon-size: 32px;
+    display: flex;
+    justify-content: center;
+    width: calc($icon-size*1.5);
+    height: calc($icon-size*1.5);
+    border-radius: $border-radius-2;
+    background-color: $c-secondary;
+    align-items: center;
+    box-shadow: $box-shadow-inset2;
+    &_a{
+        width: $icon-size;
+        height: $icon-size;
+    }
+    &_icon{
+        object-fit: contain;
+        fill: $c-accent;
+        width: $icon-size;
+        height: $icon-size;
+        &:hover{
+            fill: $c-primary;
+        }
+    }
+}
