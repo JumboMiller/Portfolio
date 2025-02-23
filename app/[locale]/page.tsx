@@ -4,7 +4,7 @@ import Projects from "@/features/project-section/Projects"
 import Skills from "@/features/skills-section/Skills"
 
 
-const Index = () => {
+const Index = async () => {
 
   return (
     <main className="content">
