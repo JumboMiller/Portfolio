@@ -1,8 +1,8 @@
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 import Button from "@/shared/components/Button/Button";
 import { ButtonTypes } from "@/shared/components/Button/ButtonEnum";
+import LoadingMacBook from "@/shared/components/LoadingMacBook/LoadingMacBook";
 import TypeWriter from "@/shared/components/TypeWriter/TypeWriter";
 
 import styles from "./Hero.module.scss";
@@ -26,10 +26,9 @@ const Hero = () => {
           </h1>
           <Button variant={ButtonTypes.TEXT}>{intl("ContactsButton")}</Button>
         </div>
-        <div className={styles.img_box}>
-          <Image className={styles.icon} src={"/face.jpg"} width={250} height={250} alt="Damir Portnov Photo" />
+        <div className={styles.macbook}>
+          <LoadingMacBook/>
         </div>
-
       </div>
     </div>
   )

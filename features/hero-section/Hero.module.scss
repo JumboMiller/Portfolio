@@ -19,6 +19,9 @@
         height: 180px;
         padding-right: 25px;
     }
+    .macbook{
+        transform: scaleX(-1);
+    }
     .icon{
         border-radius: $border-radius;
         box-shadow: $box-shadow-hoover;

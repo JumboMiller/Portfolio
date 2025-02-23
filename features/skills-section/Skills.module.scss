@@ -1,18 +1,22 @@
 @use '../../shared/styles/_variables.scss' as *;
 
-.base{
+.base {
     @include section;
-    
-    .inner{
+    animation: bounce;
+    animation-duration: 2s;
+
+    .inner {
         @include container;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    h2{
+
+    h2 {
         margin-left: 12px;
     }
-    .column{
+
+    .column {
         max-width: 550px;
     }
 }

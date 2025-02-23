@@ -1,4 +1,5 @@
 import "@/shared/styles/globals.scss"
+import "animate.css";
 
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { Metadata } from "next";

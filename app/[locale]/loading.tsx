@@ -1,8 +1,5 @@
-import LoadingMacBook from "@/shared/components/LoadingMacBook/LoadingMacBook";
+import MatrixLoader from "@/shared/components/MatrixLoader/MatrixLoader";
 
 export default function Loading() {
-
-    return (
-        <LoadingMacBook/>
-    )
+    return <MatrixLoader/>
 }
