@@ -76,6 +76,8 @@
         }
     },
     "Project": {
+        "title": "Mis",
+        "highlight": "Зroyectos",
         "PixelForge": {
             "title": "PixelForge",
             "description": "Desarrollo de interfaces de usuario interactivas y visualmente atractivas para aplicaciones web. Implementación de animaciones y transiciones suaves con Framer Motion para mejorar la experiencia del usuario. Garantía de altos estándares de rendimiento y accesibilidad en diversos dispositivos y navegadores.",

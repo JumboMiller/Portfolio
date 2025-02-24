@@ -4,8 +4,7 @@ import Projects from "@/features/project-section/Projects"
 import Skills from "@/features/skills-section/Skills"
 
 
-const Index = async () => {
-
+export default async function Index() {
   return (
     <main className="content">
       <div className="content__section">
@@ -17,6 +16,5 @@ const Index = async () => {
     </main>
   )
 }
-export default Index
 
   

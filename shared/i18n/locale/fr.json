@@ -76,6 +76,8 @@
         }
     },
     "Project": {
+        "title": "Mes",
+        "highlight": "Projets",
         "PixelForge": {
             "title": "PixelForge",
             "description": "Développement d'interfaces utilisateur interactives et esthétiques pour des applications web. Implémentation d'animations et de transitions fluides avec Framer Motion pour améliorer l'expérience utilisateur. Respect des normes de performance et d'accessibilité sur divers appareils et navigateurs.",

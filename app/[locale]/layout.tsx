@@ -9,6 +9,7 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
+import Footer from "@/features/footer/Footer";
 import Header, { HeaderItem } from "@/features/header/Header";
 import { Locale, routing } from "@/shared/i18n/routing";
 import { ThemeType } from "@/shared/types/ThemeType";
@@ -66,6 +67,7 @@ export default async function RootLayout({
           <div className="flow-container">
             <Header headerItems={headerItems} />
             {children}
+            <Footer/>
           </div>
         </NextIntlClientProvider>
         <SpeedInsights />

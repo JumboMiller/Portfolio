@@ -76,6 +76,8 @@
         }
     },
     "Project": {
+        "title": "My",
+        "highlight": "Projects",
         "PixelForge": {
             "title": "PixelForge",
             "description": "Developed interactive and visually appealing user interfaces for web applications. Implemented smooth animations and transitions using Framer Motion to enhance user experience. Ensured high performance and accessibility standards across various devices and browsers.",

@@ -76,6 +76,8 @@
         }
     },
     "Project": {
+        "title": "Meine",
+        "highlight": "Projekte",
         "PixelForge": {
             "title": "PixelForge",
             "description": "Entwicklung interaktiver und visuell ansprechender Benutzeroberflächen für Webanwendungen. Implementierung flüssiger Animationen und Übergänge mit Framer Motion zur Verbesserung der Benutzererfahrung. Sicherstellung hoher Leistungs- und Zugänglichkeitsstandards auf verschiedenen Geräten und Browsern.",

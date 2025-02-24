@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import AnimateOnView from "@/shared/components/AnimateOnView/AnimateOnView";
-import GitHubAnchor from "@/shared/components/GitHubAnchor/GitHubAnchor";
+import GitHubAnchor from "@/shared/components/SvgAnchors/GitHubAnchor";
 
 import styles from "./ProjectCard.module.scss";
 export interface ProjectCardProps {

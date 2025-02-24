@@ -33,9 +33,14 @@ const Projects = () => {
         <div className={styles.base}>
             <div className={styles.inner}>
                 <div className={styles.content}>
-                    {projects.map((project, key) => (
-                        <ProjectCard {...project} key={key} />
-                    ))}
+                    <h2>
+                        {intl("title")} <span className="accent-color">{intl("highlight")}</span>
+                    </h2>
+                    <div className={styles.cards}>
+                        {projects.map((project, key) => (
+                            <ProjectCard {...project} key={key} />
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

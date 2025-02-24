@@ -1,7 +1,7 @@
-@use '../../../shared/styles/_variables.scss' as *;
+@use '../../../../shared/styles/_variables.scss' as *;
 
 
-.git {
+.base {
     $icon-size: 32px;
     display: flex;
     justify-content: center;
@@ -11,19 +11,22 @@
     background-color: $c-secondary;
     align-items: center;
     box-shadow: $box-shadow-inset2;
-    &_a{
+
+    &_a {
         width: $icon-size;
         height: $icon-size;
-    }
-    &_icon{
-        object-fit: contain;
-        fill: $c-accent;
-        width: $icon-size;
-        height: $icon-size;
-        transition: all $base-transition-duration ease-in-out;
-        &:hover{
-            fill: $c-primary;
+
+        & > * {
+            object-fit: contain;
+            fill: $c-accent;
+            width: $icon-size;
+            height: $icon-size;
             transition: all $base-transition-duration ease-in-out;
+
+            &:hover {
+                fill: $c-primary;
+                transition: all $base-transition-duration ease-in-out;
+            }
         }
     }
 }

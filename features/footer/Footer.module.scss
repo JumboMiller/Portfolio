@@ -1,0 +1,38 @@
+@use '../../shared/styles/variables' as *;
+
+.base {
+    @include section;
+
+    .inner {
+        @include container;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        background: $c-primary-shade;
+        color: $c-secondary;
+        padding: $card-padding;
+        border-radius: $border-radius;
+        box-shadow: $box-shadow-main;
+        transition: all $base-transition-duration ease-in-out;
+
+    }
+    .contacts {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .icons{
+        display: flex;
+        gap: 15px;
+    }
+
+}
