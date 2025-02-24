@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     box-shadow: $box-shadow-main;
+    transition: all $base-transition-duration ease-in-out;
 
     &:hover {
         transition: all $base-transition-duration ease-in-out;

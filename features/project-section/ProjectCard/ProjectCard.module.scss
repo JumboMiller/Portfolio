@@ -15,7 +15,7 @@
         height: 100%;
         box-shadow: $box-shadow-main;
         transition: all $base-transition-duration ease-in-out;
-
+        
         &:hover {
             box-shadow: $box-shadow-hoover;
         }
@@ -41,7 +41,7 @@
         &_icon {
             width: 100%;
             border-radius: $border-radius;
-
+            transition:$base-transition-duration;
             &:hover {
                 transition: $base-transition-duration ease-in;
                 transform: scale(1.1);
@@ -75,6 +75,8 @@
         border-radius: $border-radius-2;
         box-shadow: $box-shadow-inset;
         background-color: $c-secondary;
+
+        transition:0.08s;
 
         :hover {
             transition: all 0.08s ease-in-out;

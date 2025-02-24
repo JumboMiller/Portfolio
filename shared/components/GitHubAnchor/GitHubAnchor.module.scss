@@ -20,8 +20,10 @@
         fill: $c-accent;
         width: $icon-size;
         height: $icon-size;
+        transition: all $base-transition-duration ease-in-out;
         &:hover{
             fill: $c-primary;
+            transition: all $base-transition-duration ease-in-out;
         }
     }
 }

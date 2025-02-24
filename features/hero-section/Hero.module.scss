@@ -11,18 +11,22 @@
         margin-top: $margin-bottom;
         margin-bottom: $margin-bottom;
     }
-    .content{
+
+    .content {
         width: 100%;
         padding: 15px;
     }
-    .title{
+
+    .title {
         height: 180px;
         padding-right: 25px;
     }
-    .macbook{
+
+    .macbook {
         transform: scaleX(-1);
     }
-    .icon{
+
+    .icon {
         border-radius: $border-radius;
         box-shadow: $box-shadow-hoover;
     }

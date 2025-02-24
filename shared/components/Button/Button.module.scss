@@ -7,10 +7,11 @@
     text-align: center;
     background-color: $c-accent;
     color: #f8f8f8;
-
+    transition: all $base-transition-duration ease-in-out;
+    
     &:hover {
         background-color: $c-secondary;
         color: $c-primary;
-        transition-duration: calc($base-transition-duration*1.5);
+        transition-duration: $base-transition-duration;
     }
 }

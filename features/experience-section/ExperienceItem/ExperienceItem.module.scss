@@ -28,7 +28,8 @@
         padding: $card-padding;
         border-radius: $border-radius;
         box-shadow: $box-shadow-main;
-
+        transition: all $base-transition-duration ease-in-out;
+        
         &:hover {
             transition: all $base-transition-duration ease-in-out;
             box-shadow: $box-shadow-hoover;

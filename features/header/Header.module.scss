@@ -22,6 +22,7 @@
     .logo {
         fill: $c-accent;
         cursor: pointer;
+        transition: all $base-transition-duration ease-in-out;
 
         &:hover {
             transition-duration: $base-transition-duration;
@@ -44,6 +45,6 @@
 
     .options {
         display: flex;
-        
+
     }
 }

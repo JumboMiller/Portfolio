@@ -1,7 +1,9 @@
 @use '../../styles/_variables.scss' as *;
 
 .link{
+    color: $c-secondary;
     font-size: $base-font-size;
+    transition: all $base-transition-duration ease-in-out;
     :hover{
         color: $c-accent;
         transition-duration: $base-transition-duration;
