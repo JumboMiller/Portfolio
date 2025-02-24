@@ -1,4 +1,5 @@
 "use client"
+import classNames from "classnames";
 import { useTranslations } from "next-intl";
 
 import ThemeSwitcher from "@/features/header/ThemeSwitcher/ThemeSwitcher";
@@ -21,8 +22,8 @@ const Header = ({ headerItems }: HeaderProps) => {
     const intl = useTranslations("Header");
 
     return (
-        <header className={styles.base}>
-            <div className={styles.inner}>
+        <header  className={styles.base}>
+            <div className={classNames("animate__animated animate__fadeInDown", styles.inner)}>
                 <Logo
                     className={styles.logo}
                     width={64}

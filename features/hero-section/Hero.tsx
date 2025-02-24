@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import { useTranslations } from "next-intl";
 
 import Button from "@/shared/components/Button/Button";
@@ -14,7 +15,7 @@ const Hero = () => {
   return (
     <div className={styles.base}>
       <div className={styles.inner}>
-        <div className={styles.content}>
+        <div className={classNames("animate__animated animate__fadeIn", styles.content)}>
           <h1 className={styles.title}>
             <TypeWriter
               texts={[

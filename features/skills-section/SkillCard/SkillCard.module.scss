@@ -2,13 +2,12 @@
 
 
 .card {
-    $card-padding: 20px;
     background-color: $c-primary-shade;
     height: 140px;
     border-radius: $border-radius;
     font-size: 20px;
     padding: $card-padding;
-    padding-left: calc($card-padding*3);
+    padding-left: calc($card-padding*2.4);
     position: relative;
     display: flex;
     align-items: center;

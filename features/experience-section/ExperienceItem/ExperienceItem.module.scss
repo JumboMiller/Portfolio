@@ -7,7 +7,7 @@
     position: relative;
     padding: calc($dot-size / 2);
     min-width: calc($site-min-width - $dot-size*2);
-
+    opacity: 0;
 
     &_dot {
         position: absolute;
@@ -25,7 +25,7 @@
         width: 100%;
         background: $c-primary-shade;
         color: $c-secondary;
-        padding: 25px;
+        padding: $card-padding;
         border-radius: $border-radius;
         box-shadow: $box-shadow-main;
 

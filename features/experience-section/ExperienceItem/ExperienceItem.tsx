@@ -1,3 +1,5 @@
+import AnimateOnView from "@/shared/components/AnimateOnView/AnimateOnView";
+
 import styles from "./ExperienceItem.module.scss";
 
 export interface ExperienceItemProps {
@@ -8,14 +10,14 @@ export interface ExperienceItemProps {
 }
 
 const ExperienceItem = ({ date, title, company, description }: ExperienceItemProps) => (
-  <div className={styles.item}>
+  <AnimateOnView className={styles.item} animationClass="animate__animated animate__fadeInUp">
     <div className={styles.item_dot} />
     <div className={styles.item_content}>
       <time className={styles.item_content_date}>{date}</time>
-      <h3 className={styles.item_content_title}>{title}<br/>{company}</h3>
+      <h3 className={styles.item_content_title}>{title}<br />{company}</h3>
       <p className={styles.item_content_description}>{description}</p>
     </div>
-  </div>
+  </AnimateOnView>
 );
 
 export default ExperienceItem;

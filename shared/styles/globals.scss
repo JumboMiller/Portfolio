@@ -13,7 +13,10 @@
     }
   }
 }
-
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
 html {
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;

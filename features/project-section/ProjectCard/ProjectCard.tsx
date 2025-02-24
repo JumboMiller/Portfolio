@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import AnimateOnView from "@/shared/components/AnimateOnView/AnimateOnView";
 import GitHubAnchor from "@/shared/components/GitHubAnchor/GitHubAnchor";
 
 import styles from "./ProjectCard.module.scss";
@@ -11,7 +12,7 @@ export interface ProjectCardProps {
 
 const ProjectCard = ({ title, description, technologies }: ProjectCardProps) => {
     return (
-        <div className={styles.item}>
+        <AnimateOnView className={styles.item} animationClass="animate__animated animate__fadeInUp">
             <div className={styles.item_content}>
                 <div className={styles.item_title_box}>
                     <h3 className={styles.item_title}>{title}</h3>
@@ -30,7 +31,7 @@ const ProjectCard = ({ title, description, technologies }: ProjectCardProps) => 
                     }
                 </ul>
             </div>
-        </div>
+        </AnimateOnView>
     )
 }
 

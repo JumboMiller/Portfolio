@@ -1,9 +1,8 @@
 @use '../../shared/styles/_variables.scss' as *;
 
+
 .base {
     @include section;
-    animation: bounce;
-    animation-duration: 2s;
 
     .inner {
         @include container;

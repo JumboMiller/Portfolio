@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import { useTranslations } from "next-intl";
 
 import SkillCards from "@/features/skills-section/SkillCard/SkillCards";
@@ -13,7 +14,7 @@ const Skills = () => {
     return (
         <section className={styles.base}>
             <div className={styles.inner}>
-                <div className={styles.column}>
+                <div className={classNames("animate__animated animate__fadeInLeft", styles.column)}>
                     <h2>
                         <span className="accent-color">{t("hard")}</span> {t("skill")}
                     </h2>
@@ -21,7 +22,7 @@ const Skills = () => {
                         <SkillCards skills={hardSkills} />
                     </div>
                 </div>
-                <div className={styles.column}>
+                <div className={classNames("animate__animated animate__fadeInRight", styles.column)}>
                     <h2>
                         <span className="accent-color">{t("soft")}</span> {t("skill")}
                     </h2>

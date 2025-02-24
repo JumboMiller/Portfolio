@@ -1,6 +1,7 @@
 // =====================================
 // Темы
 // =====================================
+
 $themes: (
     light: (primary: #ffffff,
         primary--shade:#f8f8f8,
@@ -109,8 +110,10 @@ $grid-padding: 15px;
 // =====================================
 // Відступи
 // =====================================
+$card-padding:30px;
 $section-padding-y: 50px;
 $margin-bottom: 40px;
+
 
 $base-transition-duration: 0.2s;
 
