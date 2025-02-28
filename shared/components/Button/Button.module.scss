@@ -8,7 +8,7 @@
     background-color: $c-accent;
     color: #f8f8f8;
     transition: all $base-transition-duration ease-in-out;
-    
+    height: 58px;
     &:hover {
         background-color: $c-secondary;
         color: $c-primary;
