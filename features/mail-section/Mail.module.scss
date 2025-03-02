@@ -17,82 +17,70 @@
 
   .form {
     display: flex;
-    margin-left: 30px;
+    min-width: $site-min-width;
     align-items: center;
+    justify-content: center;
   }
 }
 
 
 .formControl {
-  margin: 20px;
+  font-size: 20px;
   background-color: $c-primary-shade;
   box-shadow: $box-shadow-main;
-  width: 400px;
+  width: 100%;
+  max-width: 1100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 10px;
   padding: $card-padding;
   border-radius: $border-radius;
 
-  .title {
-    font-size: 28px;
-    font-weight: 800;
-  }
+  .formInputs {
+    padding-bottom: 50px;
 
-  .inputField {
-    position: relative;
-    width: 100%;
-
-    .input {
-      margin-top: 15px;
+    .inputField {
       width: 100%;
-      outline: none;
-      border-radius: 8px;
-      height: 45px;
-      border: 1.5px solid #ecedec;
-      background: transparent;
-      padding-left: 10px;
+      display: flex;
+      flex-direction: column;
 
-      &:focus {
-        border: 1.5px solid #2d79f3;
+      .label {
+        color: $c-secondary;
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+
+      .input {
+        outline: none;
+        width: 100%;
+        height: 45px;
+        border-radius: 8px;
+        border: 3px solid $c-secondary;
+        background: transparent;
+        color: $c-secondary;
+        padding: 10px;
+
+        &:focus {
+          border: 3px solid $c-accent;
+          caret-color: $c-accent;
+
+          &::placeholder {
+            color: transparent;
+          }
+
+        }
+
+        &:last-child {
+          height: auto;
+        }
       }
     }
-
-    .label {
-      color: $c-secondary;
-      transition: all 0.3s ease;
-      pointer-events: none;
-
-
-    }
-  }
-
-  .input:focus~&,
-  .input:valid~& {
-    top: 5px;
-    left: 5px;
-    font-size: 12px;
-    color: #2d79f3;
-    background-color: #ffffff;
-    padding: 0 5px;
   }
 
   .submitBtn {
-    margin-top: 30px;
-    height: 55px;
-    border-radius: 11px;
-    border: 0;
-    outline: none;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 700;
-    background: $c-accent;
-    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
-    cursor: pointer;
-
-    &:hover {
-      box-shadow: 0px 0px 0px 2px #ffffff, 0px 0px 0px 4px #0000003a;
-    }
+    font-weight: 600;
+    height: auto;
   }
+
+
 }
