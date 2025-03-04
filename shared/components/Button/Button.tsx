@@ -18,15 +18,15 @@ const Button = ({ variant, children, className, onClick, ...props }: ButtonProps
             {...props}
         >
             {
-                variant === ButtonTypes.TEXT
+                variant === ButtonTypes.ICON
                     ?
-                    children
-                    :
                     <Image
                         src={`./${children}.svg`}
                         alt={`${children} 
                         ${variant}`}
                     />
+                    :
+                    children
             }
         </button>
     );

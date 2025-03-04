@@ -1,4 +1,5 @@
 export enum ButtonTypes {
     TEXT = "text",
-    ICON = "icon"
+    ICON = "icon",
+    BURGER = "burger"
 }

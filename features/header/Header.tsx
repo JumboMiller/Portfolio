@@ -61,7 +61,7 @@ const Header = ({ headerItems }: HeaderProps) => {
                         <ThemeSwitcher />
                     </div>
                 </div>
-                <button className={classNames(styles.burger_icon)} onClick={toggleMenu}>
+                <button className={classNames(styles.burger_icon,{ [styles.is_open]: isOpen })} onClick={toggleMenu}>
                     <span className={styles.burger_icon_item}></span>
                     <span className={styles.burger_icon_item}></span>
                     <span className={styles.burger_icon_item}></span>
