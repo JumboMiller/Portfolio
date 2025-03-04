@@ -13,21 +13,36 @@
     }
 
     .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         width: 100%;
         padding: 15px;
-    }
 
-    .title {
-        height: 210px;
-        padding-right: 25px;
-    }
+        .text {
 
-    .macbook {
-        transform: scaleX(-1);
-    }
+            width: 70%;
 
-    .icon {
-        border-radius: $border-radius;
-        box-shadow: $box-shadow-hoover;
+            .title {
+                min-height: 260px;
+                padding-right: 25px;
+                @media (max-width:$grid-width) {
+                    min-height: 360px;
+                }
+            }
+            .contact_btn{
+                margin-bottom: 25px;
+            }
+            @media (max-width:$grid-width) {
+                width: 100%;
+            }
+        }
+
+        .macbook {
+            transform: scaleX(-1);
+            @media (max-width:$grid-width) {
+                display: none;
+            }
+        }
     }
 }

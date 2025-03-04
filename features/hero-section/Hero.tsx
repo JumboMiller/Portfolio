@@ -16,19 +16,21 @@ const Hero = () => {
     <div className={styles.base}>
       <div className={styles.inner}>
         <div className={classNames("animate__animated animate__fadeIn", styles.content)}>
-          <h1 className={styles.title}>
-            <TypeWriter
-              texts={[
-                intl.raw("Greeting"),
-                intl.raw("Specialize"),
-                intl.raw("CallMe")
-              ]}
-            />
-          </h1>
-          <Button variant={ButtonTypes.TEXT}>{intl("ContactsButton")}</Button>
-        </div>
-        <div className={styles.macbook}>
-          <LoadingMacBook/>
+          <div className={styles.text}>
+            <h1 className={styles.title}>
+              <TypeWriter
+                texts={[
+                  intl.raw("Greeting"),
+                  intl.raw("Specialize"),
+                  intl.raw("CallMe")
+                ]}
+              />
+            </h1>
+            <Button className={styles.contact_btn} variant={ButtonTypes.TEXT}>{intl("ContactsButton")}</Button>
+          </div>
+          <div className={styles.macbook}>
+            <LoadingMacBook />
+          </div>
         </div>
       </div>
     </div>

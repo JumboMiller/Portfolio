@@ -5,6 +5,10 @@
     width: 44%;
     opacity: 0;
 
+    @media (max-width:$grid-width) {
+        width: 100%;
+    }
+
     &_content {
         display: flex;
         flex-direction: column;

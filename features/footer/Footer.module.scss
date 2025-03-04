@@ -14,23 +14,30 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-
+        flex-wrap: wrap;
+        gap: 40px;
         background: $c-primary-shade;
         color: $c-secondary;
         padding: $card-padding;
         border-radius: $border-radius;
         box-shadow: $box-shadow-main;
         transition: all $base-transition-duration ease-in-out;
-
+        
+        @media (max-width:$grid-width) {
+            justify-content: center;
+        }
     }
+
     .contacts {
+
         display: flex;
         gap: 15px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .icons{
+
+    .icons {
         display: flex;
         gap: 15px;
     }
