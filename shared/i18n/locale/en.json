@@ -63,10 +63,10 @@
                 "description": "I worked as a frontend developer on the main website of \"Elemental Wars\" a multi-platform RPG/NFT game built on the WAX blockchain. My responsibilities included integrating the website with the blockchain, implementing minting and staking functionality for NFTs, and developing user interfaces for seamless interaction with digital assets. I was actively involved in the team's activities, coordinating tasks to optimize user experience and collaborating with developers to enhance all blockchain-related processes in the game."
             },
             "2": {
-                "date": "July 2023 – March 2024",
+                "date": "October 2022 – March 2024",
                 "title": "Frontend Developer",
                 "company": "Small Team",
-                "description": "Developed fully responsive web applications using React and modern front-end technologies. Integrated third-party APIs to enhance functionality and improve user experience. Worked on performance optimization, ensuring smooth page rendering and fast load times. Collaborated with clients to understand business needs and deliver custom solutions."
+                "description": "From October 2022 to March 2024, I worked as a frontend developer in a small team, contributing to the development of various blockchain projects. My responsibilities included building and optimizing user interfaces, integrating smart contracts, and ensuring seamless interaction between decentralized applications (dApps) and blockchain networks. I collaborated closely with backend developers and blockchain engineers to implement Web3 features such as wallet authentication, token transactions, and NFT marketplaces, focusing on performance, security, and user experience."
             },
             "3": {
                 "date": "September 2023 – June 2024",
@@ -79,43 +79,65 @@
     "Project": {
         "title": "My",
         "highlight": "Projects",
-        "PixelForge": {
-            "title": "PixelForge",
-            "description": "Developed interactive and visually appealing user interfaces for web applications. Implemented smooth animations and transitions using Framer Motion to enhance user experience. Ensured high performance and accessibility standards across various devices and browsers.",
-            "technologies": [
-                "React",
-                "JavaScript",
-                "Adobe-Photoshop"
-            ]
-        },
-        "CodeNest": {
-            "title": "CodeNest",
-            "description": "Optimized web application performance by implementing server-side rendering (SSR) and static site generation (SSG) with Next.js. Refactored legacy code to modern TypeScript standards, reducing bugs and improving maintainability. Integrated SEO best practices for improved search engine visibility.",
-            "technologies": [
-                "Next.js",
-                "TypeScript",
-                "Vercel",
-                "Css"
-            ]
-        },
-        "WebNova": {
-            "title": "WebNova",
-            "description": "Designed and developed a scalable component library for a company-wide design system. Created reusable UI components with Tailwind CSS and Storybook, ensuring consistency across projects. Collaborated with designers and backend developers to streamline workflows and improve overall efficiency.",
-            "technologies": [
-                "Tailwind",
-                "Figma",
-                "React"
-            ]
-        },
-        "DevSphere": {
-            "title": "DevSphere",
-            "description": "Built a robust frontend architecture for a large-scale SaaS platform. Managed state using Redux Toolkit and implemented GraphQL queries for efficient data fetching. Developed and maintained REST and GraphQL API integrations, ensuring seamless backend communication.",
-            "technologies": [
-                "Redux",
-                "React",
-                "Scss"
-            ]
-        }
+        "projects": [
+            {
+                "title": "Iron-Helmet",
+                "description": "Iron Helmet is a unique crypto game in the pixel roguelike genre with dark fantasy elements, where players explore dungeons, battle monsters, and search for valuable loot. The entire in-game economy is built on blockchain, with users determining the value of items and tokens. Players can collect NFT characters and items, which can be staked within the game to reduce fees and sold on external markets. The game targets a young audience interested in cryptocurrencies and offers an easy entry point with minimal requirements to get started.",
+                "technologies": [
+                    "React",
+                    "JavaScript",
+                    "Adobe-Photoshop"
+                ],
+                "href":"https://github.com/JumboMiller/Iron-Helmet"
+            },
+            {
+                "title": "Music Sharing",
+                "description": "Optimized web application performance by implementing server-side rendering (SSR) and static site generation (SSG) with Next.js. Refactored legacy code to modern TypeScript standards, reducing bugs and improving maintainability. Integrated SEO best practices for improved search engine visibility.",
+                "technologies": [
+                    "Next.js",
+                    "TypeScript",
+                    "Vercel",
+                    "Css"
+                ]
+            },
+            {
+                "title": "Elemental Wars",
+                "description": "Elemental Wars is a multi-platform RPG game on the WAX blockchain that allows each player to choose their own gameplay strategy by crossing characters, fighting in the wild lands for resources, participating in guild tournaments or growing consumables for sale.",
+                "technologies": [
+                    "Tailwind",
+                    "Figma",
+                    "React"
+                ]
+            },
+            {
+                "title": "Crypto Mine",
+                "description": "Built a robust frontend architecture for a large-scale SaaS platform. Managed state using Redux Toolkit and implemented GraphQL queries for efficient data fetching. Developed and maintained REST and GraphQL API integrations, ensuring seamless backend communication.",
+                "technologies": [
+                    "Redux",
+                    "React",
+                    "Scss"
+                ]
+            },
+            {
+                "title": "Chess",
+                "description": "Built a robust frontend architecture for a large-scale SaaS platform. Managed state using Redux Toolkit and implemented GraphQL queries for efficient data fetching. Developed and maintained REST and GraphQL API integrations, ensuring seamless backend communication.",
+                "technologies": [
+                    "Redux",
+                    "React",
+                    "Scss"
+                ],
+                "href":"https://github.com/JumboMiller/TS-Chess"
+            },
+            {
+                "title": "Duo Lingo Clone",
+                "description": "Built a robust frontend architecture for a large-scale SaaS platform. Managed state using Redux Toolkit and implemented GraphQL queries for efficient data fetching. Developed and maintained REST and GraphQL API integrations, ensuring seamless backend communication.",
+                "technologies": [
+                    "Redux",
+                    "React",
+                    "Scss"
+                ]
+            }
+        ]
     },
     "Mail": {
         "subject": "Subject of the Email",

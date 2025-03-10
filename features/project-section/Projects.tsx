@@ -6,7 +6,9 @@ import ProjectCard, { ProjectCardProps } from "./ProjectCard/ProjectCard";
 const Projects = () => {
     const intl = useTranslations("Project");
 
-    const projects: ProjectCardProps[] = [
+    const projects: ProjectCardProps[] = intl.raw("projects"); // Получаем массив проектов в "items
+
+    /*const projects: ProjectCardProps[] = [
         {
             title: intl("PixelForge.title"),
             description: intl("PixelForge.description"),
@@ -29,7 +31,7 @@ const Projects = () => {
             description: intl("DevSphere.description"),
             technologies: ["Redux", "React", "Scss"]
         }
-    ];
+    ];*/
 
     return (
         <div id="projects" className={styles.base}>
