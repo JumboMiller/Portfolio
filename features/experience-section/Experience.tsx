@@ -7,7 +7,7 @@ const Experience = () => {
   const intl = useTranslations("Experience");
 
   return (
-    <section className={styles.base}>
+    <section id="experience" className={styles.base}>
       <div className={styles.inner}>
         <div className={styles.content}>
           <h2>

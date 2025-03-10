@@ -10,7 +10,7 @@ import { MailFormSubmit } from "./MailAction";
 const Mail = () => {
 
     return (
-        <section className={styles.mail}>
+        <section id="contacts" className={styles.mail}>
             <div className={styles.inner}>
                 <div className={styles.content}>
                     <AnimateOnView className={styles.form} animationClass="animate__animated animate__fadeIn">

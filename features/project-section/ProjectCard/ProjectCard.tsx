@@ -8,15 +8,16 @@ export interface ProjectCardProps {
     title: string;
     description: string;
     technologies: string[];
+    href?:string;
 }
 
-const ProjectCard = ({ title, description, technologies }: ProjectCardProps) => {
+const ProjectCard = ({ title, description, technologies, href="https://github.com/JumboMiller" }: ProjectCardProps) => {
     return (
         <AnimateOnView className={styles.item} animationClass="animate__animated animate__fadeIn">
             <div className={styles.item_content}>
                 <div className={styles.item_title_box}>
                     <h3 className={styles.item_title}>{title}</h3>
-                    <GitHubAnchor href="https://github.com/JumboMiller" />
+                    <GitHubAnchor href={href} />
                 </div>
                 <div className={styles.item_project}>
                     <Image className={styles.item_project_icon} width={400} height={200} src={"/portfolio-project2.png"} alt={title} />

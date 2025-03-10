@@ -1,4 +1,4 @@
-@use '../../shared/styles/variables' as *;
+@use '@/shared/styles/_variables.scss' as *;
 
 .base {
     @include section;
@@ -30,7 +30,9 @@
                     min-height: 360px;
                 }
             }
-            .contact_btn{
+            .buttons{
+                display: flex;
+                gap: 25px;
                 margin-bottom: 25px;
             }
             @media (max-width:$grid-width) {

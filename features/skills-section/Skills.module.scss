@@ -1,4 +1,4 @@
-@use '../../shared/styles/_variables.scss' as *;
+@use '@/shared/styles/_variables.scss' as *;
 
 
 .base {
@@ -9,6 +9,7 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        gap: 40px;
     }
 
     h2 {
@@ -17,5 +18,8 @@
 
     .column {
         max-width: 550px;
+        @media (max-width:$grid-width) {
+            max-width: 100%;
+        }
     }
 }

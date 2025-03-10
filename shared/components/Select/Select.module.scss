@@ -1,18 +1,34 @@
 @use '@/shared/styles/_variables.scss' as *;
 
 .base {
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    line-height: 1em;
     padding: 14px;
+    padding-right: 24px;
     border-radius: $border-radius;
-    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    height: 58px;
     background-color: $c-accent;
-    border: 0px;
+    border: none;
     color: #f8f8f8;
     cursor: pointer;
     margin-right: 15px;
-    font-size: 18px;
-
+    font-size: 20px;
     transition: all $base-transition-duration ease-in-out;
-
+    position: relative;
+    
+    /* Добавляем кастомную стрелочку */
+    background-image: url('/Select.svg');
+    background-repeat: no-repeat;
+    background-position-x: 36px;
+    background-position-y: 21px;
+    background-size: 18px;
+    option {
+        text-align: left;
+    }
     &:hover {
         background-color: $c-secondary;
         color: $c-primary;
@@ -21,6 +37,5 @@
 
     &:focus {
         outline: none;
-
     }
 }

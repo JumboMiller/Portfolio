@@ -7,27 +7,18 @@ import { ButtonTypes } from "./ButtonEnum";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     variant: ButtonTypes;
-    children: ReactNode;
+    children?: ReactNode;
+    iconSrc?: string; // Добавляем поддержку иконок
 }
 
-const Button = ({ variant, children, className, onClick, ...props }: ButtonProps) => {
+const Button = ({ variant, children, className, iconSrc, ...props }: ButtonProps) => {
     return (
-        <button
-            className={classNames(style[`variant_${variant}`], className)}
-            onClick={onClick}
-            {...props}
-        >
-            {
-                variant === ButtonTypes.ICON
-                    ?
-                    <Image
-                        src={`./${children}.svg`}
-                        alt={`${children} 
-                        ${variant}`}
-                    />
-                    :
-                    children
-            }
+        <button className={classNames(style[`variant_${variant}`], className ?? "")} {...props}>
+            {variant === ButtonTypes.ICON && iconSrc ? (
+                <Image src={iconSrc} alt="icon" width={24} height={24} />
+            ) : (
+                children
+            )}
         </button>
     );
 };

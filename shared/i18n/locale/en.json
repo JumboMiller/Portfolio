@@ -11,7 +11,8 @@
         "Greeting": "HELLO ! <br /> MY NAME IS DAMIR PORTNOV 👋 <br /> I AM JAVASCRIPT / TYPESCRIPT <br /> FULL STACK SOFTWARE DEVELOPER 🖥️⚙️🎓",
         "Specialize": "I SPECIALIZE IN TECHNOLOGIES SUCH AS: <br /> REACT 🚀 <br /> NEXT.JS 💡 <br /> REDUX TOOLKIT 🧰",
         "CallMe": "I AM IN CONTACT AT ANY TIME <br /> AND ON THIS SITE YOU CAN FIND <br /> MY CONTACTS 📞 💬 📧",
-        "ContactsButton": "My Contacts"
+        "ContactsButton": "My Contacts",
+        "DownloadCV": "Download CV 📑"
     },
     "Skill": {
         "hard": "Hard",
@@ -50,28 +51,28 @@
         "highlight": "Experience",
         "jobs": {
             "0": {
-                "date": "January 2021 – April 2021",
-                "title": "HTML/CSS Intern Developer",
-                "company": "Specvuzavtomatika",
-                "description": "Participated in the development of static HTML/CSS pages for corporate projects. Assisted in maintaining and updating existing websites, ensuring cross-browser compatibility and responsive design. Worked closely with senior developers to understand front-end best practices and improve coding efficiency."
+                "date": "September 2020 – June 2024",
+                "title": "University Studies",
+                "company": "Kharkiv Technological University IT-STEP",
+                "description": "Studying at University IT-STEP allowed me to acquire solid knowledge in programming and modern development technologies. During my studies, I mastered programming languages such as JavaScript, Python, C++ and C#, deepened my understanding of algorithms and data structures, learned the principles of object-oriented programming (OOP) and functional programming, and gained experience in developing web applications using HTML, CSS, SCSS, React, Next.js, and Node.js. Additionally, I studied the basics of databases, worked with REST API, learned software architecture principles, code testing, and DevOps practices. The university not only provided me with theoretical knowledge but also practical experience in working on real projects and team development, which enabled me to successfully apply the skills I acquired in my professional career."
             },
             "1": {
-                "date": "June 2021 – February 2022",
-                "title": "Microsoft Teams Manager",
-                "company": "ROST Alekseevka",
-                "description": "Managed internal communication channels through Microsoft Teams, ensuring efficient collaboration among development teams. Optimized workflows by integrating various productivity tools and automation scripts. Provided technical support and conducted training sessions for employees on best practices in remote communication and document sharing."
+                "date": "July 2021 – April 2022",
+                "title": "Student Startup",
+                "company": "SSDC Inc.",
+                "description": "I worked as a frontend developer on the main website of \"Elemental Wars\" a multi-platform RPG/NFT game built on the WAX blockchain. My responsibilities included integrating the website with the blockchain, implementing minting and staking functionality for NFTs, and developing user interfaces for seamless interaction with digital assets. I was actively involved in the team's activities, coordinating tasks to optimize user experience and collaborating with developers to enhance all blockchain-related processes in the game."
             },
             "2": {
-                "date": "February 2022 – September 2022",
+                "date": "July 2023 – March 2024",
                 "title": "Frontend Developer",
-                "company": "Freelance",
+                "company": "Small Team",
                 "description": "Developed fully responsive web applications using React and modern front-end technologies. Integrated third-party APIs to enhance functionality and improve user experience. Worked on performance optimization, ensuring smooth page rendering and fast load times. Collaborated with clients to understand business needs and deliver custom solutions."
             },
             "3": {
-                "date": "March 2022 – September 2022",
-                "title": "Content Creator",
-                "company": "Satrup",
-                "description": "Designed and developed engaging digital content for social media platforms, focusing on tech-related topics. Created interactive web-based experiences using JavaScript and CSS animations to boost user engagement. Analyzed content performance metrics and adjusted strategies accordingly to maximize reach and effectiveness."
+                "date": "September 2023 – June 2024",
+                "title": "Internship in University",
+                "company": "Kharkiv Technological University IT-STEP",
+                "description": "During a 9-month internship at Kharkiv Technological University IT-STEP, I worked as a Frontend Developer, utilizing React and TypeScript to develop a web application aimed at teaching foreign languages to schoolchildren. My responsibilities included designing and implementing interactive user interfaces, optimizing performance, and collaborating with team members to ensure the application met educational goals and user needs."
             }
         }
     },

@@ -15,7 +15,7 @@ const IconAnchor = ({ href , children }: IconAnchorProps) => {
 
     return (
         <div className={styles.base}>
-            <A className={styles.base_a} href={href}>
+            <A className={styles.base_a} href={href} target="_black">
                 {children}
             </A>
         </div>

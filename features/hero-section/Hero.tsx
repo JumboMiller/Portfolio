@@ -13,7 +13,7 @@ const Hero = () => {
   const intl = useTranslations("Hero");
 
   return (
-    <div className={styles.base}>
+    <div id="hero" className={styles.base}>
       <div className={styles.inner}>
         <div className={classNames("animate__animated animate__fadeIn", styles.content)}>
           <div className={styles.text}>
@@ -26,7 +26,14 @@ const Hero = () => {
                 ]}
               />
             </h1>
-            <Button className={styles.contact_btn} variant={ButtonTypes.TEXT}>{intl("ContactsButton")}</Button>
+            <div className={styles.buttons}>
+              <a href="#contacts">
+                <Button variant={ButtonTypes.TEXT} >{intl("ContactsButton")}</Button>
+              </a>
+              <a href="/black CV.pdf" download>
+                <Button variant={ButtonTypes.TEXT} >{intl("DownloadCV")}</Button>
+              </a>
+            </div>
           </div>
           <div className={styles.macbook}>
             <LoadingMacBook />

@@ -1,7 +1,11 @@
-@use '../../../shared/styles/variables.scss' as *;
+@use '@/shared/styles/_variables.scss' as *;
 
 .ul_cards {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+
+    .li_item {
+        width: 100%;
+    }
 }

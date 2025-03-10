@@ -10,12 +10,14 @@ const Projects = () => {
         {
             title: intl("PixelForge.title"),
             description: intl("PixelForge.description"),
-            technologies: ["React", "JavaScript", "Adobe-Photoshop"]
+            technologies: ["React", "JavaScript", "Adobe-Photoshop"],
+            href: "https://github.com/JumboMiller/Iron-Helmet"
         },
         {
             title: intl("CodeNest.title"),
             description: intl("CodeNest.description"),
-            technologies: ["Next.js", "TypeScript", "Vercel", "Css"]
+            technologies: ["Next.js", "TypeScript", "Vercel", "Css"],
+            href: "https://github.com/JumboMiller/Iron-Helmet"
         },
         {
             title: intl("WebNova.title"),
@@ -30,7 +32,7 @@ const Projects = () => {
     ];
 
     return (
-        <div className={styles.base}>
+        <div id="projects" className={styles.base}>
             <div className={styles.inner}>
                 <div className={styles.content}>
                     <h2>

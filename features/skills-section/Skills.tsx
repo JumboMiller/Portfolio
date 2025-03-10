@@ -12,7 +12,7 @@ const Skills = () => {
     const softSkills = Object.values(intl.raw("softSkills")) as string[];
 
     return (
-        <section className={styles.base}>
+        <section id="skills" className={styles.base}>
             <div className={styles.inner}>
                 <div className={classNames("animate__animated animate__fadeInLeft", styles.column)}>
                     <h2>

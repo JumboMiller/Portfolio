@@ -10,7 +10,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
 import Footer from "@/features/footer/Footer";
-import Header, { HeaderItem } from "@/features/header/Header";
+import Header from "@/features/header/Header";
 import { Locale, routing } from "@/shared/i18n/routing";
 import { ThemeType } from "@/shared/types/ThemeType";
 
@@ -27,13 +27,7 @@ export const metadata: Metadata = {
   description: "Damir Portnov Portfolio",
 };
 
-const headerItems: HeaderItem[] = [
-  { text: "About" },
-  { text: "Skills" },
-  { text: "Portfolio" },
-  { text: "Work Experience" },
-  { text: "Contacts" }
-]
+
 
 export default async function RootLayout({
   children,
@@ -65,9 +59,9 @@ export default async function RootLayout({
       <body style={{ fontFamily: Font.style.fontFamily }}>
         <NextIntlClientProvider messages={messages}>
           <div className="flow-container">
-            <Header headerItems={headerItems} />
+            <Header/>
             {children}
-            <Footer/>
+            <Footer />
           </div>
         </NextIntlClientProvider>
         <SpeedInsights />

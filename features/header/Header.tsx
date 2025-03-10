@@ -14,43 +14,57 @@ import LocaleSwitcher from "./LocaleSwitcher/LocaleSwitcher";
 
 export interface HeaderItem {
     text: string
+    anchor: string
 }
 
-type HeaderProps = {
-    headerItems: HeaderItem[]
-}
+const Header = () => {
 
-const Header = ({ headerItems }: HeaderProps) => {
+    const headerItems: HeaderItem[] = [
+        { text: "About", anchor: "#hero" },
+        { text: "Skills", anchor: "#skills" },
+        { text: "Work Experience", anchor: "#experience" },
+        { text: "Portfolio", anchor: "#projects" },
+        { text: "Contacts", anchor: "#contacts" }
+    ]
 
     const intl = useTranslations("Header");
 
     const [isOpen, setIsOpen] = useState(false);
-    
-    useLockScroll(isOpen); 
-    
+
+    useLockScroll(isOpen);
+
     const isScrolled = useScroll();
 
     const toggleMenu = () => {
         setIsOpen(!isOpen)
-        
+    }
+
+    const closeMenu = () => {
+      if (isOpen) {
+        setIsOpen(!isOpen)
+      }
     }
 
     return (
-        <header className={classNames(styles.base,{ [styles.is_scrolled]: isScrolled })} >
+        <header className={classNames(styles.base, { [styles.is_scrolled]: isScrolled })} >
             <div className={classNames("animate__animated animate__fadeInDown", styles.inner)}>
-                <Logo
-                    className={styles.logo}
-                    width={64}
-                    height={64}
-                    alt="Damir Portnov Logo"
-                />
-                <div className={classNames(styles.menu,{ [styles.is_open]: isOpen }) }>
+                <A href="#hero" onClick={closeMenu}>
+                    <Logo
+                        className={styles.logo}
+                        width={64}
+                        height={64}
+                        alt="Damir Portnov Logo"
+
+                    />
+                </A>
+                <div className={classNames(styles.menu, { [styles.is_open]: isOpen })}>
                     <nav>
                         <ul className={styles.menu_list}>
                             {headerItems.map((item, key) =>
-                                <A key={key} href='#'>
+
+                                <A key={key} href={item.anchor} onClick={closeMenu}>
                                     <li>
-                                        {intl(`${item.text}`)}
+                                        {intl(item.text)}
                                     </li>
                                 </A>
                             )}
@@ -61,7 +75,7 @@ const Header = ({ headerItems }: HeaderProps) => {
                         <ThemeSwitcher />
                     </div>
                 </div>
-                <button className={classNames(styles.burger_icon,{ [styles.is_open]: isOpen })} onClick={toggleMenu}>
+                <button className={classNames(styles.burger_icon, { [styles.is_open]: isOpen })} onClick={toggleMenu}>
                     <span className={styles.burger_icon_item}></span>
                     <span className={styles.burger_icon_item}></span>
                     <span className={styles.burger_icon_item}></span>
