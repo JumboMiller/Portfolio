@@ -17,7 +17,7 @@
     "Skill": {
         "hard": "Hard",
         "soft": "Soft",
-        "skill": "skills",
+        "skill": "Skills",
         "hardSkills": {
             "0": "HTML: Understanding the structure of web documents.",
             "1": "CSS: Creating adaptive and stylish user interfaces.",
@@ -47,32 +47,32 @@
         }
     },
     "Experience": {
-        "title": "Work",
-        "highlight": "Experience",
+        "title": "Expérience",
+        "highlight": "Professionnelle",
         "jobs": {
             "0": {
-                "date": "September 2020 – June 2024",
-                "title": "University Studies",
-                "company": "Kharkiv Technological University IT-STEP",
-                "description": "Studying at University IT-STEP allowed me to acquire solid knowledge in programming and modern development technologies. During my studies, I mastered programming languages such as JavaScript, Python, C++ and C#, deepened my understanding of algorithms and data structures, learned the principles of object-oriented programming (OOP) and functional programming, and gained experience in developing web applications using HTML, CSS, SCSS, React, Next.js, and Node.js. Additionally, I studied the basics of databases, worked with REST API, learned software architecture principles, code testing, and DevOps practices. The university not only provided me with theoretical knowledge but also practical experience in working on real projects and team development, which enabled me to successfully apply the skills I acquired in my professional career."
+                "date": "Septembre 2020 – Juin 2024",
+                "title": "Études universitaires",
+                "company": "Université technologique de Kharkiv IT-STEP",
+                "description": "Mes études à l'Université IT-STEP m'ont permis d'acquérir des connaissances solides en programmation et en technologies de développement modernes. J'ai appris plusieurs langages de programmation tels que JavaScript, Python, C++ et C#, approfondi ma compréhension des algorithmes et des structures de données, et étudié les principes de la programmation orientée objet (POO) ainsi que de la programmation fonctionnelle. J'ai également acquis une expérience en développement d'applications web en utilisant HTML, CSS, SCSS, React, Next.js et Node.js. De plus, j'ai étudié les bases des bases de données, travaillé avec les API REST et appris les principes d'architecture logicielle, les tests de code et les pratiques DevOps. L'université m'a non seulement fourni des connaissances théoriques, mais aussi une expérience pratique en travaillant sur des projets réels et en collaboration avec des équipes, ce qui m'a permis d'appliquer avec succès les compétences acquises dans ma carrière professionnelle."
             },
             "1": {
-                "date": "July 2021 – April 2022",
-                "title": "Student Startup",
+                "date": "Juillet 2021 – Avril 2022",
+                "title": "Startup Étudiant",
                 "company": "SSDC Inc.",
-                "description": "I worked as a frontend developer on the main website of \"Elemental Wars\" a multi-platform RPG/NFT game built on the WAX blockchain. My responsibilities included integrating the website with the blockchain, implementing minting and staking functionality for NFTs, and developing user interfaces for seamless interaction with digital assets. I was actively involved in the team's activities, coordinating tasks to optimize user experience and collaborating with developers to enhance all blockchain-related processes in the game."
+                "description": "J'ai travaillé en tant que développeur frontend sur le site principal de \"Elemental Wars\", un jeu RPG/NFT multiplateforme basé sur la blockchain WAX. Mes responsabilités comprenaient l'intégration du site avec la blockchain, la mise en œuvre des fonctionnalités de minting et de staking pour les NFT, ainsi que le développement d'interfaces utilisateur pour faciliter l'interaction avec les actifs numériques. J'ai activement participé aux activités de l'équipe, coordonné les tâches pour optimiser l'expérience utilisateur et collaboré avec les développeurs pour améliorer tous les processus liés à la blockchain dans le jeu."
             },
             "2": {
-                "date": "October 2022 – March 2024",
-                "title": "Frontend Developer",
-                "company": "Small Team",
-                "description": "From October 2022 to March 2024, I worked as a frontend developer in a small team, contributing to the development of various blockchain projects. My responsibilities included building and optimizing user interfaces, integrating smart contracts, and ensuring seamless interaction between decentralized applications (dApps) and blockchain networks. I collaborated closely with backend developers and blockchain engineers to implement Web3 features such as wallet authentication, token transactions, and NFT marketplaces, focusing on performance, security, and user experience."
+                "date": "Octobre 2022 – Mars 2024",
+                "title": "Développeur Frontend",
+                "company": "Petite Équipe",
+                "description": "D'octobre 2022 à mars 2024, j'ai travaillé en tant que développeur frontend au sein d'une petite équipe, contribuant au développement de divers projets blockchain. Mes responsabilités incluaient la création et l'optimisation d'interfaces utilisateur, l'intégration de smart contracts et l'assurance d'une interaction fluide entre les applications décentralisées (dApps) et les réseaux blockchain. J'ai collaboré étroitement avec des développeurs backend et des ingénieurs blockchain pour implémenter des fonctionnalités Web3 telles que l'authentification de portefeuille, les transactions de tokens et les marketplaces NFT, en mettant l'accent sur la performance, la sécurité et l'expérience utilisateur."
             },
             "3": {
-                "date": "September 2023 – June 2024",
-                "title": "Internship in University",
-                "company": "Kharkiv Technological University IT-STEP",
-                "description": "During a 9-month internship at Kharkiv Technological University IT-STEP, I worked as a Frontend Developer, utilizing React and TypeScript to develop a web application aimed at teaching foreign languages to schoolchildren. My responsibilities included designing and implementing interactive user interfaces, optimizing performance, and collaborating with team members to ensure the application met educational goals and user needs."
+                "date": "Septembre 2023 – Juin 2024",
+                "title": "Stage universitaire",
+                "company": "Université technologique de Kharkiv IT-STEP",
+                "description": "Pendant un stage de 9 mois à l'Université technologique de Kharkiv IT-STEP, j'ai travaillé en tant que développeur frontend, utilisant React et TypeScript pour développer une application web destinée à l'apprentissage des langues étrangères pour les écoliers. Mes responsabilités comprenaient la conception et la mise en œuvre d'interfaces utilisateur interactives, l'optimisation des performances et la collaboration avec les membres de l'équipe pour garantir que l'application atteigne ses objectifs éducatifs et réponde aux besoins des utilisateurs."
             }
         }
     },
@@ -85,57 +85,70 @@
                 "description": "Iron Helmet is a unique crypto game in the pixel roguelike genre with dark fantasy elements, where players explore dungeons, battle monsters, and search for valuable loot. The entire in-game economy is built on blockchain, with users determining the value of items and tokens. Players can collect NFT characters and items, which can be staked within the game to reduce fees and sold on external markets. The game targets a young audience interested in cryptocurrencies and offers an easy entry point with minimal requirements to get started.",
                 "technologies": [
                     "React",
+                    "TypeScript",
                     "JavaScript",
-                    "Adobe-Photoshop"
+                    "Figma"
                 ],
-                "href":"https://github.com/JumboMiller/Iron-Helmet"
+                "href": "https://github.com/JumboMiller/Iron-Helmet"
             },
             {
                 "title": "Music Sharing",
-                "description": "Optimized web application performance by implementing server-side rendering (SSR) and static site generation (SSG) with Next.js. Refactored legacy code to modern TypeScript standards, reducing bugs and improving maintainability. Integrated SEO best practices for improved search engine visibility.",
+                "description": "Full-fledged music application built on a modern technology stack (NestJS, Next.js, MongoDB, TypeScript). The main functionality includes: track management (creation, search, listening, comments), working with files (uploading audio and images), a playlist system and social functions (comments, listening statistics). The backend is implemented on NestJS with a RESTful API architecture and MongoDB for data storage, the frontend is built on Next.js using Redux for state management and TypeScript for type safety. The application supports responsive design, pagination, track search and a modular code structure, which ensures scalability and ease of support.",
                 "technologies": [
-                    "Next.js",
                     "TypeScript",
+                    "Next.js",
                     "Vercel",
-                    "Css"
-                ]
+                    "Tailwind",
+                    "Scss"
+                ],
+                "href": "https://github.com/JumboMiller/Music-Sharing"
             },
             {
                 "title": "Elemental Wars",
                 "description": "Elemental Wars is a multi-platform RPG game on the WAX blockchain that allows each player to choose their own gameplay strategy by crossing characters, fighting in the wild lands for resources, participating in guild tournaments or growing consumables for sale.",
                 "technologies": [
-                    "Tailwind",
-                    "Figma",
-                    "React"
-                ]
+                    "React",
+                    "Jquery",
+                    "Css",
+                    "Html",
+                    "Adobe-Photoshop"
+                ],
+                "href": "https://github.com/JumboMiller/Front-EW"
             },
             {
                 "title": "Crypto Mine",
-                "description": "Built a robust frontend architecture for a large-scale SaaS platform. Managed state using Redux Toolkit and implemented GraphQL queries for efficient data fetching. Developed and maintained REST and GraphQL API integrations, ensuring seamless backend communication.",
+                "description": "CryptoMine is a decentralized financial game built on the Binance smart chain (BEP20), in which any investor can passively earn money. The game is implemented as a smart contract on the BSC network.All funds will not be stored in the smart contract, and all incoming funds will be distributed among users instantly in accordance with the rules of the game. All static files are distributed on the smart chain and cannot be changed.",
                 "technologies": [
-                    "Redux",
                     "React",
-                    "Scss"
-                ]
+                    "Css",
+                    "Html",
+                    "Figma"
+                ],
+                "href": "https://github.com/JumboMiller/HYIP-Project"
             },
             {
                 "title": "Chess",
                 "description": "Built a robust frontend architecture for a large-scale SaaS platform. Managed state using Redux Toolkit and implemented GraphQL queries for efficient data fetching. Developed and maintained REST and GraphQL API integrations, ensuring seamless backend communication.",
                 "technologies": [
-                    "Redux",
                     "React",
-                    "Scss"
+                    "TypeScript",
+                    "Css",
+                    "Html"
                 ],
-                "href":"https://github.com/JumboMiller/TS-Chess"
+                "href": "https://github.com/JumboMiller/TS-Chess"
             },
             {
-                "title": "Duo Lingo Clone",
-                "description": "Built a robust frontend architecture for a large-scale SaaS platform. Managed state using Redux Toolkit and implemented GraphQL queries for efficient data fetching. Developed and maintained REST and GraphQL API integrations, ensuring seamless backend communication.",
+                "title": "Lingo",
+                "description": "Modern language-learning platform built with Next.js 14, using server actions for efficient data management. It features AI-generated voices through Elevenlabs AI for immersive pronunciation practice. The app incorporates Shadcn UI for clean, responsive design and uses Clerk for secure user authentication. Gamified elements like a hearts system, XP points, a leaderboard, and milestones keep users motivated. Users can regain hearts by revisiting lessons, while sound effects and character assets from KenneyNL add a fun, interactive experience. Additionally, it includes a shop system to exchange points for rewards, making learning both engaging and rewarding.",
                 "technologies": [
                     "Redux",
-                    "React",
+                    "Next.js",
+                    "TypeScript",
+                    "Vercel",
+                    "Tailwind",
                     "Scss"
-                ]
+                ],
+                "href": "https://github.com/JumboMiller/Language-Learning-App"
             }
         ]
     },

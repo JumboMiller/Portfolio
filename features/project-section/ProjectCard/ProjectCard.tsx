@@ -20,7 +20,7 @@ const ProjectCard = ({ title, description, technologies, href="https://github.co
                     <GitHubAnchor href={href} />
                 </div>
                 <div className={styles.item_project}>
-                    <Image className={styles.item_project_icon} width={460} height={240} src={"/portfolio-project2.png"} alt={title} />
+                    <Image className={styles.item_project_icon} width={460} height={240} src={`/${title}-Project.png`} alt={title} />
                 </div>
                 <p className={styles.item_description}>{description}</p>
                 <ul className={styles.item_img_ul}>

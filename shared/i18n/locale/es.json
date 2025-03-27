@@ -8,113 +8,115 @@
         "Theme Switcher": "Cambiador de tema"
     },
     "Hero": {
-        "Greeting": "¡HOLA! <br /> MI NOMBRE ES DAMIR PORTNOV 👋 <br /> SOY DESARROLLADOR FULL-STACK <br /> JAVASCRIPT / TYPESCRIPT 🖥️⚙️🎓",
+        "Greeting": "¡HOLA! <br /> MI NOMBRE ES DAMIR PORTNOV 👋 <br /> SOY DESARROLLADOR FULL STACK <br /> DE SOFTWARE JAVASCRIPT / TYPESCRIPT 🖥️⚙️🎓",
         "Specialize": "ME ESPECIALIZO EN TECNOLOGÍAS COMO: <br /> REACT 🚀 <br /> NEXT.JS 💡 <br /> REDUX TOOLKIT 🧰",
-        "CallMe": "ESTOY DISPONIBLE EN CUALQUIER MOMENTO <br /> Y EN ESTE SITIO PUEDES ENCONTRAR <br /> MIS CONTACTOS 📞 💬 📧",
-        "ContactsButton": "Mis Contactos"
+        "CallMe": "ESTOY DISPONIBLE EN TODO MOMENTO <br /> Y EN ESTE SITIO PUEDES ENCONTRAR <br /> MIS CONTACTOS 📞 💬 📧",
+        "ContactsButton": "Mis Contactos",
+        "DownloadCV": "Descargar CV 📑"
     },
     "Skill": {
-        "hard": "Técnicas",
+        "hard": "Duras",
         "soft": "Blandas",
-        "skill": "habilidades",
+        "skill": "Habilidades",
         "hardSkills": {
-            "0": "HTML: Comprensión de la estructura de los documentos web.",
-            "1": "CSS: Creación de interfaces de usuario adaptativas y atractivas.",
-            "2": "JavaScript: Conocimientos básicos del lenguaje de programación.",
-            "3": "TypeScript: Garantizar la seguridad de tipos en proyectos de JavaScript.",
+            "0": "HTML: Comprender la estructura de los documentos web.",
+            "1": "CSS: Crear interfaces de usuario adaptativas y atractivas.",
+            "2": "JavaScript: Conocimiento básico del lenguaje de programación.",
+            "3": "TypeScript: Garantizar la seguridad de tipos en proyectos JavaScript.",
             "4": "React: Desarrollo de componentes y trabajo con el Virtual DOM.",
             "5": "Redux: Gestión eficiente del estado de la aplicación.",
-            "6": "Next.js: Creación de aplicaciones React con renderizado en el servidor.",
+            "6": "Next.js: Creación de aplicaciones React con renderizado del lado del servidor.",
             "7": "Git: Control de versiones y colaboración en equipo.",
             "8": "REST API: Interacción con el backend mediante solicitudes HTTP.",
-            "9": "Webpack/Vite: Configuración y optimización de compilaciones de proyectos.",
-            "10": "Diseño responsivo: Adaptación de interfaces a diferentes dispositivos.",
-            "11": "Algoritmos básicos: Comprensión de estructuras de datos y algoritmos.",
+            "9": "Webpack/Vite: Configuración y optimización de compilaciones del proyecto.",
+            "10": "Diseño Responsivo: Adaptación de interfaces a diversos dispositivos.",
+            "11": "Algoritmos Básicos: Comprensión de estructuras de datos y algoritmos básicos.",
             "12": "Pruebas: Escritura de pruebas unitarias básicas (Jest, React Testing Library).",
-            "13": "Trabajo en equipo: Aplicación de metodologías Agile/Scrum.",
-            "14": "Principios de UI/UX: Enfoque en la usabilidad y accesibilidad de la interfaz."
+            "13": "Trabajo en equipo: Seguimiento de metodologías Agile/Scrum.",
+            "14": "Principios de UI/UX: Enfoque en usabilidad y accesibilidad de la interfaz."
         },
         "softSkills": {
-            "0": "Comunicación: Capacidad para expresar ideas y colaborar eficazmente.",
-            "1": "Resolución de problemas: Pensamiento analítico y búsqueda de soluciones creativas.",
+            "0": "Comunicación: Capacidad para expresar ideas y colaborar.",
+            "1": "Resolución de problemas: Pensamiento analítico y soluciones creativas.",
             "2": "Adaptabilidad: Aprendizaje rápido y ajuste a nuevas herramientas o requisitos.",
             "3": "Gestión del tiempo: Priorización y finalización eficiente de tareas.",
-            "4": "Colaboración en equipo: Trabajo efectivo con otros para lograr objetivos comunes.",
-            "5": "Aprendizaje continuo: Curiosidad y mejora constante de habilidades.",
-            "6": "Empatía: Comprensión de las necesidades del usuario y armonía en el equipo.",
+            "4": "Colaboración en equipo: Trabajo en conjunto para alcanzar objetivos comunes.",
+            "5": "Aprendizaje continuo: Curiosidad por mejorar y desarrollar habilidades.",
+            "6": "Empatía: Comprensión de las necesidades de los usuarios y armonía en el equipo.",
             "7": "Atención al detalle: Asegurar un trabajo de alta calidad y libre de errores."
         }
     },
     "Experience": {
-        "title": "Experiencia",
-        "highlight": "Laboral",
+        "title": "Trabajo",
+        "highlight": "Experiencia",
         "jobs": {
             "0": {
-                "date": "Enero 2021 – Abril 2021",
-                "title": "Desarrollador Interno de HTML/CSS",
-                "company": "Specvuzavtomatika",
-                "description": "Participación en el desarrollo de páginas HTML/CSS estáticas para proyectos corporativos. Apoyo en el mantenimiento y actualización de sitios web existentes, asegurando compatibilidad entre navegadores y diseño responsivo. Colaboración con desarrolladores senior para mejorar las mejores prácticas de frontend."
+                "date": "Septiembre 2020 – Junio 2024",
+                "title": "Estudios Universitarios",
+                "company": "Universidad Tecnológica de Járkov IT-STEP",
+                "description": "Estudiar en la Universidad IT-STEP me permitió adquirir sólidos conocimientos en programación y tecnologías modernas de desarrollo. Durante mis estudios, dominé lenguajes de programación como JavaScript, Python, C++ y C#, profundicé mi comprensión de algoritmos y estructuras de datos, aprendí los principios de la programación orientada a objetos (OOP) y funcional, y obtuve experiencia en el desarrollo de aplicaciones web utilizando HTML, CSS, SCSS, React, Next.js y Node.js. Además, estudié los fundamentos de las bases de datos, trabajé con API REST, aprendí principios de arquitectura de software, pruebas de código y prácticas de DevOps. La universidad no solo me brindó conocimientos teóricos, sino también experiencia práctica en proyectos reales y desarrollo en equipo, lo que me permitió aplicar con éxito las habilidades adquiridas en mi carrera profesional."
             },
             "1": {
-                "date": "Junio 2021 – Febrero 2022",
-                "title": "Gerente de Microsoft Teams",
-                "company": "ROST Alekseevka",
-                "description": "Gestión de canales de comunicación interna a través de Microsoft Teams para mejorar la colaboración entre equipos de desarrollo. Optimización de flujos de trabajo mediante la integración de herramientas de productividad y scripts de automatización. Capacitación a empleados en las mejores prácticas de comunicación remota y compartición de documentos."
+                "date": "Julio 2021 – Abril 2022",
+                "title": "Startup Estudiantil",
+                "company": "SSDC Inc.",
+                "description": "Trabajé como desarrollador frontend en el sitio web principal de 'Elemental Wars', un juego RPG/NFT multiplataforma basado en la blockchain de WAX. Mis responsabilidades incluían la integración del sitio web con la blockchain, la implementación de funcionalidades de acuñación y staking de NFT, y el desarrollo de interfaces de usuario para una interacción fluida con los activos digitales. Participé activamente en las actividades del equipo, coordinando tareas para optimizar la experiencia del usuario y colaborando con otros desarrolladores para mejorar todos los procesos relacionados con la blockchain en el juego."
             },
             "2": {
-                "date": "Febrero 2022 – Septiembre 2022",
+                "date": "Octubre 2022 – Marzo 2024",
                 "title": "Desarrollador Frontend",
-                "company": "Freelance",
-                "description": "Desarrollo de aplicaciones web completamente responsivas utilizando React y tecnologías frontend modernas. Integración de APIs de terceros para mejorar la funcionalidad y experiencia del usuario. Optimización del rendimiento para garantizar tiempos de carga rápidos y una experiencia fluida."
+                "company": "Pequeño Equipo",
+                "description": "Desde octubre de 2022 hasta marzo de 2024, trabajé como desarrollador frontend en un pequeño equipo, contribuyendo al desarrollo de varios proyectos blockchain. Mis responsabilidades incluían la construcción y optimización de interfaces de usuario, la integración de contratos inteligentes y la garantía de una interacción fluida entre las aplicaciones descentralizadas (dApps) y las redes blockchain. Colaboré estrechamente con desarrolladores backend e ingenieros blockchain para implementar funciones Web3 como autenticación de billeteras, transacciones de tokens y mercados de NFT, centrándome en el rendimiento, la seguridad y la experiencia del usuario."
             },
             "3": {
-                "date": "Marzo 2022 – Septiembre 2022",
-                "title": "Creador de Contenido",
-                "company": "Satrup",
-                "description": "Diseño y desarrollo de contenido digital atractivo para plataformas de redes sociales, con un enfoque en temas tecnológicos. Creación de experiencias web interactivas utilizando JavaScript y animaciones CSS para aumentar la participación del usuario. Análisis de métricas de desempeño y ajuste de estrategias para maximizar el alcance y la efectividad."
+                "date": "Septiembre 2023 – Junio 2024",
+                "title": "Prácticas en la Universidad",
+                "company": "Universidad Tecnológica de Járkov IT-STEP",
+                "description": "Durante una práctica de 9 meses en la Universidad Tecnológica de Járkov IT-STEP, trabajé como Desarrollador Frontend, utilizando React y TypeScript para desarrollar una aplicación web destinada a la enseñanza de idiomas extranjeros a escolares. Mis responsabilidades incluían el diseño e implementación de interfaces de usuario interactivas, la optimización del rendimiento y la colaboración con los miembros del equipo para garantizar que la aplicación cumpliera con los objetivos educativos y las necesidades de los usuarios."
             }
         }
     },
     "Project": {
         "title": "Mis",
-        "highlight": "Зroyectos",
-        "PixelForge": {
-            "title": "PixelForge",
-            "description": "Desarrollo de interfaces de usuario interactivas y visualmente atractivas para aplicaciones web. Implementación de animaciones y transiciones suaves con Framer Motion para mejorar la experiencia del usuario. Garantía de altos estándares de rendimiento y accesibilidad en diversos dispositivos y navegadores.",
-            "technologies": [
-                "React",
-                "JavaScript",
-                "Adobe-Photoshop"
-            ]
-        },
-        "CodeNest": {
-            "title": "CodeNest",
-            "description": "Optimización del rendimiento de aplicaciones web mediante la implementación de renderizado en el servidor (SSR) y generación de sitios estáticos (SSG) con Next.js. Refactorización de código heredado a estándares modernos de TypeScript, reduciendo errores y mejorando la mantenibilidad. Implementación de mejores prácticas de SEO para mejorar la visibilidad en motores de búsqueda.",
-            "technologies": [
-                "Next.js",
-                "TypeScript",
-                "Vercel",
-                "Css"
-            ]
-        },
-        "WebNova": {
-            "title": "WebNova",
-            "description": "Diseño y desarrollo de una biblioteca de componentes escalable para un sistema de diseño empresarial. Creación de componentes de UI reutilizables con Tailwind CSS y Storybook, asegurando coherencia en todos los proyectos. Colaboración con diseñadores y desarrolladores backend para optimizar los flujos de trabajo y mejorar la eficiencia.",
-            "technologies": [
-                "Tailwind",
-                "Figma",
-                "React"
-            ]
-        },
-        "DevSphere": {
-            "title": "DevSphere",
-            "description": "Construcción de una arquitectura frontend robusta para una plataforma SaaS a gran escala. Gestión del estado utilizando Redux Toolkit e implementación de consultas GraphQL para obtener datos de manera eficiente. Desarrollo y mantenimiento de integraciones REST y GraphQL API para garantizar una comunicación fluida con el backend.",
-            "technologies": [
-                "Redux",
-                "React",
-                "Scss"
-            ]
-        }
+        "highlight": "Proyectos",
+        "projects": [
+            {
+                "title": "Iron-Helmet",
+                "description": "Iron Helmet es un juego cripto en el género roguelike pixelado con elementos de fantasía oscura, donde los jugadores exploran mazmorras, luchan contra monstruos y buscan tesoros valiosos. Toda la economía del juego se basa en blockchain, permitiendo a los jugadores determinar el valor de los objetos y tokens. Los jugadores pueden coleccionar personajes y objetos NFT, los cuales pueden ser apostados dentro del juego para reducir comisiones y vendidos en mercados externos.",
+                "technologies": ["React", "TypeScript", "JavaScript", "Figma"],
+                "href": "https://github.com/JumboMiller/Iron-Helmet"
+            },
+            {
+                "title": "Music Sharing",
+                "description": "Aplicación musical completa basada en una pila tecnológica moderna (NestJS, Next.js, MongoDB, TypeScript). Sus funciones principales incluyen gestión de pistas (creación, búsqueda, reproducción, comentarios), carga de archivos de audio e imágenes, sistema de listas de reproducción y funciones sociales (comentarios, estadísticas de escucha).",
+                "technologies": ["TypeScript", "Next.js", "Vercel", "Tailwind", "Scss"],
+                "href": "https://github.com/JumboMiller/Music-Sharing"
+            },
+            {
+                "title": "Elemental Wars",
+                "description": "Elemental Wars es un juego RPG multiplataforma en la blockchain de WAX que permite a cada jugador elegir su propia estrategia de juego: criar personajes, luchar en tierras salvajes por recursos, participar en torneos de gremios o cultivar consumibles para la venta.",
+                "technologies": ["React", "Jquery", "Css", "Html", "Adobe-Photoshop"],
+                "href": "https://github.com/JumboMiller/Front-EW"
+            },
+            {
+                "title": "Crypto Mine",
+                "description": "CryptoMine es un juego financiero descentralizado construido sobre Binance Smart Chain (BEP20), donde cualquier inversor puede ganar dinero de forma pasiva. El juego está implementado como un contrato inteligente en la red BSC. Todos los fondos no se almacenan en el contrato, sino que se distribuyen instantáneamente entre los usuarios de acuerdo con las reglas del juego.",
+                "technologies": ["React", "Css", "Html", "Figma"],
+                "href": "https://github.com/JumboMiller/HYIP-Project"
+            },
+            {
+                "title": "Chess",
+                "description": "Creé una arquitectura frontend robusta para una plataforma SaaS a gran escala. Gestioné el estado con Redux Toolkit e implementé consultas GraphQL para optimizar la obtención de datos. Desarrollé y mantuve integraciones de API REST y GraphQL para garantizar una comunicación fluida con el backend.",
+                "technologies": ["React", "TypeScript", "Css", "Html"],
+                "href": "https://github.com/JumboMiller/TS-Chess"
+            },
+            {
+                "title": "Lingo",
+                "description": "Plataforma moderna para el aprendizaje de idiomas desarrollada con Next.js 14 y utilizando server actions para una gestión eficiente de los datos. Cuenta con voces generadas por IA a través de Elevenlabs AI para mejorar la práctica de pronunciación. La app incorpora Shadcn UI para un diseño limpio y responsive, y utiliza Clerk para una autenticación de usuario segura. Además, incluye elementos de gamificación como un sistema de corazones, puntos de experiencia, clasificaciones y logros para motivar a los usuarios. También tiene un sistema de tienda donde se pueden intercambiar puntos por recompensas, haciendo que el aprendizaje sea interactivo y divertido.",
+                "technologies": ["Redux", "Next.js", "TypeScript", "Vercel", "Tailwind", "Scss"],
+                "href": "https://github.com/JumboMiller/Language-Learning-App"
+            }
+        ]
     },
     "Mail": {
         "subject": "Asunto del correo",
@@ -122,6 +124,6 @@
     },
     "Footer": {
         "privacyPolicy": "Política de privacidad",
-        "termsOfService": "Términos del servicio"
+        "termsOfService": "Términos de servicio"
     }
 }

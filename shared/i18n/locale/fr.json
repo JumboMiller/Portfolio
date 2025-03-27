@@ -5,44 +5,45 @@
         "Portfolio": "Portfolio",
         "Work Experience": "Expérience professionnelle",
         "Contacts": "Contacts",
-        "Theme Switcher": "Thèmes"
+        "Theme Switcher": "Commutateur de thème"
     },
     "Hero": {
-        "Greeting": "BONJOUR ! <br /> JE M'APPELLE DAMIR PORTNOV 👋 <br /> JE SUIS DÉVELOPPEUR FULL-STACK <br /> JAVASCRIPT / TYPESCRIPT 🖥️⚙️🎓",
+        "Greeting": "BONJOUR ! <br /> JE M'APPELLE DAMIR PORTNOV 👋 <br /> JE SUIS DÉVELOPPEUR FULL STACK <br /> EN JAVASCRIPT / TYPESCRIPT 🖥️⚙️🎓",
         "Specialize": "JE SUIS SPÉCIALISÉ DANS LES TECHNOLOGIES SUIVANTES : <br /> REACT 🚀 <br /> NEXT.JS 💡 <br /> REDUX TOOLKIT 🧰",
-        "CallMe": "JE SUIS DISPONIBLE À TOUT MOMENT <br /> ET SUR CE SITE, VOUS POUVEZ TROUVER <br /> MES COORDONNÉES 📞 💬 📧",
-        "ContactsButton": "Mes Contacts"
+        "CallMe": "JE SUIS DISPONIBLE À TOUT MOMENT <br /> ET SUR CE SITE, VOUS POUVEZ TROUVER <br /> MES CONTACTS 📞 💬 📧",
+        "ContactsButton": "Mes Contacts",
+        "DownloadCV": "Télécharger CV 📑"
     },
     "Skill": {
         "hard": "Techniques",
-        "soft": "Douces",
-        "skill": "compétences",
+        "soft": "Interpersonnelles",
+        "skill": "Compétences",
         "hardSkills": {
             "0": "HTML : Comprendre la structure des documents web.",
             "1": "CSS : Créer des interfaces utilisateur adaptatives et stylées.",
-            "2": "JavaScript : Connaissance de base du langage de programmation.",
+            "2": "JavaScript : Connaissances de base du langage de programmation.",
             "3": "TypeScript : Assurer la sécurité des types dans les projets JavaScript.",
-            "4": "React : Développer des composants et travailler avec le DOM virtuel.",
-            "5": "Redux : Gérer l'état de l'application de manière efficace.",
-            "6": "Next.js : Créer des applications React rendues côté serveur.",
+            "4": "React : Développement de composants et travail avec le Virtual DOM.",
+            "5": "Redux : Gestion efficace de l'état de l'application.",
+            "6": "Next.js : Création d'applications React avec rendu côté serveur.",
             "7": "Git : Contrôle de version et collaboration en équipe.",
-            "8": "REST API : Interagir avec le backend via des requêtes HTTP.",
-            "9": "Webpack/Vite : Configurer et optimiser les builds de projets.",
-            "10": "Responsive Design : Adapter les interfaces pour différents appareils.",
-            "11": "Algorithmes de base : Comprendre les structures de données et les algorithmes de base.",
-            "12": "Tests : Rédiger des tests unitaires de base (Jest, React Testing Library).",
-            "13": "Travail d'équipe : Suivre les méthodologies Agile/Scrum.",
-            "14": "Principes UI/UX : Se concentrer sur l'utilisabilité et l'accessibilité de l'interface."
+            "8": "REST API : Interaction avec le backend via des requêtes HTTP.",
+            "9": "Webpack/Vite : Configuration et optimisation des builds de projet.",
+            "10": "Responsive Design : Adaptation des interfaces pour divers appareils.",
+            "11": "Algorithmes de base : Compréhension des structures de données et des algorithmes fondamentaux.",
+            "12": "Tests : Rédaction de tests unitaires de base (Jest, React Testing Library).",
+            "13": "Travail en équipe : Suivi des méthodologies Agile/Scrum.",
+            "14": "Principes UI/UX : Focalisation sur l'ergonomie et l'accessibilité des interfaces."
         },
         "softSkills": {
             "0": "Communication : Capacité à exprimer des idées et à collaborer.",
             "1": "Résolution de problèmes : Pensée analytique et recherche de solutions créatives.",
-            "2": "Adaptabilité : Apprendre rapidement et s'adapter à de nouveaux outils ou exigences.",
-            "3": "Gestion du temps : Prioriser et accomplir les tâches de manière efficace.",
-            "4": "Collaboration en équipe : Travailler efficacement avec les autres pour atteindre des objectifs communs.",
-            "5": "Apprentissage continu : Rester curieux et améliorer ses compétences au fil du temps.",
-            "6": "Empathie : Comprendre les besoins des utilisateurs et contribuer à l'harmonie de l'équipe.",
-            "7": "Attention aux détails : Assurer un travail de qualité et sans erreur."
+            "2": "Adaptabilité : Apprentissage rapide et adaptation aux nouveaux outils ou exigences.",
+            "3": "Gestion du temps : Priorisation efficace et accomplissement des tâches.",
+            "4": "Collaboration en équipe : Travail harmonieux avec les autres pour atteindre des objectifs communs.",
+            "5": "Apprentissage continu : Curiosité et amélioration constante des compétences.",
+            "6": "Empathie : Compréhension des besoins des utilisateurs et contribution à l'harmonie de l'équipe.",
+            "7": "Attention aux détails : Garantie d’un travail de haute qualité et sans erreurs."
         }
     },
     "Experience": {
@@ -78,46 +79,81 @@
     "Project": {
         "title": "Mes",
         "highlight": "Projets",
-        "PixelForge": {
-            "title": "PixelForge",
-            "description": "Développement d'interfaces utilisateur interactives et esthétiques pour des applications web. Implémentation d'animations et de transitions fluides avec Framer Motion pour améliorer l'expérience utilisateur. Respect des normes de performance et d'accessibilité sur divers appareils et navigateurs.",
-            "technologies": [
-                "React",
-                "JavaScript",
-                "Adobe-Photoshop"
-            ]
-        },
-        "CodeNest": {
-            "title": "CodeNest",
-            "description": "Optimisation des performances des applications web en mettant en œuvre le rendu côté serveur (SSR) et la génération de sites statiques (SSG) avec Next.js. Refactorisation du code obsolète selon les standards modernes de TypeScript, réduisant ainsi les bugs et améliorant la maintenabilité. Intégration des meilleures pratiques SEO pour une meilleure visibilité sur les moteurs de recherche.",
-            "technologies": [
-                "Next.js",
-                "TypeScript",
-                "Vercel",
-                "Css"
-            ]
-        },
-        "WebNova": {
-            "title": "WebNova",
-            "description": "Conception et développement d'une bibliothèque de composants évolutive pour un système de design global de l'entreprise. Création de composants UI réutilisables avec Tailwind CSS et Storybook, garantissant la cohérence entre les projets. Collaboration avec les designers et les développeurs backend pour améliorer les flux de travail et l'efficacité générale.",
-            "technologies": [
-                "Tailwind",
-                "Figma",
-                "React"
-            ]
-        },
-        "DevSphere": {
-            "title": "DevSphere",
-            "description": "Mise en place d'une architecture frontend robuste pour une plateforme SaaS à grande échelle. Gestion de l'état avec Redux Toolkit et implémentation de requêtes GraphQL pour une récupération efficace des données. Développement et maintenance des intégrations API REST et GraphQL, garantissant une communication fluide avec le backend.",
-            "technologies": [
-                "Redux",
-                "React",
-                "Scss"
-            ]
-        }
+        "projects": [
+            {
+                "title": "Iron-Helmet",
+                "description": "Iron Helmet est un jeu crypto unique dans le genre roguelike pixelisé avec des éléments de dark fantasy, où les joueurs explorent des donjons, combattent des monstres et recherchent du butin précieux. Toute l'économie du jeu est basée sur la blockchain, et les utilisateurs déterminent la valeur des objets et des tokens. Les joueurs peuvent collectionner des personnages et objets NFT, qui peuvent être mis en staking dans le jeu pour réduire les frais et être revendus sur des marchés externes. Le jeu cible un jeune public intéressé par les cryptomonnaies et offre un point d'entrée facile avec des exigences minimales.",
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "JavaScript",
+                    "Figma"
+                ],
+                "href": "https://github.com/JumboMiller/Iron-Helmet"
+            },
+            {
+                "title": "Music Sharing",
+                "description": "Application musicale complète construite sur une pile technologique moderne (NestJS, Next.js, MongoDB, TypeScript). Les principales fonctionnalités incluent : gestion des morceaux (création, recherche, écoute, commentaires), gestion des fichiers (téléchargement d’audios et d’images), système de playlists et fonctions sociales (commentaires, statistiques d'écoute). Le backend est développé avec NestJS en architecture RESTful et MongoDB pour le stockage des données. Le frontend est construit avec Next.js en utilisant Redux pour la gestion d'état et TypeScript pour la sécurité des types. L'application prend en charge le design responsive, la pagination, la recherche de morceaux et une structure de code modulaire pour garantir la scalabilité et la facilité de maintenance.",
+                "technologies": [
+                    "TypeScript",
+                    "Next.js",
+                    "Vercel",
+                    "Tailwind",
+                    "Scss"
+                ],
+                "href": "https://github.com/JumboMiller/Music-Sharing"
+            },
+            {
+                "title": "Elemental Wars",
+                "description": "Elemental Wars est un jeu RPG multiplateforme basé sur la blockchain WAX, permettant à chaque joueur de choisir sa propre stratégie de jeu : croiser des personnages, combattre dans des terres sauvages pour des ressources, participer à des tournois de guildes ou cultiver des consommables pour la vente.",
+                "technologies": [
+                    "React",
+                    "Jquery",
+                    "Css",
+                    "Html",
+                    "Adobe-Photoshop"
+                ],
+                "href": "https://github.com/JumboMiller/Front-EW"
+            },
+            {
+                "title": "Crypto Mine",
+                "description": "CryptoMine est un jeu financier décentralisé basé sur la Binance Smart Chain (BEP20), où tout investisseur peut générer des revenus passifs. Le jeu est implémenté sous forme de smart contract sur le réseau BSC. Tous les fonds ne sont pas stockés dans le smart contract, et toutes les entrées de fonds sont immédiatement redistribuées entre les utilisateurs conformément aux règles du jeu. Tous les fichiers statiques sont distribués sur la smart chain et ne peuvent pas être modifiés.",
+                "technologies": [
+                    "React",
+                    "Css",
+                    "Html",
+                    "Figma"
+                ],
+                "href": "https://github.com/JumboMiller/HYIP-Project"
+            },
+            {
+                "title": "Chess",
+                "description": "Développement d'une architecture frontend robuste pour une plateforme SaaS à grande échelle. Gestion de l'état avec Redux Toolkit et mise en œuvre de requêtes GraphQL pour un chargement de données efficace. Intégration et maintenance des API REST et GraphQL, garantissant une communication fluide avec le backend.",
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "Css",
+                    "Html"
+                ],
+                "href": "https://github.com/JumboMiller/TS-Chess"
+            },
+            {
+                "title": "Lingo",
+                "description": "Plateforme moderne d'apprentissage des langues construite avec Next.js 14, utilisant les actions serveur pour une gestion efficace des données. Elle propose des voix générées par l'IA via Elevenlabs AI pour une immersion dans la prononciation. L'application intègre Shadcn UI pour un design propre et réactif et utilise Clerk pour une authentification utilisateur sécurisée. Des éléments de gamification tels qu'un système de cœurs, des points d'XP, un classement et des étapes motivent les utilisateurs. Ils peuvent regagner des cœurs en révisant les leçons, tandis que des effets sonores et des personnages issus de KenneyNL ajoutent une dimension interactive amusante. De plus, un système de boutique permet d'échanger des points contre des récompenses, rendant l'apprentissage à la fois engageant et gratifiant.",
+                "technologies": [
+                    "Redux",
+                    "Next.js",
+                    "TypeScript",
+                    "Vercel",
+                    "Tailwind",
+                    "Scss"
+                ],
+                "href": "https://github.com/JumboMiller/Language-Learning-App"
+            }
+        ]
     },
     "Mail": {
-        "subject": "Objet de l'e-mail",
+        "subject": "Objet de l'email",
         "sendButton": "Envoyer"
     },
     "Footer": {
