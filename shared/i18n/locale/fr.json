@@ -128,7 +128,7 @@
             },
             {
                 "title": "Chess",
-                "description": "Développement d'une architecture frontend robuste pour une plateforme SaaS à grande échelle. Gestion de l'état avec Redux Toolkit et mise en œuvre de requêtes GraphQL pour un chargement de données efficace. Intégration et maintenance des API REST et GraphQL, garantissant une communication fluide avec le backend.",
+                "description": "C'est une élégante application web pour jouer aux échecs, construite en utilisant les technologies modernes React et TypeScript. L'application présente un échiquier interactif avec une implémentation complète des règles classiques des échecs, permettant aux joueurs de profiter d'une partie directement dans leur navigateur. L'interface se distingue par un design épuré et minimaliste, tandis que la base de code est organisée selon les meilleures pratiques de développement, incluant le typage strict de TypeScript, l'architecture modulaire et l'approche basée sur les composants de React. Le projet ne fournit pas seulement la possibilité de jouer aux échecs, mais démontre également une approche professionnelle du développement d'applications web, avec une structure de fichiers claire, une séparation en modules logiques (composants, modèles, ressources) et une préparation à l'évolutivité.",
                 "technologies": [
                     "React",
                     "TypeScript",

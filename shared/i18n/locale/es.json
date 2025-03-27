@@ -83,47 +83,86 @@
             {
                 "title": "Iron-Helmet",
                 "description": "Iron Helmet es un juego cripto en el género roguelike pixelado con elementos de fantasía oscura, donde los jugadores exploran mazmorras, luchan contra monstruos y buscan tesoros valiosos. Toda la economía del juego se basa en blockchain, permitiendo a los jugadores determinar el valor de los objetos y tokens. Los jugadores pueden coleccionar personajes y objetos NFT, los cuales pueden ser apostados dentro del juego para reducir comisiones y vendidos en mercados externos.",
-                "technologies": ["React", "TypeScript", "JavaScript", "Figma"],
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "JavaScript",
+                    "Figma"
+                ],
                 "href": "https://github.com/JumboMiller/Iron-Helmet"
             },
             {
                 "title": "Music Sharing",
                 "description": "Aplicación musical completa basada en una pila tecnológica moderna (NestJS, Next.js, MongoDB, TypeScript). Sus funciones principales incluyen gestión de pistas (creación, búsqueda, reproducción, comentarios), carga de archivos de audio e imágenes, sistema de listas de reproducción y funciones sociales (comentarios, estadísticas de escucha).",
-                "technologies": ["TypeScript", "Next.js", "Vercel", "Tailwind", "Scss"],
+                "technologies": [
+                    "TypeScript",
+                    "Next.js",
+                    "Vercel",
+                    "Tailwind",
+                    "Scss"
+                ],
                 "href": "https://github.com/JumboMiller/Music-Sharing"
             },
             {
                 "title": "Elemental Wars",
                 "description": "Elemental Wars es un juego RPG multiplataforma en la blockchain de WAX que permite a cada jugador elegir su propia estrategia de juego: criar personajes, luchar en tierras salvajes por recursos, participar en torneos de gremios o cultivar consumibles para la venta.",
-                "technologies": ["React", "Jquery", "Css", "Html", "Adobe-Photoshop"],
+                "technologies": [
+                    "React",
+                    "Jquery",
+                    "Css",
+                    "Html",
+                    "Adobe-Photoshop"
+                ],
                 "href": "https://github.com/JumboMiller/Front-EW"
             },
             {
                 "title": "Crypto Mine",
                 "description": "CryptoMine es un juego financiero descentralizado construido sobre Binance Smart Chain (BEP20), donde cualquier inversor puede ganar dinero de forma pasiva. El juego está implementado como un contrato inteligente en la red BSC. Todos los fondos no se almacenan en el contrato, sino que se distribuyen instantáneamente entre los usuarios de acuerdo con las reglas del juego.",
-                "technologies": ["React", "Css", "Html", "Figma"],
+                "technologies": [
+                    "React",
+                    "Css",
+                    "Html",
+                    "Figma"
+                ],
                 "href": "https://github.com/JumboMiller/HYIP-Project"
             },
             {
                 "title": "Chess",
-                "description": "Creé una arquitectura frontend robusta para una plataforma SaaS a gran escala. Gestioné el estado con Redux Toolkit e implementé consultas GraphQL para optimizar la obtención de datos. Desarrollé y mantuve integraciones de API REST y GraphQL para garantizar una comunicación fluida con el backend.",
-                "technologies": ["React", "TypeScript", "Css", "Html"],
+                "description": "Esta es una elegante aplicación web para jugar al ajedrez, construida utilizando las modernas tecnologías React y TypeScript. La aplicación presenta un tablero de ajedrez interactivo con una implementación completa de las reglas clásicas del ajedrez, permitiendo a los jugadores disfrutar de una partida directamente en su navegador. La interfaz cuenta con un diseño limpio y minimalista, mientras que la base de código está organizada siguiendo las mejores prácticas de desarrollo, incluyendo tipado estricto de TypeScript, arquitectura modular y enfoque basado en componentes de React. El proyecto no solo proporciona la capacidad de jugar al ajedrez, sino que también demuestra un enfoque profesional en el desarrollo de aplicaciones web, con una estructura de archivos clara, separación en módulos lógicos (componentes, modelos, recursos) y preparación para escalabilidad.",
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "Css",
+                    "Html"
+                ],
                 "href": "https://github.com/JumboMiller/TS-Chess"
             },
             {
                 "title": "Lingo",
                 "description": "Plataforma moderna para el aprendizaje de idiomas desarrollada con Next.js 14 y utilizando server actions para una gestión eficiente de los datos. Cuenta con voces generadas por IA a través de Elevenlabs AI para mejorar la práctica de pronunciación. La app incorpora Shadcn UI para un diseño limpio y responsive, y utiliza Clerk para una autenticación de usuario segura. Además, incluye elementos de gamificación como un sistema de corazones, puntos de experiencia, clasificaciones y logros para motivar a los usuarios. También tiene un sistema de tienda donde se pueden intercambiar puntos por recompensas, haciendo que el aprendizaje sea interactivo y divertido.",
-                "technologies": ["Redux", "Next.js", "TypeScript", "Vercel", "Tailwind", "Scss"],
+                "technologies": [
+                    "Redux",
+                    "Next.js",
+                    "TypeScript",
+                    "Vercel",
+                    "Tailwind",
+                    "Scss"
+                ],
                 "href": "https://github.com/JumboMiller/Language-Learning-App"
             }
         ]
     },
     "Mail": {
-        "subject": "Asunto del correo",
+        "title": "Envíame una carta 📮",
+        "emailLabel": "Tu correo electrónico",
+        "emailPlaceholder": "Tu dirección de correo",
+        "messageLabel": "Tu mensaje",
+        "messagePlaceholder": "Contenido y texto de tu mensaje",
         "sendButton": "Enviar"
     },
     "Footer": {
-        "privacyPolicy": "Política de privacidad",
-        "termsOfService": "Términos de servicio"
+        "question": "¿Quieres hacerme una pregunta?",
+        "contactInfo": "Contáctame. Estoy disponible de lunes a viernes de 8 a 20 h (GMT).",
+        "copyright": "Damir Portnov - 2025"
     }
 }

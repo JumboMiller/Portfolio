@@ -19,6 +19,7 @@ export default function LocaleSwitcher() {
     { value: "ua", label: "🇺🇦" },
     { value: "de", label: "🇩🇪" },
     { value: "es", label: "🇪🇸" },
+    { value: "pl", label: "🇵🇱" },
   ];
 
   const handleLocaleChange = (newLocale: string) => {

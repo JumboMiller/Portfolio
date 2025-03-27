@@ -128,7 +128,7 @@
             },
             {
                 "title": "Chess",
-                "description": "Built a robust frontend architecture for a large-scale SaaS platform. Managed state using Redux Toolkit and implemented GraphQL queries for efficient data fetching. Developed and maintained REST and GraphQL API integrations, ensuring seamless backend communication.",
+                "description": "This is an elegant web application for playing chess, built using modern React and TypeScript technologies. The application features an interactive chessboard with full implementation of classical chess rules, allowing players to enjoy a game of chess directly in their browser. The interface boasts a clean and minimalist design, while the codebase is organized following best development practices, including strict TypeScript typing, modular architecture, and React's component-based approach. The project not only provides the ability to play chess but also demonstrates a professional approach to web application development, with a clear file structure, separation into logical modules (components, models, resources), and readiness for scaling.",
                 "technologies": [
                     "React",
                     "TypeScript",
@@ -153,11 +153,16 @@
         ]
     },
     "Mail": {
-        "subject": "Subject of the Email",
+        "title": "Send Me A Letter 📮",
+        "emailLabel": "Your Email",
+        "emailPlaceholder": "Your Mail Address",
+        "messageLabel": "Your Message",
+        "messagePlaceholder": "Your Mail Message Content & Text",
         "sendButton": "Send"
     },
     "Footer": {
-        "privacyPolicy": "Privacy Policy",
-        "termsOfService": "Terms of Service"
+        "question": "Do you want to ask me?",
+        "contactInfo": "Contact me. I am in touch mon-fri from 8 am to 8 pm (gmt).",
+        "copyright": "Damir Portnov - 2025"
     }
 }
