@@ -1,0 +1,168 @@
+{
+    "Header": {
+        "About": "Chi sono",
+        "Skills": "Competenze",
+        "Portfolio": "Portfolio",
+        "Work Experience": "Esperienza",
+        "Contacts": "Contatti",
+        "Theme Switcher": "Cambia tema"
+    },
+    "Hero": {
+        "Greeting": "CIAO! <br /> MI CHIAMO DAMIR PORTNOV 👋 <br /> SONO UNO SVILUPPATORE <br /> FULL STACK JAVASCRIPT/TYPESCRIPT 🖥️⚙️🎓",
+        "Specialize": "MI SPECIALIZZO IN TECNOLOGIE COME: <br /> REACT 🚀 <br /> NEXT.JS 💡 <br /> REDUX TOOLKIT 🧰",
+        "CallMe": "SONO DISPONIBILE IN QUALSIASI MOMENTO <br /> E SU QUESTO SITO PUOI TROVARE <br /> I MIEI CONTATTI 📞 💬 📧",
+        "ContactsButton": "I miei contatti",
+        "DownloadCV": "Scarica CV 📑"
+    },
+    "Skill": {
+        "hard": "Tecniche",
+        "soft": "Trasversali",
+        "skill": "Competenze",
+        "hardSkills": {
+            "0": "HTML: Comprensione della struttura dei documenti web.",
+            "1": "CSS: Creazione di interfacce utente adattive e stilose.",
+            "2": "JavaScript: Conoscenza base del linguaggio di programmazione.",
+            "3": "TypeScript: Garanzia della sicurezza dei tipi nei progetti JavaScript.",
+            "4": "React: Sviluppo di componenti e lavoro con il Virtual DOM.",
+            "5": "Redux: Gestione efficiente dello stato dell'applicazione.",
+            "6": "Next.js: Creazione di applicazioni React con rendering lato server.",
+            "7": "Git: Controllo versione e collaborazione di team.",
+            "8": "REST API: Interazione con il backend tramite richieste HTTP.",
+            "9": "Webpack/Vite: Configurazione e ottimizzazione della build dei progetti.",
+            "10": "Design Responsive: Adattamento delle interfacce a vari dispositivi.",
+            "11": "Algoritmi Base: Comprensione delle strutture dati e degli algoritmi base.",
+            "12": "Testing: Scrittura di test unitari base (Jest, React Testing Library).",
+            "13": "Teamwork: Rispetto delle metodologie Agile/Scrum.",
+            "14": "Principi UI/UX: Focus su usabilità e accessibilità dell'interfaccia."
+        },
+        "softSkills": {
+            "0": "Comunicazione: Capacità di esprimere idee e collaborare.",
+            "1": "Problem Solving: Pensiero analitico e ricerca di soluzioni creative.",
+            "2": "Adattabilità: Apprendimento rapido e adattamento a nuovi strumenti o requisiti.",
+            "3": "Gestione del Tempo: Priorizzazione ed esecuzione efficiente dei compiti.",
+            "4": "Collaborazione di Team: Lavoro efficace con gli altri per obiettivi comuni.",
+            "5": "Apprendimento Continuo: Mantenimento della curiosità e miglioramento delle competenze nel tempo.",
+            "6": "Empatia: Comprensione delle esigenze degli utenti e contributo all'armonia del team.",
+            "7": "Attenzione ai Dettagli: Garanzia di alta qualità e lavoro senza errori."
+        }
+    },
+    "Experience": {
+        "title": "Esperienza",
+        "highlight": "Professionale",
+        "jobs": {
+            "0": {
+                "date": "Settembre 2020 – Giugno 2024",
+                "title": "Studi universitari",
+                "company": "Università Tecnologica di Kharkiv IT-STEP",
+                "description": "I miei studi all'Università IT-STEP mi hanno permesso di acquisire una solida conoscenza nella programmazione e nelle moderne tecnologie di sviluppo. Ho imparato diversi linguaggi di programmazione come JavaScript, Python, C++ e C#, approfondito la comprensione degli algoritmi e delle strutture dati, e studiato i principi della programmazione orientata agli oggetti (OOP) e della programmazione funzionale. Ho anche acquisito esperienza nello sviluppo di applicazioni web utilizzando HTML, CSS, SCSS, React, Next.js e Node.js. Inoltre, ho studiato le basi dei database, lavorato con API REST e appreso i principi dell'architettura software, del testing del codice e delle pratiche DevOps. L'università mi ha fornito non solo conoscenze teoriche ma anche esperienza pratica nel lavoro su progetti reali e nella collaborazione con i team, permettendomi di applicare con successo le competenze acquisite nella mia carriera professionale."
+            },
+            "1": {
+                "date": "Luglio 2021 – Aprile 2022",
+                "title": "Startup studentesca",
+                "company": "SSDC Inc.",
+                "description": "Ho lavorato come sviluppatore frontend sul sito principale di \"Elemental Wars\", un gioco RPG/NFT sulla blockchain WAX. Le mie responsabilità includevano l'integrazione del sito con la blockchain, l'implementazione delle funzionalità di minting e staking per gli NFT, e la creazione di interfacce utente per facilitare l'interazione con gli asset digitali. Ho partecipato attivamente alle attività del team, coordinato i compiti per ottimizzare l'esperienza utente e collaborato con gli sviluppatori per migliorare tutti i processi relativi alla blockchain nel gioco."
+            },
+            "2": {
+                "date": "Ottobre 2022 – Marzo 2024",
+                "title": "Sviluppatore Frontend",
+                "company": "Piccolo Team",
+                "description": "Da ottobre 2022 a marzo 2024 ho lavorato come sviluppatore frontend in un piccolo team, contribuendo allo sviluppo di vari progetti blockchain. Le mie responsabilità includevano la creazione e l'ottimizzazione di interfacce utente, l'integrazione di smart contract e la garanzia di una fluida interazione tra applicazioni decentralizzate (dApps) e reti blockchain. Ho collaborato strettamente con sviluppatori backend e ingegneri blockchain per implementare funzionalità Web3 come l'autenticazione del wallet, le transazioni di token e i marketplace NFT, concentrandomi su performance, sicurezza ed esperienza utente."
+            },
+            "3": {
+                "date": "Settembre 2023 – Giugno 2024",
+                "title": "Tirocinio universitario",
+                "company": "Università Tecnologica di Kharkiv IT-STEP",
+                "description": "Durante un tirocinio di 9 mesi presso l'Università Tecnologica di Kharkiv IT-STEP ho lavorato come sviluppatore frontend, utilizzando React e TypeScript per sviluppare un'applicazione web per l'apprendimento delle lingue straniere per gli studenti delle scuole. Le mie responsabilità includevano la progettazione e l'implementazione di interfacce utente interattive, l'ottimizzazione delle prestazioni e la collaborazione con i membri del team per garantire che l'applicazione raggiungesse i suoi obiettivi educativi e soddisfacesse le esigenze degli utenti."
+            }
+        }
+    },
+    "Project": {
+        "title": "I miei",
+        "highlight": "Progetti",
+        "projects": [
+            {
+                "title": "Iron-Helmet",
+                "description": "Iron Helmet è un gioco crypto unico nel genere pixel roguelike con elementi dark fantasy, dove i giocatori esplorano dungeon, combattono mostri e cercano tesori preziosi. L'intera economia del gioco è basata sulla blockchain, con gli utenti che determinano il valore degli oggetti e dei token. I giocatori possono collezionare personaggi e oggetti NFT, che possono essere stakati nel gioco per ridurre le commissioni e venduti su mercati esterni. Il gioco è rivolto a un pubblico giovane interessato alle criptovalute e offre un facile punto di ingresso con requisiti minimi per iniziare.",
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "JavaScript",
+                    "Figma"
+                ],
+                "href": "https://github.com/JumboMiller/Iron-Helmet"
+            },
+            {
+                "title": "Music Sharing",
+                "description": "Un'applicazione musicale completa costruita su uno stack tecnologico moderno (NestJS, Next.js, MongoDB, TypeScript). Le funzionalità principali includono: gestione delle tracce (creazione, ricerca, ascolto, commenti), lavoro con i file (caricamento audio e immagini), sistema di playlist e funzioni social (commenti, statistiche di ascolto). Backend implementato su NestJS con architettura RESTful API e MongoDB per lo storage dei dati, frontend costruito su Next.js utilizzando Redux per la gestione dello stato e TypeScript per la sicurezza dei tipi. L'applicazione supporta design responsive, paginazione, ricerca delle tracce e struttura modulare del codice, garantendo scalabilità e facilità di manutenzione.",
+                "technologies": [
+                    "TypeScript",
+                    "Next.js",
+                    "Vercel",
+                    "Tailwind",
+                    "Scss"
+                ],
+                "href": "https://github.com/JumboMiller/Music-Sharing"
+            },
+            {
+                "title": "Elemental Wars",
+                "description": "Elemental Wars è un gioco RPG sulla blockchain WAX che permette a ogni giocatore di scegliere la propria strategia di gioco attraverso l'incrocio di personaggi, il combattimento nelle terre selvagge per le risorse, la partecipazione a tornei di gilde o la coltivazione di oggetti consumabili per la vendita.",
+                "technologies": [
+                    "React",
+                    "Jquery",
+                    "Css",
+                    "Html",
+                    "Adobe-Photoshop"
+                ],
+                "href": "https://github.com/JumboMiller/Front-EW"
+            },
+            {
+                "title": "Crypto Mine",
+                "description": "CryptoMine è un gioco finanziario decentralizzato costruito su Binance smart chain (BEP20), dove ogni investitore può guadagnare passivamente. Il gioco è implementato come smart contract nella rete BSC. Tutti i fondi non saranno memorizzati nello smart contract, e tutti i fondi in entrata saranno distribuiti istantaneamente tra gli utenti secondo le regole del gioco. Tutti i file statici sono distribuiti sulla smart chain e non possono essere modificati.",
+                "technologies": [
+                    "React",
+                    "Css",
+                    "Html",
+                    "Figma"
+                ],
+                "href": "https://github.com/JumboMiller/HYIP-Project"
+            },
+            {
+                "title": "Chess",
+                "description": "Questa è un'elegante applicazione web per giocare a scacchi, costruita utilizzando le moderne tecnologie React e TypeScript. L'applicazione include una scacchiera interattiva con piena implementazione delle regole classiche degli scacchi, permettendo ai giocatori di godersi una partita di scacchi direttamente nel browser. L'interfaccia si distingue per un design pulito e minimalista, mentre il codice è organizzato seguendo le migliori pratiche di sviluppo, inclusa la tipizzazione rigorosa di TypeScript, l'architettura modulare e l'approccio basato su componenti di React. Il progetto non solo fornisce la possibilità di giocare a scacchi ma dimostra anche un approccio professionale allo sviluppo di applicazioni web, con una chiara struttura dei file, divisione in moduli logici (componenti, modelli, risorse) e prontezza per la scalabilità.",
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "Css",
+                    "Html"
+                ],
+                "href": "https://github.com/JumboMiller/TS-Chess"
+            },
+            {
+                "title": "Lingo",
+                "description": "Una moderna piattaforma per l'apprendimento delle lingue costruita su Next.js 14, utilizzando server actions per una gestione efficiente dei dati. Si distingue per le voci generate da AI attraverso Elevenlabs AI per una pratica immersiva della pronuncia. L'applicazione utilizza Shadcn UI per un design pulito e responsive e Clerk per l'autenticazione sicura degli utenti. Elementi di gamification come il sistema dei cuori, i punti XP, una classifica e traguardi mantengono gli utenti motivati. Gli utenti possono recuperare cuori rivedendo le lezioni, mentre gli effetti sonori e le risorse dei personaggi di KenneyNL aggiungono un elemento divertente e interattivo. Inoltre include un sistema di negozio per scambiare punti con ricompense, rendendo l'apprendimento sia coinvolgente che gratificante.",
+                "technologies": [
+                    "Redux",
+                    "Next.js",
+                    "TypeScript",
+                    "Vercel",
+                    "Tailwind",
+                    "Scss"
+                ],
+                "href": "https://github.com/JumboMiller/Language-Learning-App"
+            }
+        ]
+    },
+    "Mail": {
+        "title": "Mandami una lettera 📮",
+        "emailLabel": "La tua Email",
+        "emailPlaceholder": "Il tuo indirizzo email",
+        "messageLabel": "Il tuo messaggio",
+        "messagePlaceholder": "Contenuto e testo del tuo messaggio",
+        "sendButton": "Invia"
+    },
+    "Footer": {
+        "question": "Vuoi farmi una domanda?",
+        "contactInfo": "Contattami. Sono disponibile lun-ven dalle 8:00 alle 20:00 (gmt).",
+        "copyright": "Damir Portnov - 2025"
+    }
+} 

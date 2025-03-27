@@ -1,0 +1,168 @@
+{
+    "Header": {
+        "About": "O mně",
+        "Skills": "Dovednosti",
+        "Portfolio": "Portfolio",
+        "Work Experience": "Pracovní zkušenosti",
+        "Contacts": "Kontakty",
+        "Theme Switcher": "Přepínač motivu"
+    },
+    "Hero": {
+        "Greeting": "AHOJ! <br /> JSEM DAMIR PORTNOV 👋 <br /> JSEM VÝVOJÁŘ <br /> FULL STACK JAVASCRIPT/TYPESCRIPT 🖥️⚙️🎓",
+        "Specialize": "SPECIALIZUJI SE NA TECHNOLOGIE JAKO: <br /> REACT 🚀 <br /> NEXT.JS 💡 <br /> REDUX TOOLKIT 🧰",
+        "CallMe": "JSEM K DISPOZICI V KAŽDÝ ČAS <br /> A NA TÉTO STRÁNCE MŮŽETE NAJÍT <br /> MÉ KONTAKTY 📞 💬 📧",
+        "ContactsButton": "Moje kontakty",
+        "DownloadCV": "Stáhnout CV 📑"
+    },
+    "Skill": {
+        "hard": "Technické",
+        "soft": "Měkké",
+        "skill": "Dovednosti",
+        "hardSkills": {
+            "0": "HTML: Pochopení struktury webových dokumentů.",
+            "1": "CSS: Vytváření adaptivních a stylových uživatelských rozhraní.",
+            "2": "JavaScript: Základní znalost programovacího jazyka.",
+            "3": "TypeScript: Zajištění typové bezpečnosti v JavaScript projektech.",
+            "4": "React: Vývoj komponent a práce s Virtual DOM.",
+            "5": "Redux: Efektivní správa stavu aplikace.",
+            "6": "Next.js: Vytváření React aplikací s serverovým renderováním.",
+            "7": "Git: Správa verzí a týmová spolupráce.",
+            "8": "REST API: Interakce s backendem přes HTTP požadavky.",
+            "9": "Webpack/Vite: Konfigurace a optimalizace sestavení projektů.",
+            "10": "Responzivní design: Přizpůsobení rozhraní různým zařízením.",
+            "11": "Základní algoritmy: Pochopení datových struktur a základních algoritmů.",
+            "12": "Testování: Psaní základních unit testů (Jest, React Testing Library).",
+            "13": "Týmová práce: Dodržování metodologií Agile/Scrum.",
+            "14": "UI/UX principy: Zaměření na použitelnost a přístupnost rozhraní."
+        },
+        "softSkills": {
+            "0": "Komunikace: Schopnost vyjadřovat nápady a spolupracovat.",
+            "1": "Řešení problémů: Analytické myšlení a hledání kreativních řešení.",
+            "2": "Adaptabilita: Rychlé učení a přizpůsobování novým nástrojům nebo požadavkům.",
+            "3": "Time Management: Efektivní prioritizace a plnění úkolů.",
+            "4": "Týmová spolupráce: Efektivní práce s ostatními pro dosažení společných cílů.",
+            "5": "Kontinuální učení: Udržování zvědavosti a zlepšování dovedností v čase.",
+            "6": "Empatie: Pochopení potřeb uživatelů a přispívání k týmové harmonii.",
+            "7": "Pozornost k detailům: Zajištění vysoké kvality a bezchybné práce."
+        }
+    },
+    "Experience": {
+        "title": "Zkušenosti",
+        "highlight": "Pracovní",
+        "jobs": {
+            "0": {
+                "date": "Září 2020 – Červen 2024",
+                "title": "Univerzitní studium",
+                "company": "Technická univerzita Kharkiv IT-STEP",
+                "description": "Moje studium na IT-STEP univerzitě mi umožnilo získat solidní znalosti v programování a moderních vývojových technologiích. Naučil jsem se několik programovacích jazyků jako JavaScript, Python, C++ a C#, prohloubil jsem pochopení algoritmů a datových struktur a studoval jsem principy objektově orientovaného programování (OOP) a funkcionálního programování. Také jsem získal zkušenosti ve vývoji webových aplikací pomocí HTML, CSS, SCSS, React, Next.js a Node.js. Kromě toho jsem studoval základy databází, pracoval s REST API a naučil se principy softwarové architektury, testování kódu a DevOps praktik. Univerzita mi poskytla nejen teoretické znalosti, ale také praktické zkušenosti v práci na reálných projektech a spolupráci s týmy, což mi umožnilo úspěšně aplikovat získané dovednosti v mé profesní kariéře."
+            },
+            "1": {
+                "date": "Červenec 2021 – Duben 2022",
+                "title": "Studentský startup",
+                "company": "SSDC Inc.",
+                "description": "Pracoval jsem jako frontend vývojář na hlavním webu \"Elemental Wars\", RPG/NFT hry na blockchainu WAX. Moje povinnosti zahrnovaly integraci webu s blockchainem, implementaci funkcí mintování a stakingu pro NFT a vytváření uživatelských rozhraní pro usnadnění interakce s digitálními aktivy. Aktivně jsem se účastnil týmových aktivit, koordinoval úkoly pro optimalizaci uživatelského zážitku a spolupracoval s vývojáři na vylepšení všech blockchainových procesů ve hře."
+            },
+            "2": {
+                "date": "Říjen 2022 – Březen 2024",
+                "title": "Frontend vývojář",
+                "company": "Malý tým",
+                "description": "Od října 2022 do března 2024 jsem pracoval jako frontend vývojář v malém týmu, přispívající k vývoji různých blockchainových projektů. Moje povinnosti zahrnovaly vytváření a optimalizaci uživatelských rozhraní, integraci smart kontraktů a zajištění plynulé interakce mezi decentralizovanými aplikacemi (dApps) a blockchainovými sítěmi. Úzce jsem spolupracoval s backend vývojáři a blockchain inženýry na implementaci Web3 funkcí jako autentizace peněženky, tokenové transakce a NFT marketplace, se zaměřením na výkon, bezpečnost a uživatelský zážitek."
+            },
+            "3": {
+                "date": "Září 2023 – Červen 2024",
+                "title": "Univerzitní stáž",
+                "company": "Technická univerzita Kharkiv IT-STEP",
+                "description": "Během 9měsíční stáže na Technické univerzitě Kharkiv IT-STEP jsem pracoval jako frontend vývojář, používající React a TypeScript pro vývoj webové aplikace pro výuku cizích jazyků pro školáky. Moje povinnosti zahrnovaly návrh a implementaci interaktivních uživatelských rozhraní, optimalizaci výkonu a spolupráci s členy týmu pro zajištění, že aplikace dosáhne svých vzdělávacích cílů a uspokojí potřeby uživatelů."
+            }
+        }
+    },
+    "Project": {
+        "title": "Moje",
+        "highlight": "Projekty",
+        "projects": [
+            {
+                "title": "Iron-Helmet",
+                "description": "Iron Helmet je unikátní crypto hra v žánru pixel roguelike s prvky dark fantasy, kde hráči prozkoumávají dungeon, bojují s příšerami a hledají cenné poklady. Celá ekonomika hry je založena na blockchainu, přičemž uživatelé určují hodnotu předmětů a tokenů. Hráči mohou sbírat NFT postavy a předměty, které lze ve hře stakovat pro snížení poplatků a prodávat na externích trzích. Hra je zaměřena na mladé publikum zajímající se o kryptoměny a nabízí snadný vstup s minimálními požadavky pro začátek.",
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "JavaScript",
+                    "Figma"
+                ],
+                "href": "https://github.com/JumboMiller/Iron-Helmet"
+            },
+            {
+                "title": "Music Sharing",
+                "description": "Plnohodnotná hudební aplikace postavená na moderním technologickém stacku (NestJS, Next.js, MongoDB, TypeScript). Hlavní funkce zahrnují: správu skladeb (vytváření, vyhledávání, poslech, komentáře), práci se soubory (nahrávání audio a obrázků), systém playlistů a sociální funkce (komentáře, statistiky poslechu). Backend implementovaný na NestJS s architekturou RESTful API a MongoDB pro ukládání dat, frontend postavený na Next.js využívající Redux pro správu stavu a TypeScript pro typovou bezpečnost. Aplikace podporuje responzivní design, stránkování, vyhledávání skladeb a modulární strukturu kódu, což zajišťuje škálovatelnost a snadnou údržbu.",
+                "technologies": [
+                    "TypeScript",
+                    "Next.js",
+                    "Vercel",
+                    "Tailwind",
+                    "Scss"
+                ],
+                "href": "https://github.com/JumboMiller/Music-Sharing"
+            },
+            {
+                "title": "Elemental Wars",
+                "description": "Elemental Wars je RPG hra na blockchainu WAX, která umožňuje každému hráči zvolit si vlastní herní strategii přes křížení postav, boj v divočině o zdroje, účast na turnajích cechů nebo pěstování spotřebních předmětů pro prodej.",
+                "technologies": [
+                    "React",
+                    "Jquery",
+                    "Css",
+                    "Html",
+                    "Adobe-Photoshop"
+                ],
+                "href": "https://github.com/JumboMiller/Front-EW"
+            },
+            {
+                "title": "Crypto Mine",
+                "description": "CryptoMine je decentralizovaná finanční hra postavená na Binance smart chain (BEP20), kde může každý investor pasivně vydělávat. Hra je implementována jako smart kontrakt v síti BSC. Všechny prostředky nebudou uloženy ve smart kontraktu a všechny příchozí prostředky budou okamžitě distribuovány mezi uživatele podle pravidel hry. Všechny statické soubory jsou distribuovány na smart chainu a nemohou být upraveny.",
+                "technologies": [
+                    "React",
+                    "Css",
+                    "Html",
+                    "Figma"
+                ],
+                "href": "https://github.com/JumboMiller/HYIP-Project"
+            },
+            {
+                "title": "Chess",
+                "description": "Toto je elegantní webová aplikace pro hraní šachů, postavená pomocí moderních technologií React a TypeScript. Aplikace obsahuje interaktivní šachovnici s plnou implementací klasických šachových pravidel, umožňující hráčům užívat si hru šachů přímo v prohlížeči. Rozhraní se vyznačuje čistým a minimalistickým designem, zatímco kód je organizován podle nejlepších vývojářských praktik, včetně striktní typové kontroly TypeScriptu, modulární architektury a komponentového přístupu Reactu. Projekt nejen poskytuje možnost hrát šachy, ale také demonstruje profesionální přístup k vývoji webových aplikací, s jasnou strukturou souborů, rozdělením do logických modulů (komponenty, modely, zdroje) a připraveností pro škálování.",
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "Css",
+                    "Html"
+                ],
+                "href": "https://github.com/JumboMiller/TS-Chess"
+            },
+            {
+                "title": "Lingo",
+                "description": "Moderní platforma pro výuku jazyků postavená na Next.js 14, využívající server actions pro efektivní správu dat. Vyniká hlasy generovanými AI přes Elevenlabs AI pro imerzivní praxi výslovnosti. Aplikace používá Shadcn UI pro čistý a responzivní design a Clerk pro bezpečnou autentizaci uživatelů. Gamifikační prvky jako systém srdcí, XP body, žebříček a milníky udržují uživatele motivované. Uživatelé mohou získat zpět srdce opakováním lekcí, zatímco zvukové efekty a postavy z KenneyNL přidávají zábavný a interaktivní prvek. Kromě toho obsahuje systém obchodu pro výměnu bodů za odměny, což činí učení jak zábavným, tak odměňujícím.",
+                "technologies": [
+                    "Redux",
+                    "Next.js",
+                    "TypeScript",
+                    "Vercel",
+                    "Tailwind",
+                    "Scss"
+                ],
+                "href": "https://github.com/JumboMiller/Language-Learning-App"
+            }
+        ]
+    },
+    "Mail": {
+        "title": "Pošli mi dopis 📮",
+        "emailLabel": "Tvůj Email",
+        "emailPlaceholder": "Tvá emailová adresa",
+        "messageLabel": "Tvá zpráva",
+        "messagePlaceholder": "Obsah a text tvé zprávy",
+        "sendButton": "Odeslat"
+    },
+    "Footer": {
+        "question": "Chceš se mě na něco zeptat?",
+        "contactInfo": "Kontaktuj mě. Jsem k dispozici po-pá od 8:00 do 20:00 (gmt).",
+        "copyright": "Damir Portnov - 2025"
+    }
+} 
