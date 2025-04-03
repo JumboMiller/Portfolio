@@ -20,30 +20,28 @@
         "skill": "Umiejętności",
         "hardSkills": {
             "0": "HTML: Zrozumienie struktury dokumentów internetowych.",
-            "1": "CSS: Tworzenie adaptacyjnych i stylowych interfejsów użytkownika.",
+            "1": "CSS: Tworzenie adaptywnych i stylowych interfejsów użytkownika.",
             "2": "JavaScript: Podstawowa znajomość języka programowania.",
             "3": "TypeScript: Zapewnienie bezpieczeństwa typów w projektach JavaScript.",
-            "4": "React: Rozwijanie komponentów i praca z Virtual DOM.",
-            "5": "Redux: Efektywne zarządzanie stanem aplikacji.",
-            "6": "Next.js: Budowanie aplikacji React z renderowaniem po stronie serwera.",
-            "7": "Git: Kontrola wersji i współpraca zespołowa.",
+            "4": "React: Rozwój komponentów i praca z Virtual DOM.",
+            "5": "Redux: Skuteczne zarządzanie stanem aplikacji.",
+            "6": "Next.js: Tworzenie aplikacji React renderowanych po stronie serwera.",
+            "7": "Git: Kontrola wersji i współpraca w zespole.",
             "8": "REST API: Interakcja z backendem poprzez żądania HTTP.",
-            "9": "Webpack/Vite: Konfiguracja i optymalizacja budowania projektów.",
-            "10": "Responsive Design: Adaptacja interfejsów do różnych urządzeń.",
             "11": "Podstawowe algorytmy: Zrozumienie struktur danych i podstawowych algorytmów.",
             "12": "Testowanie: Pisanie podstawowych testów jednostkowych (Jest, React Testing Library).",
-            "13": "Praca zespołowa: Przestrzeganie metodologii Agile/Scrum.",
             "14": "Zasady UI/UX: Skupienie na użyteczności i dostępności interfejsu."
         },
         "softSkills": {
             "0": "Komunikacja: Umiejętność wyrażania pomysłów i współpracy.",
-            "1": "Rozwiązywanie problemów: Myślenie analityczne i znajdowanie kreatywnych rozwiązań.",
+            "1": "Rozwiązywanie problemów: Myślenie analityczne i kreatywne rozwiązania.",
             "2": "Adaptacyjność: Szybkie uczenie się i dostosowywanie do nowych narzędzi lub wymagań.",
             "3": "Zarządzanie czasem: Efektywne priorytetyzowanie i wykonywanie zadań.",
-            "4": "Współpraca zespołowa: Dobra praca z innymi w celu osiągnięcia wspólnych celów.",
-            "5": "Ciągłe uczenie się: Utrzymywanie ciekawości i poprawianie umiejętności w czasie.",
-            "6": "Empatia: Zrozumienie potrzeb użytkowników i przyczynianie się do harmonii zespołu.",
-            "7": "Dbałość o szczegóły: Zapewnianie wysokiej jakości i bezbłędnej pracy."
+            "4": "Współpraca w zespole: Dobra współpraca w osiąganiu wspólnych celów.",
+            "5": "Ciągłe uczenie się: Utrzymywanie ciekawości i ciągłe doskonalenie umiejętności.",
+            "6": "Empatia: Zrozumienie potrzeb użytkowników i wkład w harmonię zespołu.",
+            "7": "Dbałość o szczegóły: Gwarancja wysokiej jakości i bezbłędnej pracy.",
+            "8": "Praca zespołowa: Stosowanie metodologii Agile/Scrum."
         }
     },
     "Experience": {
@@ -105,7 +103,7 @@
             },
             {
                 "title": "Elemental Wars",
-                "description": "Elemental Wars to gra RPG na blockchainie WAX, która pozwala każdemu graczowi wybrać własną strategię rozgrywki poprzez krzyżowanie postaci, walkę na dzikich terenach o zasoby, udział w turniejach gildii lub uprawę przedmiotów konsumpcyjnych na sprzedaż.",
+                "description": "Ta nowoczesna aplikacja internetowa reprezentuje technologicznie zaawansowane rozwiązanie zbudowane na React 17 z integracją technologii blockchain WAX i EOSIO poprzez WaxJS i Anchor Link. Projekt wykorzystuje nowoczesny stos technologiczny, w tym Bootstrap 5 do responsywnego projektowania, Animate.css do płynnych animacji i Axios do efektywnej interakcji z API. Architektura aplikacji opiera się na podejściu komponentowym wykorzystującym React Router do nawigacji, podczas gdy asynchroniczne przetwarzanie danych zapewnia reaktywny interfejs użytkownika. Charakterystyczną cechą projektu jest jego zdolność do pracy z kryptowalutami i inteligentnymi kontraktami, czyniąc go istotnym rozwiązaniem w erze Web3, zachowując jednocześnie tradycyjne zalety aplikacji React w zakresie modułowości, skalowalności i utrzymywalności.",
                 "technologies": [
                     "React",
                     "Jquery",

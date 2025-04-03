@@ -19,31 +19,29 @@
         "soft": "Interpersonnelles",
         "skill": "Compétences",
         "hardSkills": {
-            "0": "HTML : Comprendre la structure des documents web.",
-            "1": "CSS : Créer des interfaces utilisateur adaptatives et stylées.",
+            "0": "HTML : Compréhension de la structure des documents web.",
+            "1": "CSS : Création d'interfaces utilisateur adaptatives et stylisées.",
             "2": "JavaScript : Connaissances de base du langage de programmation.",
-            "3": "TypeScript : Assurer la sécurité des types dans les projets JavaScript.",
+            "3": "TypeScript : Garantie de la sécurité des types dans les projets JavaScript.",
             "4": "React : Développement de composants et travail avec le Virtual DOM.",
             "5": "Redux : Gestion efficace de l'état de l'application.",
-            "6": "Next.js : Création d'applications React avec rendu côté serveur.",
+            "6": "Next.js : Développement d'applications React rendues côté serveur.",
             "7": "Git : Contrôle de version et collaboration en équipe.",
             "8": "REST API : Interaction avec le backend via des requêtes HTTP.",
-            "9": "Webpack/Vite : Configuration et optimisation des builds de projet.",
-            "10": "Responsive Design : Adaptation des interfaces pour divers appareils.",
-            "11": "Algorithmes de base : Compréhension des structures de données et des algorithmes fondamentaux.",
+            "11": "Algorithmes de base : Compréhension des structures de données et des algorithmes de base.",
             "12": "Tests : Rédaction de tests unitaires de base (Jest, React Testing Library).",
-            "13": "Travail en équipe : Suivi des méthodologies Agile/Scrum.",
-            "14": "Principes UI/UX : Focalisation sur l'ergonomie et l'accessibilité des interfaces."
+            "14": "Principes UI/UX : Focus sur la convivialité et l'accessibilité de l'interface."
         },
         "softSkills": {
             "0": "Communication : Capacité à exprimer des idées et à collaborer.",
-            "1": "Résolution de problèmes : Pensée analytique et recherche de solutions créatives.",
+            "1": "Résolution de problèmes : Pensée analytique et solutions créatives.",
             "2": "Adaptabilité : Apprentissage rapide et adaptation aux nouveaux outils ou exigences.",
-            "3": "Gestion du temps : Priorisation efficace et accomplissement des tâches.",
-            "4": "Collaboration en équipe : Travail harmonieux avec les autres pour atteindre des objectifs communs.",
-            "5": "Apprentissage continu : Curiosité et amélioration constante des compétences.",
+            "3": "Gestion du temps : Priorisation et réalisation efficaces des tâches.",
+            "4": "Collaboration en équipe : Bonne collaboration pour atteindre des objectifs communs.",
+            "5": "Apprentissage continu : Rester curieux et améliorer constamment ses compétences.",
             "6": "Empathie : Compréhension des besoins des utilisateurs et contribution à l'harmonie de l'équipe.",
-            "7": "Attention aux détails : Garantie d’un travail de haute qualité et sans erreurs."
+            "7": "Souci du détail : Garantie d'un travail de haute qualité et sans erreur.",
+            "8": "Travail d'équipe : Suivi des méthodologies Agile/Scrum."
         }
     },
     "Experience": {
@@ -93,7 +91,7 @@
             },
             {
                 "title": "Music Sharing",
-                "description": "Application musicale complète construite sur une pile technologique moderne (NestJS, Next.js, MongoDB, TypeScript). Les principales fonctionnalités incluent : gestion des morceaux (création, recherche, écoute, commentaires), gestion des fichiers (téléchargement d’audios et d’images), système de playlists et fonctions sociales (commentaires, statistiques d'écoute). Le backend est développé avec NestJS en architecture RESTful et MongoDB pour le stockage des données. Le frontend est construit avec Next.js en utilisant Redux pour la gestion d'état et TypeScript pour la sécurité des types. L'application prend en charge le design responsive, la pagination, la recherche de morceaux et une structure de code modulaire pour garantir la scalabilité et la facilité de maintenance.",
+                "description": "Application musicale complète construite sur une pile technologique moderne (NestJS, Next.js, MongoDB, TypeScript). Les principales fonctionnalités incluent : gestion des morceaux (création, recherche, écoute, commentaires), gestion des fichiers (téléchargement d'audios et d'images), système de playlists et fonctions sociales (commentaires, statistiques d'écoute). Le backend est développé avec NestJS en architecture RESTful et MongoDB pour le stockage des données. Le frontend est construit avec Next.js en utilisant Redux pour la gestion d'état et TypeScript pour la sécurité des types. L'application prend en charge le design responsive, la pagination, la recherche de morceaux et une structure de code modulaire pour garantir la scalabilité et la facilité de maintenance.",
                 "technologies": [
                     "TypeScript",
                     "Next.js",
@@ -105,7 +103,7 @@
             },
             {
                 "title": "Elemental Wars",
-                "description": "Elemental Wars est un jeu RPG multiplateforme basé sur la blockchain WAX, permettant à chaque joueur de choisir sa propre stratégie de jeu : croiser des personnages, combattre dans des terres sauvages pour des ressources, participer à des tournois de guildes ou cultiver des consommables pour la vente.",
+                "description": "Cette application web moderne représente une solution technologiquement avancée construite sur React 17 avec intégration des technologies blockchain WAX et EOSIO via WaxJS et Anchor Link. Le projet utilise une pile technologique moderne, notamment Bootstrap 5 pour le design responsive, Animate.css pour des animations fluides et Axios pour une interaction efficace avec les API. L'architecture de l'application est basée sur une approche par composants utilisant React Router pour la navigation, tandis que le traitement asynchrone des données garantit une interface utilisateur réactive. Une caractéristique distinctive du projet est sa capacité à travailler avec les cryptomonnaies et les smart contracts, en en faisant une solution pertinente à l'ère Web3, tout en conservant les avantages traditionnels des applications React en termes de modularité, d'évolutivité et de maintenabilité.",
                 "technologies": [
                     "React",
                     "Jquery",

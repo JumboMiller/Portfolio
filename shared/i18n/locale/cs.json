@@ -19,31 +19,29 @@
         "soft": "Měkké",
         "skill": "Dovednosti",
         "hardSkills": {
-            "0": "HTML: Pochopení struktury webových dokumentů.",
-            "1": "CSS: Vytváření adaptivních a stylových uživatelských rozhraní.",
+            "0": "HTML: Porozumění struktuře webových dokumentů.",
+            "1": "CSS: Tvorba adaptivních a stylových uživatelských rozhraní.",
             "2": "JavaScript: Základní znalost programovacího jazyka.",
             "3": "TypeScript: Zajištění typové bezpečnosti v JavaScript projektech.",
             "4": "React: Vývoj komponent a práce s Virtual DOM.",
             "5": "Redux: Efektivní správa stavu aplikace.",
-            "6": "Next.js: Vytváření React aplikací s serverovým renderováním.",
+            "6": "Next.js: Vývoj React aplikací renderovaných na straně serveru.",
             "7": "Git: Správa verzí a týmová spolupráce.",
-            "8": "REST API: Interakce s backendem přes HTTP požadavky.",
-            "9": "Webpack/Vite: Konfigurace a optimalizace sestavení projektů.",
-            "10": "Responzivní design: Přizpůsobení rozhraní různým zařízením.",
-            "11": "Základní algoritmy: Pochopení datových struktur a základních algoritmů.",
+            "8": "REST API: Interakce s backendem prostřednictvím HTTP požadavků.",
+            "11": "Základní algoritmy: Porozumění datovým strukturám a základním algoritmům.",
             "12": "Testování: Psaní základních unit testů (Jest, React Testing Library).",
-            "13": "Týmová práce: Dodržování metodologií Agile/Scrum.",
-            "14": "UI/UX principy: Zaměření na použitelnost a přístupnost rozhraní."
+            "14": "Principy UI/UX: Zaměření na použitelnost a přístupnost rozhraní."
         },
         "softSkills": {
             "0": "Komunikace: Schopnost vyjadřovat nápady a spolupracovat.",
-            "1": "Řešení problémů: Analytické myšlení a hledání kreativních řešení.",
-            "2": "Adaptabilita: Rychlé učení a přizpůsobování novým nástrojům nebo požadavkům.",
-            "3": "Time Management: Efektivní prioritizace a plnění úkolů.",
-            "4": "Týmová spolupráce: Efektivní práce s ostatními pro dosažení společných cílů.",
-            "5": "Kontinuální učení: Udržování zvědavosti a zlepšování dovedností v čase.",
-            "6": "Empatie: Pochopení potřeb uživatelů a přispívání k týmové harmonii.",
-            "7": "Pozornost k detailům: Zajištění vysoké kvality a bezchybné práce."
+            "1": "Řešení problémů: Analytické myšlení a kreativní řešení.",
+            "2": "Adaptabilita: Rychlé učení a přizpůsobení se novým nástrojům nebo požadavkům.",
+            "3": "Time management: Efektivní prioritizace a plnění úkolů.",
+            "4": "Týmová spolupráce: Dobrá spolupráce při dosahování společných cílů.",
+            "5": "Kontinuální učení: Udržování zvědavosti a neustálé zlepšování dovedností.",
+            "6": "Empatie: Porozumění potřebám uživatelů a přispívání k týmové harmonii.",
+            "7": "Pozornost k detailům: Zaručení vysoce kvalitní a bezchybné práce.",
+            "8": "Týmová práce: Dodržování metodologií Agile/Scrum."
         }
     },
     "Experience": {
@@ -105,7 +103,7 @@
             },
             {
                 "title": "Elemental Wars",
-                "description": "Elemental Wars je RPG hra na blockchainu WAX, která umožňuje každému hráči zvolit si vlastní herní strategii přes křížení postav, boj v divočině o zdroje, účast na turnajích cechů nebo pěstování spotřebních předmětů pro prodej.",
+                "description": "Tato moderní webová aplikace představuje technologicky pokročilé řešení postavené na React 17 s integrací blockchainových technologií WAX a EOSIO prostřednictvím WaxJS a Anchor Link. Projekt používá moderní technologický stack, včetně Bootstrap 5 pro responzivní design, Animate.css pro plynulé animace a Axios pro efektivní interakci s API. Architektura aplikace je založena na komponentovém přístupu využívajícím React Router pro navigaci, zatímco asynchronní zpracování dat zajišťuje reaktivní uživatelské rozhraní. Charakteristickým rysem projektu je jeho schopnost pracovat s kryptoměnami a chytrými kontrakty, což z něj dělá relevantní řešení v éře Web3, přičemž zachovává tradiční výhody React aplikací z hlediska modularity, škálovatelnosti a udržovatelnosti.",
                 "technologies": [
                     "React",
                     "Jquery",

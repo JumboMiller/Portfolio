@@ -19,31 +19,29 @@
         "soft": "Blandas",
         "skill": "Habilidades",
         "hardSkills": {
-            "0": "HTML: Comprender la estructura de los documentos web.",
-            "1": "CSS: Crear interfaces de usuario adaptativas y atractivas.",
-            "2": "JavaScript: Conocimiento básico del lenguaje de programación.",
-            "3": "TypeScript: Garantizar la seguridad de tipos en proyectos JavaScript.",
+            "0": "HTML: Comprensión de la estructura de documentos web.",
+            "1": "CSS: Creación de interfaces de usuario adaptativas y estilizadas.",
+            "2": "JavaScript: Conocimientos básicos del lenguaje de programación.",
+            "3": "TypeScript: Garantía de seguridad de tipos en proyectos JavaScript.",
             "4": "React: Desarrollo de componentes y trabajo con el Virtual DOM.",
-            "5": "Redux: Gestión eficiente del estado de la aplicación.",
-            "6": "Next.js: Creación de aplicaciones React con renderizado del lado del servidor.",
+            "5": "Redux: Gestión efectiva del estado de la aplicación.",
+            "6": "Next.js: Desarrollo de aplicaciones React renderizadas en el servidor.",
             "7": "Git: Control de versiones y colaboración en equipo.",
-            "8": "REST API: Interacción con el backend mediante solicitudes HTTP.",
-            "9": "Webpack/Vite: Configuración y optimización de compilaciones del proyecto.",
-            "10": "Diseño Responsivo: Adaptación de interfaces a diversos dispositivos.",
-            "11": "Algoritmos Básicos: Comprensión de estructuras de datos y algoritmos básicos.",
+            "8": "REST API: Interacción con el backend a través de solicitudes HTTP.",
+            "11": "Algoritmos básicos: Comprensión de estructuras de datos y algoritmos básicos.",
             "12": "Pruebas: Escritura de pruebas unitarias básicas (Jest, React Testing Library).",
-            "13": "Trabajo en equipo: Seguimiento de metodologías Agile/Scrum.",
-            "14": "Principios de UI/UX: Enfoque en usabilidad y accesibilidad de la interfaz."
+            "14": "Principios UI/UX: Enfoque en la usabilidad y accesibilidad de la interfaz."
         },
         "softSkills": {
             "0": "Comunicación: Capacidad para expresar ideas y colaborar.",
             "1": "Resolución de problemas: Pensamiento analítico y soluciones creativas.",
-            "2": "Adaptabilidad: Aprendizaje rápido y ajuste a nuevas herramientas o requisitos.",
-            "3": "Gestión del tiempo: Priorización y finalización eficiente de tareas.",
-            "4": "Colaboración en equipo: Trabajo en conjunto para alcanzar objetivos comunes.",
-            "5": "Aprendizaje continuo: Curiosidad por mejorar y desarrollar habilidades.",
-            "6": "Empatía: Comprensión de las necesidades de los usuarios y armonía en el equipo.",
-            "7": "Atención al detalle: Asegurar un trabajo de alta calidad y libre de errores."
+            "2": "Adaptabilidad: Aprendizaje rápido y adaptación a nuevas herramientas o requisitos.",
+            "3": "Gestión del tiempo: Priorización y realización eficiente de tareas.",
+            "4": "Colaboración en equipo: Buena colaboración para alcanzar objetivos comunes.",
+            "5": "Aprendizaje continuo: Mantener la curiosidad y mejorar constantemente las habilidades.",
+            "6": "Empatía: Comprensión de las necesidades de los usuarios y contribución a la armonía del equipo.",
+            "7": "Atención al detalle: Garantía de trabajo de alta calidad y sin errores.",
+            "8": "Trabajo en equipo: Seguimiento de metodologías Agile/Scrum."
         }
     },
     "Experience": {
@@ -105,7 +103,7 @@
             },
             {
                 "title": "Elemental Wars",
-                "description": "Elemental Wars es un juego RPG multiplataforma en la blockchain de WAX que permite a cada jugador elegir su propia estrategia de juego: criar personajes, luchar en tierras salvajes por recursos, participar en torneos de gremios o cultivar consumibles para la venta.",
+                "description": "Esta aplicación web moderna representa una solución tecnológicamente avanzada construida sobre React 17 con integración de tecnologías blockchain WAX y EOSIO a través de WaxJS y Anchor Link. El proyecto utiliza una pila tecnológica moderna, incluyendo Bootstrap 5 para diseño responsive, Animate.css para animaciones fluidas y Axios para una interacción eficiente con las APIs. La arquitectura de la aplicación está basada en un enfoque basado en componentes utilizando React Router para la navegación, mientras que el procesamiento asíncrono de datos garantiza una interfaz de usuario reactiva. Una característica distintiva del proyecto es su capacidad para trabajar con criptomonedas y contratos inteligentes, convirtiéndolo en una solución relevante en la era Web3, mientras mantiene las ventajas tradicionales de las aplicaciones React en términos de modularidad, escalabilidad y mantenibilidad.",
                 "technologies": [
                     "React",
                     "Jquery",

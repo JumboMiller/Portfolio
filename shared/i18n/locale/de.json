@@ -28,11 +28,8 @@
             "6": "Next.js: Entwicklung serverseitig gerenderter React-Anwendungen.",
             "7": "Git: Versionskontrolle und Teamzusammenarbeit.",
             "8": "REST API: Interaktion mit dem Backend über HTTP-Anfragen.",
-            "9": "Webpack/Vite: Konfiguration und Optimierung von Projekt-Builds.",
-            "10": "Responsive Design: Anpassung von Interfaces für verschiedene Geräte.",
             "11": "Grundlegende Algorithmen: Verständnis von Datenstrukturen und Basisalgorithmen.",
             "12": "Testing: Schreiben grundlegender Unit-Tests (Jest, React Testing Library).",
-            "13": "Teamarbeit: Befolgen von Agile/Scrum-Methodologien.",
             "14": "UI/UX-Prinzipien: Fokus auf Benutzerfreundlichkeit und Zugänglichkeit."
         },
         "softSkills": {
@@ -43,7 +40,8 @@
             "4": "Teamarbeit: Gute Zusammenarbeit zur Erreichung gemeinsamer Ziele.",
             "5": "Kontinuierliches Lernen: Neugierig bleiben und Fähigkeiten stetig verbessern.",
             "6": "Empathie: Verständnis für Benutzerbedürfnisse und Beitrag zur Teamharmonie.",
-            "7": "Detailgenauigkeit: Sicherstellung hochwertiger und fehlerfreier Arbeit."
+            "7": "Detailgenauigkeit: Sicherstellung hochwertiger und fehlerfreier Arbeit.",
+            "8": "Teamarbeit: Befolgen von Agile/Scrum-Methodologien."
         }
     },
     "Experience": {
@@ -105,7 +103,7 @@
             },
             {
                 "title": "Elemental Wars",
-                "description": "Elemental Wars ist ein plattformübergreifendes RPG-Spiel auf der WAX-Blockchain, das jedem Spieler ermöglicht, seine eigene Spielstrategie zu wählen, indem er Charaktere kreuzt, in den wilden Ländern um Ressourcen kämpft, an Gilden-Turnieren teilnimmt oder Verbrauchsgüter zum Verkauf anbaut.",
+                "description": "Diese moderne Webanwendung stellt eine technologisch fortschrittliche Lösung dar, die auf React 17 mit Integration der WAX- und EOSIO-Blockchain-Technologien durch WaxJS und Anchor Link aufgebaut ist. Das Projekt verwendet einen modernen Tech-Stack, einschließlich Bootstrap 5 für responsives Design, Animate.css für flüssige Animationen und Axios für effiziente API-Interaktion. Die Anwendungsarchitektur basiert auf einem komponentenbasierten Ansatz mit React Router für die Navigation, während asynchrone Datenverarbeitung eine reaktive Benutzeroberfläche gewährleistet. Ein besonderes Merkmal des Projekts ist seine Fähigkeit, mit Kryptowährungen und Smart Contracts zu arbeiten, was es zu einer relevanten Lösung im Web3-Zeitalter macht, während es gleichzeitig die traditionellen Vorteile von React-Anwendungen in Bezug auf Modularität, Skalierbarkeit und Wartbarkeit beibehält.",
                 "technologies": [
                     "React",
                     "Jquery",

@@ -28,11 +28,8 @@
             "6": "Next.js: Building server-side rendered React applications.",
             "7": "Git: Version control and team collaboration.",
             "8": "REST API: Interacting with the backend via HTTP requests.",
-            "9": "Webpack/Vite: Configuring and optimizing project builds.",
-            "10": "Responsive Design: Adapting interfaces for various devices.",
             "11": "Basic Algorithms: Understanding data structures and basic algorithms.",
             "12": "Testing: Writing basic unit tests (Jest, React Testing Library).",
-            "13": "Teamwork: Following Agile/Scrum methodologies.",
             "14": "UI/UX Principles: Focusing on interface usability and accessibility."
         },
         "softSkills": {
@@ -43,36 +40,37 @@
             "4": "Team Collaboration: Working well with others to achieve common goals.",
             "5": "Continuous Learning: Staying curious and improving skills over time.",
             "6": "Empathy: Understanding user needs and contributing to team harmony.",
-            "7": "Attention to Detail: Ensuring high-quality and error-free work."
+            "7": "Attention to Detail: Ensuring high-quality and error-free work.",
+            "8": "Teamwork: Following Agile/Scrum methodologies."
         }
     },
     "Experience": {
-        "title": "Expérience",
-        "highlight": "Professionnelle",
+        "title": "Work",
+        "highlight": "Experience",
         "jobs": {
             "0": {
-                "date": "Septembre 2020 – Juin 2024",
-                "title": "Études universitaires",
-                "company": "Université technologique de Kharkiv IT-STEP",
-                "description": "Mes études à l'Université IT-STEP m'ont permis d'acquérir des connaissances solides en programmation et en technologies de développement modernes. J'ai appris plusieurs langages de programmation tels que JavaScript, Python, C++ et C#, approfondi ma compréhension des algorithmes et des structures de données, et étudié les principes de la programmation orientée objet (POO) ainsi que de la programmation fonctionnelle. J'ai également acquis une expérience en développement d'applications web en utilisant HTML, CSS, SCSS, React, Next.js et Node.js. De plus, j'ai étudié les bases des bases de données, travaillé avec les API REST et appris les principes d'architecture logicielle, les tests de code et les pratiques DevOps. L'université m'a non seulement fourni des connaissances théoriques, mais aussi une expérience pratique en travaillant sur des projets réels et en collaboration avec des équipes, ce qui m'a permis d'appliquer avec succès les compétences acquises dans ma carrière professionnelle."
+                "date": "September 2020 – June 2024",
+                "title": "University Studies",
+                "company": "Kharkiv Technological University IT-STEP",
+                "description": "Studying at University IT-STEP allowed me to acquire solid knowledge in programming and modern development technologies. During my studies, I mastered programming languages such as JavaScript, Python, C++ and C#, deepened my understanding of algorithms and data structures, learned the principles of object-oriented programming (OOP) and functional programming, and gained experience in developing web applications using HTML, CSS, SCSS, React, Next.js, and Node.js. Additionally, I studied the basics of databases, worked with REST API, learned software architecture principles, code testing, and DevOps practices. The university not only provided me with theoretical knowledge but also practical experience in working on real projects and team development, which enabled me to successfully apply the skills I acquired in my professional career."
             },
             "1": {
-                "date": "Juillet 2021 – Avril 2022",
-                "title": "Startup Étudiant",
+                "date": "July 2021 – April 2022",
+                "title": "Student Startup",
                 "company": "SSDC Inc.",
-                "description": "J'ai travaillé en tant que développeur frontend sur le site principal de \"Elemental Wars\", un jeu RPG/NFT multiplateforme basé sur la blockchain WAX. Mes responsabilités comprenaient l'intégration du site avec la blockchain, la mise en œuvre des fonctionnalités de minting et de staking pour les NFT, ainsi que le développement d'interfaces utilisateur pour faciliter l'interaction avec les actifs numériques. J'ai activement participé aux activités de l'équipe, coordonné les tâches pour optimiser l'expérience utilisateur et collaboré avec les développeurs pour améliorer tous les processus liés à la blockchain dans le jeu."
+                "description": "I worked as a frontend developer on the main website of \"Elemental Wars\" a multi-platform RPG/NFT game built on the WAX blockchain. My responsibilities included integrating the website with the blockchain, implementing minting and staking functionality for NFTs, and developing user interfaces for seamless interaction with digital assets. I was actively involved in the team's activities, coordinating tasks to optimize user experience and collaborating with developers to enhance all blockchain-related processes in the game."
             },
             "2": {
-                "date": "Octobre 2022 – Mars 2024",
-                "title": "Développeur Frontend",
-                "company": "Petite Équipe",
-                "description": "D'octobre 2022 à mars 2024, j'ai travaillé en tant que développeur frontend au sein d'une petite équipe, contribuant au développement de divers projets blockchain. Mes responsabilités incluaient la création et l'optimisation d'interfaces utilisateur, l'intégration de smart contracts et l'assurance d'une interaction fluide entre les applications décentralisées (dApps) et les réseaux blockchain. J'ai collaboré étroitement avec des développeurs backend et des ingénieurs blockchain pour implémenter des fonctionnalités Web3 telles que l'authentification de portefeuille, les transactions de tokens et les marketplaces NFT, en mettant l'accent sur la performance, la sécurité et l'expérience utilisateur."
+                "date": "October 2022 – March 2024",
+                "title": "Frontend Developer",
+                "company": "Small Team",
+                "description": "From October 2022 to March 2024, I worked as a frontend developer in a small team, contributing to the development of various blockchain projects. My responsibilities included building and optimizing user interfaces, integrating smart contracts, and ensuring seamless interaction between decentralized applications (dApps) and blockchain networks. I collaborated closely with backend developers and blockchain engineers to implement Web3 features such as wallet authentication, token transactions, and NFT marketplaces, focusing on performance, security, and user experience."
             },
             "3": {
-                "date": "Septembre 2023 – Juin 2024",
-                "title": "Stage universitaire",
-                "company": "Université technologique de Kharkiv IT-STEP",
-                "description": "Pendant un stage de 9 mois à l'Université technologique de Kharkiv IT-STEP, j'ai travaillé en tant que développeur frontend, utilisant React et TypeScript pour développer une application web destinée à l'apprentissage des langues étrangères pour les écoliers. Mes responsabilités comprenaient la conception et la mise en œuvre d'interfaces utilisateur interactives, l'optimisation des performances et la collaboration avec les membres de l'équipe pour garantir que l'application atteigne ses objectifs éducatifs et réponde aux besoins des utilisateurs."
+                "date": "September 2023 – June 2024",
+                "title": "Internship in University",
+                "company": "Kharkiv Technological University IT-STEP",
+                "description": "During a 9-month internship at Kharkiv Technological University IT-STEP, I worked as a Frontend Developer, utilizing React and TypeScript to develop a web application aimed at teaching foreign languages to schoolchildren. My responsibilities included designing and implementing interactive user interfaces, optimizing performance, and collaborating with team members to ensure the application met educational goals and user needs."
             }
         }
     },
@@ -105,7 +103,7 @@
             },
             {
                 "title": "Elemental Wars",
-                "description": "Elemental Wars is a multi-platform RPG game on the WAX blockchain that allows each player to choose their own gameplay strategy by crossing characters, fighting in the wild lands for resources, participating in guild tournaments or growing consumables for sale.",
+                "description": "This modern web application represents a technologically advanced solution built on React 17 with integration of WAX and EOSIO blockchain technologies through WaxJS and Anchor Link. The project utilizes a modern tech stack, including Bootstrap 5 for responsive design, Animate.css for smooth animations, and Axios for efficient API interaction. The application architecture is built on a component-based approach using React Router for navigation, while asynchronous data processing ensures a responsive user interface. A distinctive feature of the project is its ability to work with cryptocurrencies and smart contracts, making it a relevant solution in the Web3 era, while maintaining traditional advantages of React applications in terms of modularity, scalability, and maintainability.",
                 "technologies": [
                     "React",
                     "Jquery",
