@@ -19,44 +19,29 @@
         "soft": "Trasversali",
         "skill": "Competenze",
         "hardSkills": {
-            "hard": "Hard",
-            "soft": "Soft",
-            "skill": "Skills",
-            "hardSkills": {
-                "0": "HTML: Comprensione della struttura dei documenti web.",
-                "1": "CSS: Creazione di interfacce utente adattive e stilizzate.",
-                "2": "JavaScript: Conoscenze di base del linguaggio di programmazione.",
-                "3": "TypeScript: Garanzia della sicurezza dei tipi nei progetti JavaScript.",
-                "4": "React: Sviluppo di componenti e lavoro con il Virtual DOM.",
-                "5": "Redux: Gestione efficace dello stato dell'applicazione.",
-                "6": "Next.js: Sviluppo di applicazioni React renderizzate lato server.",
-                "7": "Git: Controllo versione e collaborazione in team.",
-                "8": "REST API: Interazione con il backend tramite richieste HTTP.",
-                "11": "Algoritmi di base: Comprensione delle strutture dati e degli algoritmi di base.",
-                "12": "Testing: Scrittura di test unitari di base (Jest, React Testing Library).",
-                "14": "Principi UI/UX: Focus su usabilità e accessibilità dell'interfaccia."
-            },
-            "softSkills": {
-                "0": "Comunicazione: Capacità di esprimere idee e collaborare.",
-                "1": "Risoluzione dei problemi: Pensiero analitico e soluzioni creative.",
-                "2": "Adattabilità: Apprendimento rapido e adattamento a nuovi strumenti o requisiti.",
-                "3": "Gestione del tempo: Prioritizzazione e completamento efficiente dei compiti.",
-                "4": "Collaborazione in team: Buona collaborazione per raggiungere obiettivi comuni.",
-                "5": "Apprendimento continuo: Mantenere la curiosità e migliorare costantemente le competenze.",
-                "6": "Empatia: Comprensione delle esigenze degli utenti e contributo all'armonia del team.",
-                "7": "Attenzione ai dettagli: Garanzia di lavoro di alta qualità e senza errori.",
-                "8": "Lavoro di squadra: Seguire le metodologie Agile/Scrum."
-            }
+            "0": "HTML: Comprensione della struttura dei documenti web.",
+            "1": "CSS: Creazione di interfacce utente adattive e stilizzate.",
+            "2": "JavaScript: Conoscenze di base del linguaggio di programmazione.",
+            "3": "TypeScript: Garanzia della sicurezza dei tipi nei progetti JavaScript.",
+            "4": "React: Sviluppo di componenti e lavoro con il Virtual DOM.",
+            "5": "Redux: Gestione efficace dello stato dell'applicazione.",
+            "6": "Next.js: Sviluppo di applicazioni React renderizzate lato server.",
+            "7": "Git: Controllo versione e collaborazione in team.",
+            "8": "REST API: Interazione con il backend tramite richieste HTTP.",
+            "9": "Algoritmi di base: Comprensione delle strutture dati e degli algoritmi di base.",
+            "10": "Testing: Scrittura di test unitari di base (Jest, React Testing Library).",
+            "11": "Principi UI/UX: Focus su usabilità e accessibilità dell'interfaccia."
         },
         "softSkills": {
             "0": "Comunicazione: Capacità di esprimere idee e collaborare.",
-            "1": "Problem Solving: Pensiero analitico e ricerca di soluzioni creative.",
+            "1": "Risoluzione dei problemi: Pensiero analitico e soluzioni creative.",
             "2": "Adattabilità: Apprendimento rapido e adattamento a nuovi strumenti o requisiti.",
-            "3": "Gestione del Tempo: Priorizzazione ed esecuzione efficiente dei compiti.",
-            "4": "Collaborazione di Team: Lavoro efficace con gli altri per obiettivi comuni.",
-            "5": "Apprendimento Continuo: Mantenimento della curiosità e miglioramento delle competenze nel tempo.",
+            "3": "Gestione del tempo: Prioritizzazione e completamento efficiente dei compiti.",
+            "4": "Collaborazione in team: Buona collaborazione per raggiungere obiettivi comuni.",
+            "5": "Apprendimento continuo: Mantenere la curiosità e migliorare costantemente le competenze.",
             "6": "Empatia: Comprensione delle esigenze degli utenti e contributo all'armonia del team.",
-            "7": "Attenzione ai Dettagli: Garanzia di alta qualità e lavoro senza errori."
+            "7": "Attenzione ai dettagli: Garanzia di lavoro di alta qualità e senza errori.",
+            "8": "Lavoro di squadra: Seguire le metodologie Agile/Scrum."
         }
     },
     "Experience": {
@@ -178,4 +163,4 @@
         "contactInfo": "Contattami. Sono disponibile lun-ven dalle 8:00 alle 20:00 (gmt).",
         "copyright": "Damir Portnov - 2025"
     }
-} 
+}

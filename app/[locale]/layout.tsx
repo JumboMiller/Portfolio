@@ -15,16 +15,13 @@ import { Locale, routing } from "@/shared/i18n/routing";
 import { ThemeType } from "@/shared/types/ThemeType";
 
 
-/*const carroisGothic = Carrois_Gothic({
-  weight: '400',
-  subsets: ['latin'],
-  display: 'swap',
-});*/
+
 const Font = IBM_Plex_Mono({ weight: "400", subsets: ["latin"] })
-/*,variable:"--Manrope"*/
+
 export const metadata: Metadata = {
-  title: "Damir Portnov",
-  description: "Damir Portnov Portfolio",
+  title: "Damir Portnov | Portfolio",
+  description: "Damir Portnov | Portfolio",
+  keywords: "Damir Portnov, Jumbo Miller, Frontend Developer, Blockchain Developer, Web3 Developer, React Developer, TypeScript, Next.js, Web Development, Blockchain Projects, Decentralized Applications, ReactJS Portfolio, Full-stack Developer, UI/UX Design, JavaScript, Node.js, Ethereum, Smart Contracts",
 };
 
 

@@ -28,9 +28,9 @@
             "6": "Next.js: Desarrollo de aplicaciones React renderizadas en el servidor.",
             "7": "Git: Control de versiones y colaboración en equipo.",
             "8": "REST API: Interacción con el backend a través de solicitudes HTTP.",
-            "11": "Algoritmos básicos: Comprensión de estructuras de datos y algoritmos básicos.",
-            "12": "Pruebas: Escritura de pruebas unitarias básicas (Jest, React Testing Library).",
-            "14": "Principios UI/UX: Enfoque en la usabilidad y accesibilidad de la interfaz."
+            "9": "Algoritmos básicos: Comprensión de estructuras de datos y algoritmos básicos.",
+            "10": "Pruebas: Escritura de pruebas unitarias básicas (Jest, React Testing Library).",
+            "11": "Principios UI/UX: Enfoque en la usabilidad y accesibilidad de la interfaz."
         },
         "softSkills": {
             "0": "Comunicación: Capacidad para expresar ideas y colaborar.",

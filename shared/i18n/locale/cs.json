@@ -28,9 +28,9 @@
             "6": "Next.js: Vývoj React aplikací renderovaných na straně serveru.",
             "7": "Git: Správa verzí a týmová spolupráce.",
             "8": "REST API: Interakce s backendem prostřednictvím HTTP požadavků.",
-            "11": "Základní algoritmy: Porozumění datovým strukturám a základním algoritmům.",
-            "12": "Testování: Psaní základních unit testů (Jest, React Testing Library).",
-            "14": "Principy UI/UX: Zaměření na použitelnost a přístupnost rozhraní."
+            "9": "Základní algoritmy: Porozumění datovým strukturám a základním algoritmům.",
+            "10": "Testování: Psaní základních unit testů (Jest, React Testing Library).",
+            "11": "Principy UI/UX: Zaměření na použitelnost a přístupnost rozhraní."
         },
         "softSkills": {
             "0": "Komunikace: Schopnost vyjadřovat nápady a spolupracovat.",

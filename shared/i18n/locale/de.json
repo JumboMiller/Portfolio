@@ -28,9 +28,9 @@
             "6": "Next.js: Entwicklung serverseitig gerenderter React-Anwendungen.",
             "7": "Git: Versionskontrolle und Teamzusammenarbeit.",
             "8": "REST API: Interaktion mit dem Backend über HTTP-Anfragen.",
-            "11": "Grundlegende Algorithmen: Verständnis von Datenstrukturen und Basisalgorithmen.",
-            "12": "Testing: Schreiben grundlegender Unit-Tests (Jest, React Testing Library).",
-            "14": "UI/UX-Prinzipien: Fokus auf Benutzerfreundlichkeit und Zugänglichkeit."
+            "9": "Grundlegende Algorithmen: Verständnis von Datenstrukturen und Basisalgorithmen.",
+            "10": "Testing: Schreiben grundlegender Unit-Tests (Jest, React Testing Library).",
+            "11": "UI/UX-Prinzipien: Fokus auf Benutzerfreundlichkeit und Zugänglichkeit."
         },
         "softSkills": {
             "0": "Kommunikation: Fähigkeit, Ideen auszudrücken und zusammenzuarbeiten.",
