@@ -24,13 +24,15 @@ const Hero = () => {
                   intl.raw("Specialize"),
                   intl.raw("CallMe")
                 ]}
+                delay={35}
+                deleteSpeed={20}
               />
             </h1>
             <div className={styles.buttons}>
               <a href="#contacts">
                 <Button variant={ButtonTypes.TEXT} >{intl("ContactsButton")}</Button>
               </a>
-              <a href="/black CV.pdf" download>
+              <a href="/DAMIR PORTNOV CV.pdf" download>
                 <Button variant={ButtonTypes.TEXT} >{intl("DownloadCV")}</Button>
               </a>
             </div>
