@@ -47,9 +47,6 @@ export async function MailFormSubmit(
     }
 
     try {
-        console.log("RESEND_KEY:", process.env.RESEND_KEY);
-        console.log(process.env.NODE_ENV);
-        
         const resend = new Resend(process.env.RESEND_KEY);
 
         await resend.emails.send({
