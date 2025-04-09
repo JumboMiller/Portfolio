@@ -115,7 +115,7 @@
             },
             {
                 "title": "Crypto Mine",
-                "description": "CryptoMine to zdecentralizowana gra finansowa zbudowana na Binance smart chain (BEP20), w której każdy inwestor może pasywnie zarabiać. Gra jest zaimplementowana jako smart kontrakt w sieci BSC. Wszystkie środki nie będą przechowywane w smart kontrakcie, a wszystkie przychodzące środki będą natychmiast dystrybuowane między użytkownikami zgodnie z zasadami gry. Wszystkie pliki statyczne są dystrybuowane na smart chainie i nie mogą być zmieniane.",
+                "description": "CryptoMine to zdecentralizowana gra finansowa zbudowana na Binance smart chain (BEP20), w której każdy inwestor może pasywnie zarabiać. Gra jest zaimplementowana jako smart kontrakt w sieci BSC. Wszystkie środki nie będą przechowywane w smart kontrakcie, a wszystkie przychodzące środki będą natychmiast dystrybuowane między użytkowników zgodnie z zasadami gry. Wszystkie pliki statyczne są dystrybuowane na smart chainie i nie mogą być zmieniane.",
                 "technologies": [
                     "React",
                     "Css",
@@ -151,12 +151,15 @@
         ]
     },
     "Mail": {
-        "title": "Wyślij do mnie list 📮",
-        "emailLabel": "Twój Email",
+        "title": "Napisz do mnie 📮",
+        "emailLabel": "Twój email",
         "emailPlaceholder": "Twój adres email",
         "messageLabel": "Twoja wiadomość",
         "messagePlaceholder": "Treść Twojej wiadomości",
-        "sendButton": "Wyślij"
+        "sendButton": "Wyślij",
+        "sending": "Wysyłanie...",
+        "successMessage": "Twoja wiadomość została wysłana pomyślnie!",
+        "errorMessage": "Nie udało się wysłać wiadomości. Spróbuj ponownie później."
     },
     "Footer": {
         "question": "Chcesz mnie o coś zapytać?",

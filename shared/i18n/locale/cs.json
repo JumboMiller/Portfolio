@@ -151,12 +151,15 @@
         ]
     },
     "Mail": {
-        "title": "Pošli mi dopis 📮",
-        "emailLabel": "Tvůj Email",
-        "emailPlaceholder": "Tvá emailová adresa",
-        "messageLabel": "Tvá zpráva",
-        "messagePlaceholder": "Obsah a text tvé zprávy",
-        "sendButton": "Odeslat"
+        "title": "Napište mi 📮",
+        "emailLabel": "Váš email",
+        "emailPlaceholder": "Vaše emailová adresa",
+        "messageLabel": "Vaše zpráva",
+        "messagePlaceholder": "Text vaší zprávy",
+        "sendButton": "Odeslat",
+        "sending": "Odesílání...",
+        "successMessage": "Vaše zpráva byla úspěšně odeslána!",
+        "errorMessage": "Nepodařilo se odeslat zprávu. Zkuste to prosím později."
     },
     "Footer": {
         "question": "Chceš se mě na něco zeptat?",

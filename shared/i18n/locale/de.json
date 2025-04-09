@@ -151,12 +151,15 @@
         ]
     },
     "Mail": {
-        "title": "Schreib mir einen Brief 📮",
-        "emailLabel": "Deine E-Mail",
-        "emailPlaceholder": "Deine E-Mail-Adresse",
-        "messageLabel": "Deine Nachricht",
-        "messagePlaceholder": "Inhalt und Text deiner Nachricht",
-        "sendButton": "Senden"
+        "title": "Schreiben Sie mir 📮",
+        "emailLabel": "Ihre E-Mail",
+        "emailPlaceholder": "Ihre E-Mail-Adresse",
+        "messageLabel": "Ihre Nachricht",
+        "messagePlaceholder": "Der Text Ihrer Nachricht",
+        "sendButton": "Senden",
+        "sending": "Wird gesendet...",
+        "successMessage": "Ihre Nachricht wurde erfolgreich gesendet!",
+        "errorMessage": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es später erneut."
     },
     "Footer": {
         "question": "Möchten Sie mir eine Frage stellen?",

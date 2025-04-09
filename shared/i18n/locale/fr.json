@@ -151,8 +151,15 @@
         ]
     },
     "Mail": {
-        "subject": "Objet de l'email",
-        "sendButton": "Envoyer"
+        "title": "Écrivez-moi 📮",
+        "emailLabel": "Votre e-mail",
+        "emailPlaceholder": "Votre adresse e-mail",
+        "messageLabel": "Votre message",
+        "messagePlaceholder": "Le texte de votre message",
+        "sendButton": "Envoyer",
+        "sending": "Envoi en cours...",
+        "successMessage": "Votre message a été envoyé avec succès !",
+        "errorMessage": "Échec de l'envoi du message. Veuillez réessayer plus tard."
     },
     "Footer": {
         "privacyPolicy": "Politique de confidentialité",

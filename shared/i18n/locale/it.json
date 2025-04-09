@@ -151,12 +151,15 @@
         ]
     },
     "Mail": {
-        "title": "Mandami una lettera 📮",
-        "emailLabel": "La tua Email",
+        "title": "Scrivimi 📮",
+        "emailLabel": "La tua email",
         "emailPlaceholder": "Il tuo indirizzo email",
         "messageLabel": "Il tuo messaggio",
-        "messagePlaceholder": "Contenuto e testo del tuo messaggio",
-        "sendButton": "Invia"
+        "messagePlaceholder": "Il testo del tuo messaggio",
+        "sendButton": "Invia",
+        "sending": "Invio in corso...",
+        "successMessage": "Il tuo messaggio è stato inviato con successo!",
+        "errorMessage": "Impossibile inviare il messaggio. Per favore, riprova più tardi."
     },
     "Footer": {
         "question": "Vuoi farmi una domanda?",

@@ -151,12 +151,15 @@
         ]
     },
     "Mail": {
-        "title": "Envíame una carta 📮",
+        "title": "Escríbeme 📮",
         "emailLabel": "Tu correo electrónico",
-        "emailPlaceholder": "Tu dirección de correo",
+        "emailPlaceholder": "Tu dirección de correo electrónico",
         "messageLabel": "Tu mensaje",
-        "messagePlaceholder": "Contenido y texto de tu mensaje",
-        "sendButton": "Enviar"
+        "messagePlaceholder": "El texto de tu mensaje",
+        "sendButton": "Enviar",
+        "sending": "Enviando...",
+        "successMessage": "¡Tu mensaje ha sido enviado con éxito!",
+        "errorMessage": "No se pudo enviar el mensaje. Por favor, inténtalo de nuevo más tarde."
     },
     "Footer": {
         "question": "¿Quieres hacerme una pregunta?",

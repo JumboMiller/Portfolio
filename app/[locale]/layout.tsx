@@ -1,7 +1,7 @@
-import "@/shared/styles/globals.scss"
+import "@/shared/styles/globals.scss";
 import "animate.css";
 
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { IBM_Plex_Mono } from "next/font/google";
 import { cookies } from "next/headers";
@@ -14,35 +14,42 @@ import Header from "@/features/header/Header";
 import { Locale, routing } from "@/shared/i18n/routing";
 import { ThemeType } from "@/shared/types/ThemeType";
 
+// Загрузка шрифта
+const Font = IBM_Plex_Mono({ weight: "400", subsets: ["latin"] });
 
-
-const Font = IBM_Plex_Mono({ weight: "400", subsets: ["latin"] })
-
+// Метаданные страницы
 export const metadata: Metadata = {
   title: "Damir Portnov | Portfolio",
   description: "Damir Portnov | Portfolio",
   keywords: "Damir Portnov, Jumbo Miller, Frontend Developer, Blockchain Developer, Web3 Developer, React Developer, TypeScript, Next.js, Web Development, Blockchain Projects, Decentralized Applications, ReactJS Portfolio, Full-stack Developer, UI/UX Design, JavaScript",
 };
 
-
-
+// Основной серверный компонент
 export default async function RootLayout({
   children,
-  params
+  params,
 }: Readonly<{
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }>) {
+  // Получаем локаль
   const { locale } = await params;
+
+  // Получаем cookies на сервере
   const cookiesStore = await cookies();
   const themeCookie = cookiesStore.get("theme");
+
+  // Определяем тему
   const theme = Object.values(ThemeType).includes(themeCookie?.value as ThemeType)
     ? (themeCookie?.value as ThemeType)
     : ThemeType.LIGHT;
+
+  // Проверка на допустимую локаль
   if (!routing.locales.includes(locale as Locale)) {
-    notFound();
+    notFound(); // Если локаль недопустимая, показываем ошибку
   }
 
+  // Загружаем сообщения для локали
   const messages = await getMessages();
 
   return (
@@ -56,6 +63,7 @@ export default async function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body style={{ fontFamily: Font.style.fontFamily }}>
+        {/* Обеспечиваем доступность сообщений для переводов */}
         <NextIntlClientProvider messages={messages}>
           <div className="flow-container">
             <Header />
@@ -63,6 +71,7 @@ export default async function RootLayout({
             <Footer />
           </div>
         </NextIntlClientProvider>
+        {/* Speed Insights для производительности */}
         <SpeedInsights />
       </body>
     </html>

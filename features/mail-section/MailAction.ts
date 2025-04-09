@@ -22,7 +22,7 @@ export async function MailFormSubmit(
         return { success: false, message: "Invalid email characters." };
     }
 
-    if (content.trim().length < 10) {
+    if (content.trim().length < 2) {
         return {
             success: false,
             message: "Message must be at least 10 characters long.",
@@ -47,7 +47,10 @@ export async function MailFormSubmit(
     }
 
     try {
-        const resend = new Resend(process.env.RESEND_KEY!);
+        console.log("RESEND_KEY:", process.env.RESEND_KEY);
+        console.log(process.env.NODE_ENV);
+        
+        const resend = new Resend(process.env.RESEND_KEY);
 
         await resend.emails.send({
             from: "onboarding@resend.dev",

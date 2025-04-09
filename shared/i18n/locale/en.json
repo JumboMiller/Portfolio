@@ -157,7 +157,9 @@
         "messageLabel": "Your Message",
         "messagePlaceholder": "Your Mail Message Content & Text",
         "sendButton": "Send",
-        "sending":"Sending..."
+        "sending": "Sending...",
+        "successMessage": "Your message has been sent successfully!",
+        "errorMessage": "Failed to send message. Please try again later."
     },
     "Footer": {
         "question": "Do you want to ask me?",
