@@ -21,7 +21,7 @@ const Font = IBM_Plex_Mono({ weight: "400", subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Damir Portnov | Portfolio",
   description: "Damir Portnov | Portfolio",
-  keywords: "Damir Portnov, Jumbo Miller, Frontend Developer, Blockchain Developer, Web3 Developer, React Developer, TypeScript, Next.js, Web Development, Blockchain Projects, Decentralized Applications, ReactJS Portfolio, Full-stack Developer, UI/UX Design, JavaScript, Node.js, Ethereum, Smart Contracts",
+  keywords: "Damir Portnov, Jumbo Miller, Frontend Developer, Blockchain Developer, Web3 Developer, React Developer, TypeScript, Next.js, Web Development, Blockchain Projects, Decentralized Applications, ReactJS Portfolio, Full-stack Developer, UI/UX Design, JavaScript",
 };
 
 

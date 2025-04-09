@@ -8,7 +8,7 @@ export const MailTemplate = ({
     content
 }: MailTemplateProps) => (
     <div>
-        <h1>{mail}</h1>
+        <h3>{mail}</h3>
         <p>{content}</p>
     </div>
 );

@@ -156,7 +156,8 @@
         "emailPlaceholder": "Your Mail Address",
         "messageLabel": "Your Message",
         "messagePlaceholder": "Your Mail Message Content & Text",
-        "sendButton": "Send"
+        "sendButton": "Send",
+        "sending":"Sending..."
     },
     "Footer": {
         "question": "Do you want to ask me?",
