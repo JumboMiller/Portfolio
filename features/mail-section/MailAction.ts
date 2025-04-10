@@ -30,7 +30,7 @@ export async function MailFormSubmit(
     }
 
     const containsHTML = /<[^>]*>/g.test(content);
-    const containsScript = /<script.*?>[\s\S]*?<\/script>/gi.test(content);
+    const containsScript = /<script\b[^>]*>([\s\S]*?)<\/script>/gi.test(content);
 
     if (containsScript) {
         return {
