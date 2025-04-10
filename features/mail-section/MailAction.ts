@@ -25,7 +25,7 @@ export async function MailFormSubmit(
     if (content.trim().length < 2) {
         return {
             success: false,
-            message: "Message must be at least 10 characters long.",
+            message: "Message must be at least 2 characters long.",
         };
     }
 
