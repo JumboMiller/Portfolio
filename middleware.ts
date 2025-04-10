@@ -7,7 +7,6 @@ import type { Locale } from "@/shared/i18n/routing";
 import { routing } from "@/shared/i18n/routing";
 import { ThemeType } from "@/shared/types/ThemeType";
 
-// Initialize Redis and Rate Limiter
 const redis = new Redis({
   url: process.env.UPSTASH_REDIS_REST_URL!,
   token: process.env.UPSTASH_REDIS_REST_TOKEN!,
@@ -15,53 +14,38 @@ const redis = new Redis({
 
 const ratelimit = new Ratelimit({
   redis,
-  limiter: Ratelimit.fixedWindow(10, "1 m"), // 10 requests per minute
+  limiter: Ratelimit.fixedWindow(10, "1 m"), // 10 запросов в минуту
   analytics: true,
 });
 
 const countryToLocale: Record<string, string> = {
-  US: "en",
-  GB: "en",
-  FR: "fr",
-  UA: "ua",
-  DE: "de",
-  ES: "es",
-  PL: "pl",
-  IT: "it",
-  CZ: "cs",
+  US: "en", GB: "en", FR: "fr", UA: "ua", DE: "de",
+  ES: "es", PL: "pl", IT: "it", CZ: "cs",
 };
 
 function getLocaleFromRequest(request: NextRequest): Locale {
-  const savedLocale = request.cookies.get("NEXT_LOCALE")?.value as Locale | undefined;
-  if (savedLocale && routing.locales.includes(savedLocale)) {
-    return savedLocale;
-  }
+  const saved = request.cookies.get("NEXT_LOCALE")?.value as Locale | undefined;
+  if (saved && routing.locales.includes(saved)) return saved;
 
   const country = request.headers.get("x-vercel-ip-country");
-  if (country && countryToLocale[country]) {
-    const geoLocale = countryToLocale[country] as Locale;
-    if (routing.locales.includes(geoLocale)) {
-      return geoLocale;
-    }
-  }
+  const geoLocale = countryToLocale[country ?? ""] as Locale | undefined;
+  if (geoLocale && routing.locales.includes(geoLocale)) return geoLocale;
 
-  const acceptLanguage = request.headers.get("accept-language") ?? "";
-  const preferredLocale = acceptLanguage
-    .split(",")[0]
-    .split("-")[0]
-    .toLowerCase() as Locale;
-
-  if (routing.locales.includes(preferredLocale)) {
-    return preferredLocale;
-  }
+  const acceptLang = request.headers.get("accept-language") ?? "";
+  const preferred = acceptLang.split(",")[0].split("-")[0].toLowerCase() as Locale;
+  if (routing.locales.includes(preferred)) return preferred;
 
   return routing.defaultLocale;
 }
 
 export async function middleware(request: NextRequest) {
+  const pathname = request.nextUrl.pathname;
+
+  if (pathname.startsWith("/_next/") || pathname.startsWith("/static/")) {
+    return NextResponse.next();
+  }
+
   const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
-
-
   const { success, limit, remaining, reset } = await ratelimit.limit(ip);
 
   if (!success) {
@@ -76,28 +60,22 @@ export async function middleware(request: NextRequest) {
   }
 
   const intlMiddleware = createMiddleware(routing);
-  const locale = getLocaleFromRequest(request);
+  const response = intlMiddleware(request);
 
-  const pathname = request.nextUrl.pathname;
   const hasLocale = routing.locales.some(
     (loc) => pathname.startsWith(`/${loc}/`) || pathname === `/${loc}`
   );
+  if (!hasLocale) {
+    const locale = getLocaleFromRequest(request);
+    response.cookies.set("NEXT_LOCALE", locale, {
+      path: "/",
+      maxAge: 60 * 60 * 24 * 365, // 1 год
+    });
+  }
 
-  const response = hasLocale
-    ? intlMiddleware(request)
-    : (() => {
-      const res = intlMiddleware(request);
-      res.cookies.set("NEXT_LOCALE", locale, {
-        path: "/",
-        maxAge: 60 * 60 * 24 * 365,
-      });
-      return res;
-    })();
-
-  const theme = request.cookies.get("theme")?.value;
-  const validThemes = Object.values(ThemeType);
-  const selectedTheme = validThemes.includes(theme as ThemeType)
-    ? (theme as ThemeType)
+  const themeCookie = request.cookies.get("theme")?.value ?? ThemeType.DARK;
+  const selectedTheme = Object.values(ThemeType).includes(themeCookie as ThemeType)
+    ? (themeCookie as ThemeType)
     : ThemeType.DARK;
 
   response.headers.set("x-theme", selectedTheme);
