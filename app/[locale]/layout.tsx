@@ -36,7 +36,7 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   if (!routing.locales.includes(locale as Locale)) {
     notFound();
@@ -47,7 +47,7 @@ export default async function RootLayout({
 
   const theme = Object.values(ThemeType).includes(themeCookie as ThemeType)
     ? (themeCookie as ThemeType)
-    : ThemeType.LIGHT;
+    : ThemeType.DARK;
 
   const messages = await getMessages();
 

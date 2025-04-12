@@ -1,7 +1,7 @@
 @use '@/shared/styles/_variables.scss' as *;
 
 .item {
-    
+
     width: 44%;
     opacity: 0;
 
@@ -19,7 +19,7 @@
         height: 100%;
         box-shadow: $box-shadow-main;
         transition: all $base-transition-duration ease-in-out;
-        
+
         &:hover {
             box-shadow: $box-shadow-hoover;
         }
@@ -48,10 +48,14 @@
         &_icon {
             width: 100%;
             border-radius: $border-radius;
-            transition:$base-transition-duration;
+            transition: $base-transition-duration;
+
             &:hover {
                 transition: $base-transition-duration ease-in;
                 transform: scale(1.1);
+            }
+            @media (max-width:$grid-width) {
+                max-height: 160px;
             }
         }
     }
@@ -72,6 +76,7 @@
         margin-top: auto;
         display: flex;
         gap: 15px;
+        flex-wrap: wrap;
     }
 
     &_img_li {
@@ -84,7 +89,7 @@
         box-shadow: $box-shadow-inset;
         background-color: $c-secondary;
 
-        transition:0.08s;
+        transition: 0.08s;
 
         :hover {
             transition: all 0.08s ease-in-out;

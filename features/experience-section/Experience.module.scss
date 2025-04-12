@@ -26,6 +26,12 @@
             width: 6px;
             height: 75%;
             background-color: $c-accent; 
+            @media (max-width:$grid-width) {
+                display: none;
+            }
+        }
+        @media (max-width:$grid-width) {
+            padding-left: 0px;
         }
     }
 }

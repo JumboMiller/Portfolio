@@ -14,7 +14,7 @@ const redis = new Redis({
 
 const ratelimit = new Ratelimit({
   redis,
-  limiter: Ratelimit.fixedWindow(10, "1 m"), // 10 запросов в минуту
+  limiter: Ratelimit.fixedWindow(10, "1 m"),
   analytics: true,
 });
 
@@ -59,19 +59,23 @@ export async function middleware(request: NextRequest) {
     });
   }
 
-  const intlMiddleware = createMiddleware(routing);
-  const response = intlMiddleware(request);
-
   const hasLocale = routing.locales.some(
     (loc) => pathname.startsWith(`/${loc}/`) || pathname === `/${loc}`
   );
+
   if (!hasLocale) {
     const locale = getLocaleFromRequest(request);
-    response.cookies.set("NEXT_LOCALE", locale, {
-      path: "/",
-      maxAge: 60 * 60 * 24 * 365, // 1 год
-    });
+    const redirectUrl = new URL(`/${locale}${pathname}`, request.url);
+    const response = NextResponse.redirect(redirectUrl);
+    response.headers.append(
+      "Set-Cookie",
+      `NEXT_LOCALE=${locale}; Path=/; Max-Age=${60 * 60 * 24 * 365}`
+    );
+    return response;
   }
+
+  const intlMiddleware = createMiddleware(routing);
+  const response = intlMiddleware(request);
 
   const themeCookie = request.cookies.get("theme")?.value ?? ThemeType.DARK;
   const selectedTheme = Object.values(ThemeType).includes(themeCookie as ThemeType)
@@ -79,6 +83,11 @@ export async function middleware(request: NextRequest) {
     : ThemeType.DARK;
 
   response.headers.set("x-theme", selectedTheme);
+  response.headers.append(
+    "Set-Cookie",
+    `theme=${selectedTheme}; Path=/; Max-Age=${60 * 60 * 24 * 365}`
+  );
+
   return response;
 }
 

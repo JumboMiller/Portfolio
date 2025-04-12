@@ -15,4 +15,7 @@
         color: $c-primary;
         transition-duration: $base-transition-duration;
     }
+    @media (max-width:$grid-width) {
+        height:auto;
+    }
 }
