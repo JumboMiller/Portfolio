@@ -4,13 +4,14 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin("./shared/i18n/request.ts");
 
 const nextConfig: NextConfig = {
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/i,
-      issuer: /\.[jt]sx?$/,
-      use: ["@svgr/webpack"],
-    });
-    return config;
+  // Оптимизация production build
+  compiler: {
+    removeConsole: process.env.NODE_ENV === "production",
+  },
+
+  // Experimental оптимизации
+  experimental: {
+    optimizePackageImports: ["animate.css"],
   },
 
   env: {

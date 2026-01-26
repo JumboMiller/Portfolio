@@ -1,5 +1,5 @@
 "use client"
-import LinkedIn from "@/public/LinkedIn.svg"
+import SocialIcon from "@/shared/components/SocialIcon/SocialIcon";
 
 import IconAnchor from "./IconAnchor/IconAnchor";
 
@@ -10,10 +10,11 @@ interface LinkedInAnchorProps {
 const LinkedInAnchor = ({ href }: LinkedInAnchorProps) => {
     return (
         <IconAnchor href={href}>
-            <LinkedIn
+            <SocialIcon
+                type="linkedin"
                 width={32}
                 height={32}
-                alt="Damir Portnov Telegram Anchor"
+                ariaLabel="Damir Portnov LinkedIn Anchor"
             />
         </IconAnchor>
     )

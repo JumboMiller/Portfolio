@@ -15,15 +15,14 @@ interface AProps {
 const A = forwardRef<HTMLAnchorElement, AProps>(
   ({ href, children, className, onClick, target = "_self" }, ref) => { 
     return (
-      <Link href={href} passHref legacyBehavior>
-        <a
-          ref={ref}
-          className={classNames(style.link, className)}
-          onClick={onClick}
-          target={target} 
-        >
-          {children}
-        </a>
+      <Link
+        ref={ref}
+        href={href}
+        className={classNames(style.link, className)}
+        onClick={onClick}
+        target={target}
+      >
+        {children}
       </Link>
     );
   }

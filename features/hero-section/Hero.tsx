@@ -1,12 +1,19 @@
+"use client"
 import classNames from "classnames";
+import dynamic from "next/dynamic";
 import { useTranslations } from "next-intl";
 
 import Button from "@/shared/components/Button/Button";
 import { ButtonTypes } from "@/shared/components/Button/ButtonEnum";
 import LoadingMacBook from "@/shared/components/LoadingMacBook/LoadingMacBook";
-import TypeWriter from "@/shared/components/TypeWriter/TypeWriter";
 
 import styles from "./Hero.module.scss";
+
+// Lazy load TypeWriter для улучшения производительности
+const TypeWriter = dynamic(() => import("@/shared/components/TypeWriter/TypeWriter"), {
+  ssr: false,
+  loading: () => <span>Damir Portnov</span>,
+});
 
 const Hero = () => {
 

@@ -1,5 +1,6 @@
 @use './_variables.scss' as *;
 @use './normalize' as *;
+@use './animations' as *;
 
 *{
   margin: 0;
@@ -14,11 +15,6 @@
   }
 }
 
-:root {
-  --animate-duration: 800ms;
-  --animate-delay: 0.9s;
-
-}
 html {
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;

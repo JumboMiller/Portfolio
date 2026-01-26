@@ -1,5 +1,5 @@
 "use client"
-import GitHub from "@/public/GitHub.svg"
+import SocialIcon from "@/shared/components/SocialIcon/SocialIcon";
 
 import IconAnchor from "./IconAnchor/IconAnchor";
 
@@ -10,10 +10,11 @@ interface GitHubAnchorProps {
 const GitHubAnchor = ({ href }: GitHubAnchorProps) => {
     return (
         <IconAnchor href={href}>
-            <GitHub
+            <SocialIcon
+                type="github"
                 width={32}
                 height={32}
-                alt="GitHub Project Anchor"
+                ariaLabel="GitHub Project Anchor"
             />
         </IconAnchor>
     )

@@ -1,5 +1,4 @@
 import "@/shared/styles/globals.scss";
-import "animate.css";
 
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { IBM_Plex_Mono } from "next/font/google";
@@ -13,21 +12,51 @@ import Header from "@/features/header/Header";
 import { Locale, routing } from "@/shared/i18n/routing";
 import { ThemeType } from "@/shared/types/ThemeType";
 
-const Font = IBM_Plex_Mono({ weight: "400", subsets: ["latin"] });
+const Font = IBM_Plex_Mono({ 
+  weight: "400", 
+  subsets: ["latin"],
+  display: "swap",
+  preload: true,
+  adjustFontFallback: true,
+});
 
-export const metadata = {
-  title: "Damir Portnov | Portfolio",
-  description: "Frontend & Blockchain Developer Portfolio",
-  keywords: [
-    "Damir Portnov",
-    "Frontend Developer",
-    "React",
-    "TypeScript",
-    "Blockchain",
-    "Web3",
-    "Next.js",
-  ],
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const baseUrl = "https://damir-portnov.com";
+  
+  return {
+    title: "Damir Portnov | Portfolio",
+    description: "Frontend & Blockchain Developer Portfolio",
+    keywords: [
+      "Damir Portnov",
+      "Frontend Developer",
+      "React",
+      "TypeScript",
+      "Blockchain",
+      "Web3",
+      "Next.js",
+    ],
+    metadataBase: new URL(baseUrl),
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        "x-default": "/en",
+        en: "/en",
+        fr: "/fr",
+        ua: "/ua",
+        de: "/de",
+        es: "/es",
+        pl: "/pl",
+        it: "/it",
+        cs: "/cs",
+      },
+    },
+  };
+}
 
 export default async function RootLayout({
   children,

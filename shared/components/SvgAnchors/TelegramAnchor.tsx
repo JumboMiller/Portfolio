@@ -1,5 +1,5 @@
 "use client"
-import Telegram from "@/public/Telegram.svg"
+import SocialIcon from "@/shared/components/SocialIcon/SocialIcon";
 
 import IconAnchor from "./IconAnchor/IconAnchor";
 
@@ -10,10 +10,11 @@ interface TelegramAnchorProps {
 const TelegramAnchor = ({ href }: TelegramAnchorProps) => {
     return (
         <IconAnchor href={href}>
-            <Telegram
+            <SocialIcon
+                type="telegram"
                 width={32}
                 height={32}
-                alt="Damir Portnov Telegram Anchor"
+                ariaLabel="Damir Portnov Telegram Anchor"
             />
         </IconAnchor>
     )

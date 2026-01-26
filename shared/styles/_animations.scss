@@ -1,0 +1,9 @@
+/* Импортируем только нужные анимации вместо всего animate.css */
+@import 'animate.css/source/fading_entrances/fadeInDown.css';
+@import 'animate.css/source/fading_entrances/fadeIn.css';
+@import 'animate.css/source/fading_entrances/fadeInUp.css';
+
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}

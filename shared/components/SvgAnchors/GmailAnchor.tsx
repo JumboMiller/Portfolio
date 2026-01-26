@@ -1,5 +1,5 @@
 "use client"
-import Gmail from "@/public/Gmail.svg"
+import SocialIcon from "@/shared/components/SocialIcon/SocialIcon";
 
 import IconAnchor from "./IconAnchor/IconAnchor";
 
@@ -10,10 +10,11 @@ interface GmailAnchorProps {
 const GmailAnchor = ({ href }: GmailAnchorProps) => {
     return (
         <IconAnchor href={href}>
-            <Gmail
+            <SocialIcon
+                type="gmail"
                 width={32}
                 height={32}
-                alt="Damir Portnov Gmail Anchor"
+                ariaLabel="Damir Portnov Gmail Anchor"
             />
         </IconAnchor>
     )

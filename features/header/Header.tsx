@@ -4,8 +4,8 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 import ThemeSwitcher from "@/features/header/ThemeSwitcher/ThemeSwitcher";
-import Logo from "@/public/logo.svg";
 import A from "@/shared/components/A/A";
+import Logo from "@/shared/components/Logo/Logo";
 import useScroll from "@/shared/hooks/isScrolled";
 import useLockScroll from "@/shared/hooks/useLockScroll";
 
@@ -53,8 +53,7 @@ const Header = () => {
                         className={styles.logo}
                         width={64}
                         height={64}
-                        alt="Damir Portnov Logo"
-
+                        ariaLabel="Damir Portnov Logo"
                     />
                 </A>
                 <div className={classNames(styles.menu, { [styles.is_open]: isOpen })}>

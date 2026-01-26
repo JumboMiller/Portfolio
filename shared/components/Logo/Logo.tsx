@@ -1,13 +1,26 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="520.000000pt" height="520.000000pt" viewBox="0 0 520.000000 520.000000"
- preserveAspectRatio="xMidYMid meet">
+import React from "react";
 
-<g transform="translate(0.000000,520.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M0 2600 l0 -2600 2600 0 2600 0 0 2600 0 2600 -2600 0 -2600 0 0
+interface LogoProps {
+  className?: string;
+  width?: number;
+  height?: number;
+  ariaLabel?: string;
+}
+
+const Logo: React.FC<LogoProps> = ({ className, width = 64, height = 64, ariaLabel = "Logo" }) => {
+  return (
+    <svg
+      className={className}
+      width={width}
+      height={height}
+      viewBox="0 0 520 520"
+      xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="xMidYMid meet"
+      aria-label={ariaLabel}
+      role="img"
+    >
+      <g transform="translate(0,520) scale(0.1,-0.1)">
+        <path d="M0 2600 l0 -2600 2600 0 2600 0 0 2600 0 2600 -2600 0 -2600 0 0
 -2600z m4780 780 l0 -1440 -905 0 -905 0 0 -175 0 -175 905 0 905 0 0 -175 0
 -175 -905 0 -905 0 0 -175 0 -175 905 0 905 0 0 -235 0 -235 -1015 0 -1015 0
 0 925 0 925 239 0 c265 0 356 11 503 60 119 40 195 80 311 162 105 75 204 169
@@ -19,11 +32,14 @@ fill="#000000" stroke="none">
 -71 l-408 -5 0 -1069 0 -1069 -110 0 -110 0 0 2080 0 2080 -175 0 -175 0 0
 -2080 0 -2080 -110 0 -110 0 0 2080 0 2080 -175 0 -175 0 0 -2080 0 -2080
 -445 0 -445 0 0 2200 0 2200 2200 0 2200 0 0 -1440z"/>
-<path d="M2410 3801 l0 -150 358 -3 357 -3 50 -27 c28 -14 62 -39 77 -55 32
+        <path d="M2410 3801 l0 -150 358 -3 357 -3 50 -27 c28 -14 62 -39 77 -55 32
 -34 68 -109 68 -143 0 -34 -36 -109 -68 -143 -15 -16 -49 -41 -77 -55 l-50
 -27 -357 -3 -358 -3 0 -150 0 -150 383 3 c425 4 427 5 554 79 74 44 191 160
 225 225 76 141 76 307 0 448 -34 65 -151 181 -225 225 -127 74 -129 75 -554
 79 l-383 3 0 -150z"/>
-</g>
+      </g>
+    </svg>
+  );
+};
 
-</svg>
+export default Logo;

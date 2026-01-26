@@ -1,5 +1,5 @@
 "use client"
-import Instagram from "@/public/Instagram.svg"
+import SocialIcon from "@/shared/components/SocialIcon/SocialIcon";
 
 import IconAnchor from "./IconAnchor/IconAnchor";
 
@@ -10,10 +10,11 @@ interface InstagramAnchorProps {
 const InstagramAnchor = ({ href }: InstagramAnchorProps) => {
     return (
         <IconAnchor href={href}>
-            <Instagram
+            <SocialIcon
+                type="instagram"
                 width={32}
                 height={32}
-                alt="Damir Portnov Instagram Anchor"
+                ariaLabel="Damir Portnov Instagram Anchor"
             />
         </IconAnchor>
     )
