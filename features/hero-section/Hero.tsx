@@ -12,7 +12,7 @@ import styles from "./Hero.module.scss";
 // Lazy load TypeWriter для улучшения производительности
 const TypeWriter = dynamic(() => import("@/shared/components/TypeWriter/TypeWriter"), {
   ssr: false,
-  loading: () => <span>Damir Portnov</span>,
+  loading: () => null,
 });
 
 const Hero = () => {

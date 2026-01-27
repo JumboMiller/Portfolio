@@ -3,19 +3,19 @@ import dynamic from "next/dynamic";
 import Hero from "@/features/hero-section/Hero";
 
 const Skills = dynamic(() => import("@/features/skills-section/Skills"), {
-  loading: () => null,
+  ssr: true,
 });
 
 const Experience = dynamic(() => import("@/features/experience-section/Experience"), {
-  loading: () => null,
+  ssr: true,
 });
 
 const Projects = dynamic(() => import("@/features/project-section/Projects"), {
-  loading: () => null,
+  ssr: true,
 });
 
 const Mail = dynamic(() => import("@/features/mail-section/Mail"), {
-  loading: () => null,
+  ssr: true,
 });
 
 export default async function Index() {

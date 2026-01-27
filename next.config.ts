@@ -4,14 +4,16 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin("./shared/i18n/request.ts");
 
 const nextConfig: NextConfig = {
-  // Оптимизация production build
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
   },
 
-  // Experimental оптимизации
   experimental: {
     optimizePackageImports: ["animate.css"],
+  },
+
+  images: {
+    formats: ["image/webp", "image/avif"],
   },
 
   env: {

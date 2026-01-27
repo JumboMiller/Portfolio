@@ -20,14 +20,28 @@ const ProjectCard = ({ title, description, technologies, href="https://github.co
                     <GitHubAnchor href={href} />
                 </div>
                 <div className={styles.item_project}>
-                    <Image className={styles.item_project_icon} width={460} height={240} src={`/${title}-Project.png`} alt={title} />
+                    <Image 
+                        className={styles.item_project_icon} 
+                        width={460} 
+                        height={240} 
+                        src={`/${title}-Project.png`} 
+                        alt={title}
+                        loading="lazy"
+                    />
                 </div>
                 <p className={styles.item_description}>{description}</p>
                 <ul className={styles.item_img_ul}>
                     {
                         technologies.map((tech, key) =>
                             <li className={styles.item_img_li} key={key}>
-                                <Image className={styles.item_icon} width={32} height={32} src={`/${tech}.svg`} alt={`${tech} icon`} />
+                                <Image 
+                                    className={styles.item_icon} 
+                                    width={32} 
+                                    height={32} 
+                                    src={`/${tech}.svg`} 
+                                    alt={`${tech} icon`}
+                                    loading="lazy"
+                                />
                             </li>)
                     }
                 </ul>

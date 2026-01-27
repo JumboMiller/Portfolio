@@ -80,14 +80,17 @@
         "projects": [
             {
                 "title": "Iron-Helmet",
-                "description": "Iron Helmet is a unique crypto game in the pixel roguelike genre with dark fantasy elements, where players explore dungeons, battle monsters, and search for valuable loot. The entire in-game economy is built on blockchain, with users determining the value of items and tokens. Players can collect NFT characters and items, which can be staked within the game to reduce fees and sold on external markets. The game targets a young audience interested in cryptocurrencies and offers an easy entry point with minimal requirements to get started.",
+                "description": "Solana Web3 Project, a TypeScript-first Next.js RPG web application combining hero loadouts, dungeon exploration and a custom 3D/AR experience. Built a modular domain architecture around Kits, Dungeons and AR Models, with a type-safe API layer over MongoDB using Zod and Mongoose, ensuring strict data integrity from UI to database. Implemented a dedicated asset resolution pipeline for GLB/USDZ models of heroes and items, enabling responsive 3D and AR rendering with graceful fallbacks and timeouts. Delivered a production-grade UX for the main lobby, kit management and dungeon confirmation flows using React, Tailwind-style utilities and composable UI components, focusing on robustness, performance and clear player feedback.",
                 "technologies": [
                     "React",
                     "TypeScript",
-                    "JavaScript",
+                    "Next.js",
+                    "Tailwind",
+                    "Scss",
+                    "Vercel",
                     "Figma"
                 ],
-                "href": "https://github.com/JumboMiller/Iron-Helmet"
+                "href": "https://long-way-up-project.vercel.app/lobby"
             },
             {
                 "title": "Music Sharing",

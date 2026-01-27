@@ -80,14 +80,17 @@
         "projects": [
             {
                 "title": "Iron-Helmet",
-                "description": "Iron Helmet ist ein einzigartiges Krypto-Spiel im Pixel-Roguelike-Genre mit Dark-Fantasy-Elementen, in dem Spieler Dungeons erkunden, gegen Monster kämpfen und wertvolle Beute suchen. Die gesamte Spielökonomie basiert auf der Blockchain, wobei die Benutzer den Wert von Gegenständen und Token bestimmen. Spieler können NFT-Charaktere und -Gegenstände sammeln, die im Spiel gestaked werden können, um Gebühren zu reduzieren und auf externen Märkten verkauft werden können. Das Spiel richtet sich an ein junges Publikum, das sich für Kryptowährungen interessiert, und bietet einen einfachen Einstieg mit minimalen Anforderungen.",
+                "description": "Solana Web3 Project, a TypeScript-first Next.js RPG web application combining hero loadouts, dungeon exploration and a custom 3D/AR experience. Built a modular domain architecture around Kits, Dungeons and AR Models, with a type-safe API layer over MongoDB using Zod and Mongoose, ensuring strict data integrity from UI to database. Implemented a dedicated asset resolution pipeline for GLB/USDZ models of heroes and items, enabling responsive 3D and AR rendering with graceful fallbacks and timeouts. Delivered a production-grade UX for the main lobby, kit management and dungeon confirmation flows using React, Tailwind-style utilities and composable UI components, focusing on robustness, performance and clear player feedback.",
                 "technologies": [
                     "React",
                     "TypeScript",
-                    "JavaScript",
+                    "Next.js",
+                    "Tailwind",
+                    "Scss",
+                    "Vercel",
                     "Figma"
                 ],
-                "href": "https://github.com/JumboMiller/Iron-Helmet"
+                "href": "https://long-way-up-project.vercel.app/lobby"
             },
             {
                 "title": "Music Sharing",

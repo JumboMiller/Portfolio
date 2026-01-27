@@ -1,8 +1,7 @@
 import { NextRequest } from "next/server";
 import createMiddleware from "next-intl/middleware";
 
-import { checkRateLimit } from "@/lib/ratelimit";
-import { setDefaultThemeCookie } from "@/lib/theme";
+import { setDefaultThemeCookie } from "@/shared/lib/theme";
 import { routing } from "@/shared/i18n/routing";
 
 export async function proxy(request: NextRequest) {
